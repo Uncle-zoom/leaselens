@@ -1,0 +1,2 @@
+# Only needed to make the report screenshots (make_screenshots.py). Uses your installed Google Chrome, so no browser download.
+playwright>=1.45

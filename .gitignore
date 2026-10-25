@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.streamlit/secrets.toml
+
+# Local fetch cache
+.cache/
+
+# Test and tool caches, logs
+.pytest_cache/
+.ruff_cache/
+*.log
+node_modules/
+.idea/
+.vscode/

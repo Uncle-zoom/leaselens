@@ -1,0 +1,147 @@
+{
+  "saved_at": "2026-10-21T02:15:57+00:00",
+  "source": "walking",
+  "key": "41.3054_-72.9232",
+  "dataset": {
+    "name": "OSRM foot routing (public servers), else straight-line estimate",
+    "id": "osrm/table/foot",
+    "url": "https://router.project-osrm.org/table/v1/foot/",
+    "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+  },
+  "data": {
+    "method": "osrm_fossgis_foot",
+    "attempts": [
+      {
+        "method": "osrm_demo_foot",
+        "accepted": false,
+        "reason": "ValueError: not a walking profile (average 6.3 m/s)"
+      }
+    ],
+    "origin": [
+      41.3054423,
+      -72.9232144
+    ],
+    "results": [
+      {
+        "name": "Elm City Market",
+        "category": "grocery",
+        "kind": "supermarket",
+        "lat": 41.305271,
+        "lon": -72.923448,
+        "straight_m": 27,
+        "walk_m": 8,
+        "walk_min": 0.1
+      },
+      {
+        "name": null,
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 41.304946,
+        "lon": -72.92328,
+        "straight_m": 55,
+        "walk_m": 107,
+        "walk_min": 1.4
+      },
+      {
+        "name": null,
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 41.305368,
+        "lon": -72.923998,
+        "straight_m": 66,
+        "walk_m": 54,
+        "walk_min": 0.7
+      },
+      {
+        "name": "State Street",
+        "category": "train_station",
+        "kind": "station",
+        "lat": 41.305247,
+        "lon": -72.921818,
+        "straight_m": 119,
+        "walk_m": 177,
+        "walk_min": 2.4
+      },
+      {
+        "name": "New Haven-State Street",
+        "category": "train_station",
+        "kind": "station",
+        "lat": 41.305098,
+        "lon": -72.921765,
+        "straight_m": 127,
+        "walk_m": 171,
+        "walk_min": 2.3
+      },
+      {
+        "name": "Ninth Square Market",
+        "category": "grocery",
+        "kind": "convenience",
+        "lat": 41.304618,
+        "lon": -72.925078,
+        "straight_m": 181,
+        "walk_m": 203,
+        "walk_min": 2.7
+      },
+      {
+        "name": null,
+        "category": "park",
+        "kind": "park",
+        "lat": 41.303744,
+        "lon": -72.923428,
+        "straight_m": 190,
+        "walk_m": 216,
+        "walk_min": 2.9
+      },
+      {
+        "name": "CVS Pharmacy",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 41.306104,
+        "lon": -72.925482,
+        "straight_m": 203,
+        "walk_m": 204,
+        "walk_min": 2.7
+      },
+      {
+        "name": "Union Street Parkway",
+        "category": "park",
+        "kind": "park",
+        "lat": 41.303528,
+        "lon": -72.922349,
+        "straight_m": 225,
+        "walk_m": 282,
+        "walk_min": 3.8
+      },
+      {
+        "name": "The Lab",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "lat": 41.307473,
+        "lon": -72.921075,
+        "straight_m": 288,
+        "walk_m": 373,
+        "walk_min": 5.0
+      },
+      {
+        "name": "Rite Aid",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 41.305008,
+        "lon": -72.926815,
+        "straight_m": 305,
+        "walk_m": 869,
+        "walk_min": 11.6
+      },
+      {
+        "name": "Joyride Cycling Studio",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "lat": 41.30557,
+        "lon": -72.92832,
+        "straight_m": 427,
+        "walk_m": 536,
+        "walk_min": 7.2
+      }
+    ]
+  }
+}

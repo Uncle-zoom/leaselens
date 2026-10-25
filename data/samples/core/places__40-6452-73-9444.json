@@ -1,0 +1,705 @@
+{
+  "saved_at": "2026-10-21T02:19:28+00:00",
+  "source": "places",
+  "key": "40.6452_-73.9444",
+  "dataset": {
+    "name": "OpenStreetMap via Overpass API (interpreter)",
+    "id": "overpass/interpreter",
+    "url": "https://overpass-api.de/api/interpreter",
+    "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+  },
+  "data": {
+    "center": {
+      "lat": 40.6452397,
+      "lon": -73.9443693
+    },
+    "radius_m": 800,
+    "counts": {
+      "grocery": 8,
+      "gym": 0,
+      "park": 0,
+      "bus_stop": 40,
+      "train_station": 15,
+      "pharmacy": 2,
+      "bar": 1,
+      "pub": 0,
+      "nightclub": 0,
+      "fire_station": 1,
+      "hospital": 0,
+      "rail_line": 0
+    },
+    "results": [
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "New York Avenue & Beverly Road",
+        "lat": 40.645612,
+        "lon": -73.94602,
+        "distance_m": 145,
+        "osm": "node/13670670167"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "New York Avenue & Clarendon Road",
+        "lat": 40.643756,
+        "lon": -73.945826,
+        "distance_m": 206,
+        "osm": "node/13670670169"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Ideal Food Basket",
+        "lat": 40.647382,
+        "lon": -73.943728,
+        "distance_m": 244,
+        "osm": "way/250140128"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "New York Avenue & Tilden Avenue",
+        "lat": 40.647322,
+        "lon": -73.946207,
+        "distance_m": 279,
+        "osm": "node/13670670165"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.645061,
+        "lon": -73.948644,
+        "distance_m": 361,
+        "osm": "node/7576370542"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_station",
+        "name": "Beverly Road",
+        "lat": 40.645127,
+        "lon": -73.948932,
+        "distance_m": 385,
+        "osm": "node/5106263424"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Nostrand Avenue & Beverley Road",
+        "lat": 40.644851,
+        "lon": -73.949023,
+        "distance_m": 395,
+        "osm": "node/13670876786"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Established Drugs",
+        "lat": 40.643404,
+        "lon": -73.948598,
+        "distance_m": 411,
+        "osm": "node/5215082709"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.645026,
+        "lon": -73.949279,
+        "distance_m": 415,
+        "osm": "node/7576370541"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Paris Deli & Grocery",
+        "lat": 40.643099,
+        "lon": -73.948577,
+        "distance_m": 427,
+        "osm": "node/2566301606"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Nostrand Avenue & Tilden Avenue",
+        "lat": 40.646575,
+        "lon": -73.949212,
+        "distance_m": 435,
+        "osm": "node/13670876788"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "C-Town",
+        "lat": 40.642793,
+        "lon": -73.948438,
+        "distance_m": 438,
+        "osm": "way/250127061"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Hookah Lounge",
+        "lat": 40.643395,
+        "lon": -73.948965,
+        "distance_m": 439,
+        "osm": "node/5215082714"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & Brooklyn Avenue",
+        "lat": 40.641344,
+        "lon": -73.943158,
+        "distance_m": 445,
+        "osm": "node/11092991188"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Adam Deli Grocery",
+        "lat": 40.64307,
+        "lon": -73.948921,
+        "distance_m": 454,
+        "osm": "node/5215082707"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & East 35th Street",
+        "lat": 40.641203,
+        "lon": -73.943334,
+        "distance_m": 457,
+        "osm": "node/11092991186"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Nostrand Avenue & Clarendon Road",
+        "lat": 40.642856,
+        "lon": -73.948814,
+        "distance_m": 459,
+        "osm": "node/13670876784"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & New York Avenue",
+        "lat": 40.641087,
+        "lon": -73.945223,
+        "distance_m": 467,
+        "osm": "node/11092991190"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": null,
+        "lat": 40.642737,
+        "lon": -73.948893,
+        "distance_m": 472,
+        "osm": "node/5215082716"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & New York Avenue",
+        "lat": 40.641168,
+        "lon": -73.945999,
+        "distance_m": 473,
+        "osm": "node/11092991192"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "New York Avenue & Avenue D",
+        "lat": 40.641011,
+        "lon": -73.945529,
+        "distance_m": 480,
+        "osm": "node/13670670171"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "New York Avenue & Snyder Avenue",
+        "lat": 40.649424,
+        "lon": -73.946426,
+        "distance_m": 497,
+        "osm": "node/5215190455"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & East 38th Street",
+        "lat": 40.641464,
+        "lon": -73.941224,
+        "distance_m": 497,
+        "osm": "node/11092991184"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & East 37th Street",
+        "lat": 40.641328,
+        "lon": -73.941321,
+        "distance_m": 505,
+        "osm": "node/11092991182"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & East 31st Street",
+        "lat": 40.640966,
+        "lon": -73.947216,
+        "distance_m": 533,
+        "osm": "node/11092991194"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Nostrand Avenue & Snyder Avenue",
+        "lat": 40.648632,
+        "lon": -73.949431,
+        "distance_m": 570,
+        "osm": "node/13670876790"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & East 40th Street",
+        "lat": 40.641573,
+        "lon": -73.939443,
+        "distance_m": 582,
+        "osm": "node/11092991180"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & East 39th Street",
+        "lat": 40.641436,
+        "lon": -73.939586,
+        "distance_m": 585,
+        "osm": "node/11092991178"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & Nostrand Avenue",
+        "lat": 40.640868,
+        "lon": -73.948744,
+        "distance_m": 610,
+        "osm": "node/5227306418"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.64074,
+        "lon": -73.948592,
+        "distance_m": 614,
+        "osm": "node/7576370543"
+      },
+      {
+        "group": "noise",
+        "category": "fire_station",
+        "kind": "fire_station",
+        "name": "FDNY Battalion 41/Engine 248",
+        "lat": 40.648777,
+        "lon": -73.949998,
+        "distance_m": 617,
+        "osm": "node/368047130"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Rogers Avenue & Beverly Road",
+        "lat": 40.645275,
+        "lon": -73.951808,
+        "distance_m": 628,
+        "osm": "node/13687735128"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Nostrand Avenue & Avenue D",
+        "lat": 40.640572,
+        "lon": -73.948578,
+        "distance_m": 629,
+        "osm": "node/5227304006"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Snack Shack",
+        "lat": 40.641019,
+        "lon": -73.949354,
+        "distance_m": 630,
+        "osm": "node/2566301618"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Rogers Avenue & Clarendon Road",
+        "lat": 40.643412,
+        "lon": -73.951602,
+        "distance_m": 643,
+        "osm": "node/13687733528"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Church Avenue & East 37th Street",
+        "lat": 40.65102,
+        "lon": -73.94331,
+        "distance_m": 649,
+        "osm": "node/11166282370"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Church Avenue & New York Avenue",
+        "lat": 40.650905,
+        "lon": -73.946285,
+        "distance_m": 650,
+        "osm": "node/5216101578"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Church Avenue & Brooklyn Avenue",
+        "lat": 40.65117,
+        "lon": -73.944246,
+        "distance_m": 660,
+        "osm": "node/11166282372"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Nostrand Avenue & Newkirk Avenue",
+        "lat": 40.640164,
+        "lon": -73.9485,
+        "distance_m": 663,
+        "osm": "node/5227307824"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.639927,
+        "lon": -73.948165,
+        "distance_m": 672,
+        "osm": "node/7576370545"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Rogers Avenue & Tilden Avenue",
+        "lat": 40.647087,
+        "lon": -73.951995,
+        "distance_m": 675,
+        "osm": "node/5216102502"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_station",
+        "name": "Newkirk Avenue",
+        "lat": 40.639964,
+        "lon": -73.948392,
+        "distance_m": 678,
+        "osm": "node/5106263423"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "New York Avenue & Foster Avenue",
+        "lat": 40.639177,
+        "lon": -73.945325,
+        "distance_m": 679,
+        "osm": "node/13670670173"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Church Avenue & New York Avenue",
+        "lat": 40.650996,
+        "lon": -73.947198,
+        "distance_m": 683,
+        "osm": "node/5216100918"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "New York Avenue & Church Avenue",
+        "lat": 40.651194,
+        "lon": -73.946614,
+        "distance_m": 689,
+        "osm": "node/5216100706"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.639898,
+        "lon": -73.948645,
+        "distance_m": 695,
+        "osm": "node/7576370544"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Church Avenue & East 38th Street",
+        "lat": 40.651145,
+        "lon": -73.941405,
+        "distance_m": 703,
+        "osm": "node/11166282367"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Church Avenue & East 39th Street",
+        "lat": 40.651272,
+        "lon": -73.941396,
+        "distance_m": 716,
+        "osm": "node/11166282369"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Walgreens",
+        "lat": 40.650572,
+        "lon": -73.949295,
+        "distance_m": 724,
+        "osm": "way/250141282"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Nostrand Avenue & Church Avenue",
+        "lat": 40.650432,
+        "lon": -73.949624,
+        "distance_m": 728,
+        "osm": "node/13670876792"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Church Avenue & Nostrand Avenue",
+        "lat": 40.650772,
+        "lon": -73.949089,
+        "distance_m": 733,
+        "osm": "node/11166282376"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.650653,
+        "lon": -73.94943,
+        "distance_m": 738,
+        "osm": "node/7576370539"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Rogers Avenue & Albemarle Road",
+        "lat": 40.648326,
+        "lon": -73.952136,
+        "distance_m": 740,
+        "osm": "node/13687733044"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & Rogers Avenue",
+        "lat": 40.640734,
+        "lon": -73.950873,
+        "distance_m": 743,
+        "osm": "node/5227306289"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.650749,
+        "lon": -73.949382,
+        "distance_m": 744,
+        "osm": "node/7576370540"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.650613,
+        "lon": -73.949688,
+        "distance_m": 747,
+        "osm": "node/7576370537"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Rogers Avenue & Avenue D",
+        "lat": 40.641077,
+        "lon": -73.951357,
+        "distance_m": 750,
+        "osm": "node/5216103140"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & East 43rd Street",
+        "lat": 40.64174,
+        "lon": -73.936766,
+        "distance_m": 750,
+        "osm": "node/11092991174"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": null,
+        "lat": 40.640887,
+        "lon": -73.951239,
+        "distance_m": 755,
+        "osm": "node/4204719829"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_station",
+        "name": "Church Avenue",
+        "lat": 40.650797,
+        "lon": -73.949544,
+        "distance_m": 757,
+        "osm": "node/5106263425"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.650732,
+        "lon": -73.949753,
+        "distance_m": 761,
+        "osm": "node/7576370534"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.650925,
+        "lon": -73.949413,
+        "distance_m": 762,
+        "osm": "node/7576370538"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Avenue D & East 42nd Street",
+        "lat": 40.641616,
+        "lon": -73.936646,
+        "distance_m": 766,
+        "osm": "node/11092991176"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.650905,
+        "lon": -73.949819,
+        "distance_m": 780,
+        "osm": "node/7576370536"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.650973,
+        "lon": -73.949724,
+        "distance_m": 781,
+        "osm": "node/7576370535"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Church Avenue & Nostrand Avenue",
+        "lat": 40.650864,
+        "lon": -73.950013,
+        "distance_m": 786,
+        "osm": "node/11166282378"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Church Farm Market",
+        "lat": 40.651528,
+        "lon": -73.939832,
+        "distance_m": 797,
+        "osm": "way/250146160"
+      }
+    ],
+    "server": "https://overpass.openstreetmap.fr/api/interpreter"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "saved_at": "2026-10-24T15:36:42+00:00",
+  "source": "trail",
+  "key": "university-towers-owners-corp",
+  "dataset": {
+    "name": "Connecticut Business Registry (Business Master n7gp-d28j, Principals ka36-64k6) + 2026 Connecticut Parcel and CAMA Data (ibe8-9i3q)",
+    "id": "n7gp-d28j / ka36-64k6 / ibe8-9i3q",
+    "url": "https://data.ct.gov/resource/ka36-64k6.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "owner": "UNIVERSITY TOWERS OWNERS CORP",
+    "owner_registry_name": "UNIVERSITY TOWERS OWNERS CORP.",
+    "individual_principals_not_followed": 6,
+    "registered_agents_not_followed": [
+      "Charles A. Ryan"
+    ],
+    "entities": [],
+    "entities_not_followed": 0,
+    "parcels": [],
+    "parcels_total": 0,
+    "parcels_shown": 0,
+    "caps": {
+      "companies": 30,
+      "parcels": 200,
+      "entities": 3
+    },
+    "companies_total": 0,
+    "companies_shown": 0,
+    "results": []
+  }
+}

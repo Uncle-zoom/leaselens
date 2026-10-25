@@ -1,0 +1,147 @@
+{
+  "saved_at": "2026-10-21T02:23:51+00:00",
+  "source": "walking",
+  "key": "42.3581_-71.0498",
+  "dataset": {
+    "name": "OSRM foot routing (public servers), else straight-line estimate",
+    "id": "osrm/table/foot",
+    "url": "https://router.project-osrm.org/table/v1/foot/",
+    "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+  },
+  "data": {
+    "method": "osrm_fossgis_foot",
+    "attempts": [
+      {
+        "method": "osrm_demo_foot",
+        "accepted": false,
+        "reason": "ValueError: not a walking profile (average 6.9 m/s)"
+      }
+    ],
+    "origin": [
+      42.358119,
+      -71.0498059
+    ],
+    "results": [
+      {
+        "name": "Central Wharf (South) Ferry Terminal",
+        "category": "train_station",
+        "kind": "station",
+        "lat": 42.358866,
+        "lon": -71.048569,
+        "straight_m": 131,
+        "walk_m": 249,
+        "walk_min": 3.3
+      },
+      {
+        "name": null,
+        "category": "park",
+        "kind": "park",
+        "lat": 42.358998,
+        "lon": -71.051166,
+        "straight_m": 148,
+        "walk_m": 221,
+        "walk_min": 2.9
+      },
+      {
+        "name": "Long Wharf (South) Ferry Terminal",
+        "category": "train_station",
+        "kind": "station",
+        "lat": 42.359431,
+        "lon": -71.050456,
+        "straight_m": 155,
+        "walk_m": 249,
+        "walk_min": 3.3
+      },
+      {
+        "name": "Atlantic Ave @ Milk St",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 42.358953,
+        "lon": -71.051506,
+        "straight_m": 168,
+        "walk_m": 225,
+        "walk_min": 3.0
+      },
+      {
+        "name": "Atlantic Ave @ State St-Marriot Hotel",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 42.359198,
+        "lon": -71.051592,
+        "straight_m": 190,
+        "walk_m": 247,
+        "walk_min": 3.3
+      },
+      {
+        "name": "Rose Kennedy Greenway",
+        "category": "park",
+        "kind": "park",
+        "lat": 42.358769,
+        "lon": -71.051948,
+        "straight_m": 190,
+        "walk_m": 257,
+        "walk_min": 3.5
+      },
+      {
+        "name": "7-Eleven",
+        "category": "grocery",
+        "kind": "convenience",
+        "lat": 42.35926,
+        "lon": -71.053037,
+        "straight_m": 294,
+        "walk_m": 423,
+        "walk_min": 5.6
+      },
+      {
+        "name": "Equinox",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "lat": 42.355973,
+        "lon": -71.05447,
+        "straight_m": 451,
+        "walk_m": 552,
+        "walk_min": 7.4
+      },
+      {
+        "name": "Pepper Palace",
+        "category": "grocery",
+        "kind": "supermarket",
+        "lat": 42.359706,
+        "lon": -71.055068,
+        "straight_m": 467,
+        "walk_m": 612,
+        "walk_min": 8.2
+      },
+      {
+        "name": "Equinox",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "lat": 42.353452,
+        "lon": -71.047427,
+        "straight_m": 555,
+        "walk_m": 917,
+        "walk_min": 12.2
+      },
+      {
+        "name": "CVS Pharmacy",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 42.362935,
+        "lon": -71.055526,
+        "straight_m": 713,
+        "walk_m": 813,
+        "walk_min": 10.8
+      },
+      {
+        "name": "CVS Pharmacy",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 42.357037,
+        "lon": -71.058901,
+        "straight_m": 757,
+        "walk_m": 867,
+        "walk_min": 11.6
+      }
+    ]
+  }
+}

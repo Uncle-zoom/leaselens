@@ -1,0 +1,76 @@
+{
+  "saved_at": "2026-10-24T15:36:44+00:00",
+  "source": "registry",
+  "key": "bc-chapel-street-llc",
+  "dataset": {
+    "name": "Connecticut Business Registry - Business Master (+ Principals ka36-64k6, Agents qh2m-n44y)",
+    "id": "n7gp-d28j / ka36-64k6 / qh2m-n44y",
+    "url": "https://data.ct.gov/resource/n7gp-d28j.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "query": "BC CHAPEL STREET LLC",
+    "matched_how": "exact name",
+    "confidence": "high",
+    "business": {
+      "id": "001t000000WoVDPAA3",
+      "name": "BC CHAPEL STREET LLC",
+      "business_type": "LLC",
+      "status": "Active",
+      "accountnumber": "1339112",
+      "date_registration": "2020-03-11T00:00:00.000",
+      "citizenship": "Domestic",
+      "formation_place": "MA",
+      "billingstreet": "TWO CENTER PLAZA",
+      "billing_unit": "SUITE 700",
+      "billingcity": "BOSTON",
+      "billingstate": "MA",
+      "billingpostalcode": "02108",
+      "mailing_address": "TWO CENTER PLAZA ,SUITE 700 ,BOSTON ,MA ,United States ,02108",
+      "naics_code": "Other Activities Related to Real Estate (531390)",
+      "annual_report_due_date": "2027-03-31T00:00:00.000"
+    },
+    "other_records_with_same_name": 0,
+    "registered_agents": [
+      {
+        "name__c": "CORPORATION SERVICE COMPANY",
+        "type": "Business",
+        "business_street_address_1": "Goodwin Square 225 Asylum Street",
+        "business_street_address_2": "20th Floor",
+        "business_city": "Hartford",
+        "business_state": "CT",
+        "business_zip_code": "06103"
+      }
+    ],
+    "principals": [
+      {
+        "name__c": "Beacon Communities Corp.",
+        "business_street_address_1": "Two Center Plaza",
+        "business_street_address_2": "Suite 700",
+        "business_city": "Boston",
+        "business_state": "MA",
+        "business_zip_code": "02108"
+      }
+    ],
+    "results": [
+      {
+        "id": "001t000000WoVDPAA3",
+        "name": "BC CHAPEL STREET LLC",
+        "business_type": "LLC",
+        "status": "Active",
+        "accountnumber": "1339112",
+        "date_registration": "2020-03-11T00:00:00.000",
+        "citizenship": "Domestic",
+        "formation_place": "MA",
+        "billingstreet": "TWO CENTER PLAZA",
+        "billing_unit": "SUITE 700",
+        "billingcity": "BOSTON",
+        "billingstate": "MA",
+        "billingpostalcode": "02108",
+        "mailing_address": "TWO CENTER PLAZA ,SUITE 700 ,BOSTON ,MA ,United States ,02108",
+        "naics_code": "Other Activities Related to Real Estate (531390)",
+        "annual_report_due_date": "2027-03-31T00:00:00.000"
+      }
+    ]
+  }
+}

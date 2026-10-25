@@ -1,0 +1,117 @@
+{
+  "saved_at": "2026-10-21T02:17:17+00:00",
+  "source": "walking",
+  "key": "41.3070_-72.9331",
+  "dataset": {
+    "name": "OSRM foot routing (public servers), else straight-line estimate",
+    "id": "osrm/table/foot",
+    "url": "https://router.project-osrm.org/table/v1/foot/",
+    "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+  },
+  "data": {
+    "method": "osrm_fossgis_foot",
+    "attempts": [
+      {
+        "method": "osrm_demo_foot",
+        "accepted": false,
+        "reason": "ValueError: not a walking profile (average 9.4 m/s)"
+      }
+    ],
+    "origin": [
+      41.3070241,
+      -72.9330858
+    ],
+    "results": [
+      {
+        "name": "129 York",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 41.306802,
+        "lon": -72.932873,
+        "straight_m": 30,
+        "walk_m": 105,
+        "walk_min": 1.4
+      },
+      {
+        "name": "129 York",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 41.306777,
+        "lon": -72.932799,
+        "straight_m": 36,
+        "walk_m": 113,
+        "walk_min": 1.5
+      },
+      {
+        "name": "Walgreens",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 41.306138,
+        "lon": -72.934037,
+        "straight_m": 127,
+        "walk_m": 135,
+        "walk_min": 1.8
+      },
+      {
+        "name": "Sam's Food",
+        "category": "grocery",
+        "kind": "convenience",
+        "lat": 41.305239,
+        "lon": -72.933849,
+        "straight_m": 208,
+        "walk_m": 213,
+        "walk_min": 2.8
+      },
+      {
+        "name": "Chapel Minimarket",
+        "category": "grocery",
+        "kind": "convenience",
+        "lat": 41.308846,
+        "lon": -72.93387,
+        "straight_m": 213,
+        "walk_m": 354,
+        "walk_min": 4.7
+      },
+      {
+        "name": "Yale University Art Gallery Sculpture Garden",
+        "category": "park",
+        "kind": "park",
+        "lat": 41.308698,
+        "lon": -72.930735,
+        "straight_m": 271,
+        "walk_m": 344,
+        "walk_min": 4.6
+      },
+      {
+        "name": null,
+        "category": "park",
+        "kind": "park",
+        "lat": 41.30969,
+        "lon": -72.932552,
+        "straight_m": 300,
+        "walk_m": 484,
+        "walk_min": 6.5
+      },
+      {
+        "name": "Chapel Street Pharmacy",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 41.309511,
+        "lon": -72.935588,
+        "straight_m": 347,
+        "walk_m": 493,
+        "walk_min": 6.6
+      },
+      {
+        "name": "Joyride Cycling Studio",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "lat": 41.30557,
+        "lon": -72.92832,
+        "straight_m": 430,
+        "walk_m": 477,
+        "walk_min": 6.4
+      }
+    ]
+  }
+}

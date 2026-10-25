@@ -1,0 +1,206 @@
+{
+  "saved_at": "2026-10-21T02:17:19+00:00",
+  "source": "complaints",
+  "key": "41.3070_-72.9331",
+  "dataset": {
+    "name": "SeeClickFix public API v2 - issues (New Haven, CT and other participating places)",
+    "id": "seeclickfix/api/v2/issues",
+    "url": "https://seeclickfix.com/api/v2/issues",
+    "terms": "https://dev.seeclickfix.com/ (public read API, no key)"
+  },
+  "data": {
+    "center": {
+      "lat": 41.3070241,
+      "lon": -72.9330858
+    },
+    "radius_m": 200,
+    "months": 12,
+    "since": "2025-10-21",
+    "total_issues": 100,
+    "pages_fetched": 2,
+    "results": [
+      {
+        "request_type": "Private Property Issue",
+        "count": 13,
+        "open": 0
+      },
+      {
+        "request_type": "Private Property Issue - Building & Zoning",
+        "count": 10,
+        "open": 0
+      },
+      {
+        "request_type": "Traffic Signal / Pedestrian Signal",
+        "count": 8,
+        "open": 3
+      },
+      {
+        "request_type": "Missed Trash/Recycling",
+        "count": 7,
+        "open": 0
+      },
+      {
+        "request_type": "PUBLIC SPACE ENFORCEMENT",
+        "count": 6,
+        "open": 0
+      },
+      {
+        "request_type": "Potholes",
+        "count": 5,
+        "open": 0
+      },
+      {
+        "request_type": "Graffiti - TT&P",
+        "count": 5,
+        "open": 5
+      },
+      {
+        "request_type": "Parking Violation",
+        "count": 5,
+        "open": 0
+      },
+      {
+        "request_type": "Public Space - Snow Related",
+        "count": 5,
+        "open": 1
+      },
+      {
+        "request_type": "Illegal Dumping",
+        "count": 4,
+        "open": 1
+      },
+      {
+        "request_type": "Sidewalks and Curb damage",
+        "count": 4,
+        "open": 3
+      },
+      {
+        "request_type": "Environmental Health Concerns",
+        "count": 3,
+        "open": 0
+      },
+      {
+        "request_type": "Bioswales",
+        "count": 3,
+        "open": 1
+      },
+      {
+        "request_type": "NHFD - Fire Safety Concern",
+        "count": 3,
+        "open": 0
+      },
+      {
+        "request_type": "SNOW RELATED",
+        "count": 3,
+        "open": 0
+      },
+      {
+        "request_type": "Drainage Request",
+        "count": 2,
+        "open": 1
+      },
+      {
+        "request_type": "Homeless Service including Encampments.",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "Graffiti",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "Scooters",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "Streets Division",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "External Referral",
+        "count": 1,
+        "open": 1
+      },
+      {
+        "request_type": "Unspecified",
+        "count": 1,
+        "open": 1
+      },
+      {
+        "request_type": "Signs",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Parking Meter",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Private Trash Haulers",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Tree Requests",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Street Sweeping",
+        "count": 1,
+        "open": 0
+      }
+    ],
+    "recent": [
+      {
+        "request_type": "Illegal Dumping",
+        "status": "Closed",
+        "created_at": "2026-10-17T12:05:14-04:00",
+        "distance_m": 70,
+        "address": "306 Crown St New Haven, CT, 06511, USA",
+        "summary": "Illegal Dumping",
+        "url": "https://seeclickfix.com/issues/23041066"
+      },
+      {
+        "request_type": "Traffic Signal / Pedestrian Signal",
+        "status": "Acknowledged",
+        "created_at": "2026-10-14T10:32:06-04:00",
+        "distance_m": 196,
+        "address": "Chapel St & York St New Haven, CT, 06511, USA",
+        "summary": "Traffic Signal / Pedestrian Signal",
+        "url": "https://seeclickfix.com/issues/23016011"
+      },
+      {
+        "request_type": "Private Property Issue",
+        "status": "Closed",
+        "created_at": "2026-10-12T17:10:38-04:00",
+        "distance_m": 161,
+        "address": "173 Park St New Haven, Connecticut, 06511",
+        "summary": "Private Property Issue",
+        "url": "https://seeclickfix.com/issues/23001610"
+      },
+      {
+        "request_type": "Missed Trash/Recycling",
+        "status": "Closed",
+        "created_at": "2026-10-10T17:18:47-04:00",
+        "distance_m": 187,
+        "address": "284 Crown St New Haven, CT, 06511, USA",
+        "summary": "Missed Trash/Recycling",
+        "url": "https://seeclickfix.com/issues/22989559"
+      },
+      {
+        "request_type": "Illegal Dumping",
+        "status": "Acknowledged",
+        "created_at": "2026-09-28T19:52:26-04:00",
+        "distance_m": 183,
+        "address": "279 Crown St New Haven, Connecticut, 06511",
+        "summary": "Illegal Dumping",
+        "url": "https://seeclickfix.com/issues/22892695"
+      }
+    ]
+  }
+}

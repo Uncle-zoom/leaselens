@@ -1,0 +1,107 @@
+{
+  "saved_at": "2026-10-21T02:18:11+00:00",
+  "source": "walking",
+  "key": "41.3114_-72.9410",
+  "dataset": {
+    "name": "OSRM foot routing (public servers), else straight-line estimate",
+    "id": "osrm/table/foot",
+    "url": "https://router.project-osrm.org/table/v1/foot/",
+    "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+  },
+  "data": {
+    "method": "osrm_fossgis_foot",
+    "attempts": [
+      {
+        "method": "osrm_demo_foot",
+        "accepted": false,
+        "reason": "ValueError: not a walking profile (average 10.3 m/s)"
+      }
+    ],
+    "origin": [
+      41.3113591,
+      -72.9409808
+    ],
+    "results": [
+      {
+        "name": "J & J",
+        "category": "grocery",
+        "kind": "convenience",
+        "lat": 41.310709,
+        "lon": -72.941094,
+        "straight_m": 73,
+        "walk_m": 168,
+        "walk_min": 2.2
+      },
+      {
+        "name": "Shop Smart",
+        "category": "grocery",
+        "kind": "convenience",
+        "lat": 41.312209,
+        "lon": -72.9406,
+        "straight_m": 100,
+        "walk_m": 212,
+        "walk_min": 2.8
+      },
+      {
+        "name": "Kensington Street Playground",
+        "category": "park",
+        "kind": "park",
+        "lat": 41.311067,
+        "lon": -72.939614,
+        "straight_m": 119,
+        "walk_m": 261,
+        "walk_min": 3.5
+      },
+      {
+        "name": "Walgreens",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 41.311048,
+        "lon": -72.942412,
+        "straight_m": 124,
+        "walk_m": 258,
+        "walk_min": 3.4
+      },
+      {
+        "name": "Chapel-Day Sitting Plaza",
+        "category": "park",
+        "kind": "park",
+        "lat": 41.310354,
+        "lon": -72.938723,
+        "straight_m": 219,
+        "walk_m": 292,
+        "walk_min": 3.9
+      },
+      {
+        "name": null,
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 41.313723,
+        "lon": -72.938542,
+        "straight_m": 333,
+        "walk_m": 532,
+        "walk_min": 7.1
+      },
+      {
+        "name": "Stop & Shop",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 41.315054,
+        "lon": -72.938249,
+        "straight_m": 470,
+        "walk_m": 644,
+        "walk_min": 8.6
+      },
+      {
+        "name": "Chapel Street Pharmacy",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 41.309511,
+        "lon": -72.935588,
+        "straight_m": 495,
+        "walk_m": 586,
+        "walk_min": 7.8
+      }
+    ]
+  }
+}

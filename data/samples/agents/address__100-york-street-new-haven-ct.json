@@ -1,0 +1,171 @@
+{
+  "address": "100 York Street, New Haven, CT",
+  "priorities": {
+    "max_grocery": 10,
+    "max_gym": 15,
+    "max_transit": 8,
+    "quiet": "medium"
+  },
+  "flagged_untrusted_strings": [],
+  "block": {
+    "output": {
+      "verdict": "think twice",
+      "reasons": [
+        "Sam's Food is a 2.8-minute walk against your 10-minute grocery limit, Joyride Cycling Studio is a 6.4-minute walk against your 15-minute gym limit, and 129 York is a 1.4-minute walk against your 8-minute transit limit.",
+        "Your Quiet score is 4.6, and the records list 4 nightclubs within 800 metres, with Partners 133 metres away, which matters given your medium priority for night-time quiet.",
+        "The records list 100 street-level reports within 200 metres in the last 12 months, including 8 Traffic Signal / Pedestrian Signal reports with 3 still open; these concern public streets, not housing."
+      ],
+      "summary": "You have convenient walks to groceries, a gym and a bus stop, but nearby nightlife and the low Quiet score make this a block to think twice about if night-time quiet matters to you."
+    },
+    "removed": [],
+    "tokens": 3503,
+    "usd": 0.000436
+  },
+  "landlord": {
+    "output": {
+      "plain_english": "The parcel record for 100 YORK ST lists UNIVERSITY TOWERS OWNERS CORP as the owner, with tax bills mailed to 100 YORK ST, NEW HAVEN, CT, 06510. The registry lists UNIVERSITY TOWERS OWNERS CORP. as a Stock entity, Active, formed in CT, with Charles A. Ryan as registered agent and Kathy Faught, Michael Harris, Carroll Ryan, Elisabeth Martin, Mary Mclnerney, and Phoebe Barron as principals; its match to the parcel owner is by normalized name, with medium confidence. The other-parcels search found 379 GEORGE ST and 390 GEORGE ST, both under the exact owner name, with high-confidence matches.",
+      "observations": [
+        "The parcel record lists the property use as APT Over12  MDL-94.",
+        "The registry lists the business address as 100 York St, New Haven, CT, 06511.",
+        "The other-parcels search found two parcels with exact-name, high-confidence matches."
+      ],
+      "questions": [
+        "Will the owner named on my lease be UNIVERSITY TOWERS OWNERS CORP, the owner listed on the parcel record?",
+        "Who manages the property and should you contact for repairs or other building issues?",
+        "Can you confirm why the registry business address is 100 York St, New Haven, CT, 06511, while tax bills are mailed to 100 YORK ST, NEW HAVEN, CT, 06510?"
+      ]
+    },
+    "removed": [],
+    "tokens": 3492,
+    "usd": 0.000397
+  },
+  "email_ask_questions": {
+    "output": {
+      "purpose": "ask_questions",
+      "subject": "Questions about [unit number] at 100 York Street",
+      "body": "Hello, \n\nI’m considering [unit number] and have a few questions. The Quiet score is 4.6, and Partners is the nearest nightclub at 133 metres. How is nighttime noise in the unit, and what window or sound-insulation features does it have? \n\nThe nearest bus stop is 129 York, a 1.4-minute walk away. Which bus services stop there, and do they run in the evening? \n\nThe parcel record lists UNIVERSITY TOWERS OWNERS CORP, while the registry lists UNIVERSITY TOWERS OWNERS CORP. with a medium-confidence normalized-name match. Which legal entity would be named in the lease, and who handles day-to-day management? \n\nThank you, \n[Your name]",
+      "facts_cited": [
+        "\"Quiet\": 4.6",
+        "\"type\": \"Nightclubs\", \"count\": 4, \"nearest\": \"Partners\", \"nearest_distance_m\": 133",
+        "\"nearest\": \"129 York\", \"walk_minutes\": 1.4",
+        "\"owner\": \"UNIVERSITY TOWERS OWNERS CORP\"",
+        "\"name\": \"UNIVERSITY TOWERS OWNERS CORP.\"",
+        "\"match_confidence\": \"medium\""
+      ]
+    },
+    "removed": [],
+    "tokens": 4037,
+    "usd": 0.000672
+  },
+  "email_negotiate": {
+    "output": {
+      "purpose": "negotiate",
+      "subject": "Request to discuss noise-related terms",
+      "body": "Hello, \n\nI’m interested in the apartment, especially its convenient walking access. I’m also weighing nighttime quiet: the Quiet score is 4.6, and the records list 4 nightclubs within 800 metres, with Partners 133 metres away. They also list 15 bars within 800 metres, with 168 York Street Cafe 152 metres away. I understand nearby venues do not confirm the noise level inside the apartment. Would you consider a noise-related concession or adding sound-reduction measures before move-in? Could you also share what sound-reduction measures are already in place? \n\nThank you, \n[Your name]",
+      "facts_cited": [
+        "\"Quiet\": 4.6",
+        "\"count\": 4, \n\"nearest\": \"Partners\", \n\"nearest_distance_m\": 133",
+        "\"count\": 15, \n\"nearest\": \"168 York Street Cafe\", \n\"nearest_distance_m\": 152"
+      ]
+    },
+    "removed": [],
+    "tokens": 3681,
+    "usd": 0.000623
+  },
+  "chat_examples": [
+    {
+      "question": "How far is the nearest grocery store, and does it meet my limit?",
+      "output": {
+        "answer": "The nearest grocery store is Sam's Food, 2.8 walking minutes away. It meets your 10-minute limit.",
+        "known": true,
+        "sources": [
+          "walking"
+        ]
+      },
+      "removed": [],
+      "tokens": 3549,
+      "usd": 0.000116
+    },
+    {
+      "question": "Who owns this building and what else do they own?",
+      "output": {
+        "answer": "The parcel record lists UNIVERSITY TOWERS OWNERS CORP as the owner of 100 YORK ST. The records also link 379 GEORGE ST and 390 GEORGE ST to the same owner; each link was matched by exact name with high confidence.",
+        "known": true,
+        "sources": [
+          "landlord",
+          "other_parcels"
+        ]
+      },
+      "removed": [],
+      "tokens": 4885,
+      "usd": 0.000333
+    },
+    {
+      "question": "What is the monthly rent and are pets allowed?",
+      "output": {
+        "answer": "The monthly rent and pet policy are not in the records we have. Ask the landlord or property manager for the current rent and whether pets are allowed.",
+        "known": false,
+        "sources": []
+      },
+      "removed": [],
+      "tokens": 6072,
+      "usd": 0.000198
+    }
+  ],
+  "email_negotiate_firm": {
+    "output": {
+      "purpose": "negotiate",
+      "tone": "firm",
+      "subject": "Questions and proposed lease terms for [unit number]",
+      "body": "Hello,\n\nThe walking options meet your stated limits: Sam's Food is 2.8 minutes against 10 minutes; Joyride Cycling Studio is 6.4 minutes against 15 minutes; and 129 York bus stop is 1.4 minutes against 8 minutes. There is none within 800 m for train/subway, against the 8-minute transit limit. Quiet matters to me: the Quiet score is 4.6. Within 800 m, records list 4 Nightclubs (nearest Partners, 133 m), 15 Bars (nearest 168 York Street Cafe, 152 m), 9 Pubs (nearest Viva Zapata, 147 m), 6 Hospitals (nearest Smilow Cancer Hospital, 313 m), 0 Fire stations and 0 Rail lines. There are 100 street-level reports about the public street within 200 m since 2025-10-21; these are not housing complaints.\n\nThe parcel record lists UNIVERSITY TOWERS OWNERS CORP. The registry lists UNIVERSITY TOWERS OWNERS CORP. as Stock, Active; the registry-to-parcel match is by normalized name, with medium confidence. Two other parcels are linked by exact name, with high confidence.\n\nBefore I decide, please let me know whether you can offer:\n1. Rent: a reduction in the monthly rent or another concession.\n2. Repairs: a written list of repairs to be completed before move-in, a walk-through, and who handles repair requests.\n3. Lease terms: the lease length, renewal terms, notice needed to leave, and which entity will be named as landlord on the lease.\n\nPlease reply in writing. Thank you.\n\n[Your name]",
+      "facts_cited": [
+        "Sam's Food",
+        "2.8",
+        "10",
+        "Joyride Cycling Studio",
+        "6.4",
+        "15",
+        "129 York",
+        "1.4",
+        "8",
+        "none within 800 m",
+        "4.6",
+        "Nightclubs",
+        "4",
+        "Partners",
+        "133",
+        "Bars",
+        "15",
+        "168 York Street Cafe",
+        "152",
+        "Pubs",
+        "9",
+        "Viva Zapata",
+        "147",
+        "Hospitals",
+        "6",
+        "Smilow Cancer Hospital",
+        "313",
+        "Fire stations",
+        "0",
+        "Rail lines",
+        "0",
+        "100",
+        "200",
+        "2025-10-21",
+        "UNIVERSITY TOWERS OWNERS CORP",
+        "UNIVERSITY TOWERS OWNERS CORP.",
+        "Stock",
+        "Active",
+        "normalized name",
+        "medium",
+        "2",
+        "exact name",
+        "high"
+      ]
+    },
+    "removed": [],
+    "tokens": 4862,
+    "usd": 0.000923
+  }
+}

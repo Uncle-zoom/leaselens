@@ -1,0 +1,15 @@
+{
+  "saved_at": "2026-10-24T19:05:14+00:00",
+  "source": "name_search",
+  "key": "zzyzx-qwertyplex-towers",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API (building name)",
+    "id": "nominatim/search?name",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "Zzyzx Qwertyplex Towers",
+    "found": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:45:37+00:00",
+  "source": "geocode",
+  "key": "115-dwight-st-new-haven-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "115 DWIGHT ST, New Haven, CT",
+    "lat": 41.3088487,
+    "lon": -72.9371613,
+    "display_name": "115, Dwight Street, Dwight Street Historic District, Dixwell, New Haven, Connecticut, 06511, United States",
+    "house_number": "115",
+    "road": "Dwight Street",
+    "city": "New Haven",
+    "county": "New Haven",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06511",
+    "osm_type": "node",
+    "osm_id": 9021776022,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 6.999847409776482e-05,
+    "address": {
+      "house_number": "115",
+      "road": "Dwight Street",
+      "neighbourhood": "Dwight Street Historic District",
+      "suburb": "Dixwell",
+      "city": "New Haven",
+      "county": "New Haven",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06511",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

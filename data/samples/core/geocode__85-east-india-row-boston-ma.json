@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:22:37+00:00",
+  "source": "geocode",
+  "key": "85-east-india-row-boston-ma",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "85 East India Row, Boston, MA",
+    "lat": 42.358119,
+    "lon": -71.0498059,
+    "display_name": "85, East India Row, Waterfront, Downtown, Boston, Suffolk County, Massachusetts, 02110, United States",
+    "house_number": "85",
+    "road": "East India Row",
+    "city": "Boston",
+    "county": "Suffolk County",
+    "state": "Massachusetts",
+    "state_code": "MA",
+    "postcode": "02110",
+    "osm_type": "way",
+    "osm_id": 29847892,
+    "place_class": "building",
+    "place_type": "yes",
+    "importance": 8.102616922250732e-05,
+    "address": {
+      "house_number": "85",
+      "road": "East India Row",
+      "neighbourhood": "Waterfront",
+      "suburb": "Downtown",
+      "city": "Boston",
+      "county": "Suffolk County",
+      "state": "Massachusetts",
+      "ISO3166-2-lvl4": "US-MA",
+      "postcode": "02110",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

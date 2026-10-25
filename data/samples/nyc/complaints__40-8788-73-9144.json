@@ -1,0 +1,699 @@
+{
+  "saved_at": "2026-10-21T02:21:57+00:00",
+  "source": "complaints",
+  "key": "40.8788_-73.9144",
+  "dataset": {
+    "name": "311 Service Requests from 2020 to Present (NYC Open Data)",
+    "id": "erm2-nwe9",
+    "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+    "terms": "https://www.nyc.gov/html/data/terms.html (open data, no key)"
+  },
+  "data": {
+    "center": {
+      "lat": 40.878762,
+      "lon": -73.914445
+    },
+    "radius_m": 200,
+    "months": 12,
+    "since": "2025-10-21",
+    "total_requests": 667,
+    "noise_requests": 37,
+    "results": [
+      {
+        "complaint_type": "Illegal Parking",
+        "count": 344,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Posted Parking Sign Violation",
+            "count": 232
+          },
+          {
+            "descriptor": "Blocked Hydrant",
+            "count": 77
+          },
+          {
+            "descriptor": "Parking Permit Improper Use",
+            "count": 23
+          }
+        ]
+      },
+      {
+        "complaint_type": "UNSANITARY CONDITION",
+        "count": 65,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "PESTS",
+            "count": 54
+          },
+          {
+            "descriptor": "MOLD",
+            "count": 11
+          }
+        ]
+      },
+      {
+        "complaint_type": "PLUMBING",
+        "count": 28,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "BATHTUB/SHOWER",
+            "count": 24
+          },
+          {
+            "descriptor": "TOILET",
+            "count": 2
+          },
+          {
+            "descriptor": "BASIN/SINK",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Blocked Driveway",
+        "count": 27,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Partial Access",
+            "count": 18
+          },
+          {
+            "descriptor": "No Access",
+            "count": 9
+          }
+        ]
+      },
+      {
+        "complaint_type": "PAINT/PLASTER",
+        "count": 19,
+        "open": 2,
+        "top_descriptors": [
+          {
+            "descriptor": "CEILING",
+            "count": 12
+          },
+          {
+            "descriptor": "WALL",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "complaint_type": "Noise - Residential",
+        "count": 18,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "Loud Music/Party",
+            "count": 12
+          },
+          {
+            "descriptor": "Banging/Pounding",
+            "count": 4
+          },
+          {
+            "descriptor": "Loud Television",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "complaint_type": "HEAT/HOT WATER",
+        "count": 16,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "ENTIRE BUILDING",
+            "count": 16
+          }
+        ]
+      },
+      {
+        "complaint_type": "Street Condition",
+        "count": 15,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Pothole",
+            "count": 11
+          },
+          {
+            "descriptor": "Cave-in",
+            "count": 2
+          },
+          {
+            "descriptor": "Rough, Pitted or Cracked Roads",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "complaint_type": "Noise - Vehicle",
+        "count": 11,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Engine Idling",
+            "count": 10
+          },
+          {
+            "descriptor": "Car/Truck Horn",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Smoking or Vaping",
+        "count": 9,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Allowed in Smoke Free Area",
+            "count": 9
+          }
+        ]
+      },
+      {
+        "complaint_type": "Street Light Condition",
+        "count": 9,
+        "open": 2,
+        "top_descriptors": [
+          {
+            "descriptor": "Street Light Out",
+            "count": 8
+          },
+          {
+            "descriptor": "Street Light Cycling",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "WATER LEAK",
+        "count": 9,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "SLOW LEAK",
+            "count": 4
+          },
+          {
+            "descriptor": "DAMP SPOT",
+            "count": 3
+          },
+          {
+            "descriptor": "HEAVY FLOW",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "complaint_type": "Lead",
+        "count": 8,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Lead Kit Request (Residential) (L10)",
+            "count": 5
+          },
+          {
+            "descriptor": "Lead Kit",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "complaint_type": "Snow or Ice",
+        "count": 8,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Snow Tracking",
+            "count": 5
+          },
+          {
+            "descriptor": "Roadway",
+            "count": 2
+          },
+          {
+            "descriptor": "Sidewalk",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Dirty Condition",
+        "count": 7,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Dog Waste",
+            "count": 4
+          },
+          {
+            "descriptor": "Trash",
+            "count": 2
+          },
+          {
+            "descriptor": "Dirt or Gravel",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Noise - Street/Sidewalk",
+        "count": 5,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Loud Music/Party",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "complaint_type": "Sidewalk Condition",
+        "count": 5,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "Broken Sidewalk",
+            "count": 3
+          },
+          {
+            "descriptor": "Sidewalk Staircase",
+            "count": 1
+          },
+          {
+            "descriptor": "Sidewalk Violation",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Water System",
+        "count": 5,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "LOW WATER PRESSURE - WLWP",
+            "count": 3
+          },
+          {
+            "descriptor": "No Water (WNW)",
+            "count": 1
+          },
+          {
+            "descriptor": "Possible Water Main Break (Use Comments) (WA1)",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Abandoned Vehicle",
+        "count": 4,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "With License Plate",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "complaint_type": "GENERAL",
+        "count": 4,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "CABINET",
+            "count": 2
+          },
+          {
+            "descriptor": "VENTILATION SYSTEM",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "complaint_type": "Illegal Dumping",
+        "count": 4,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Removal Request",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "complaint_type": "Missed Collection",
+        "count": 4,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Trash",
+            "count": 2
+          },
+          {
+            "descriptor": "Recycling - Metal/Glass/Rigid Plastic",
+            "count": 1
+          },
+          {
+            "descriptor": "Recycling - Paper",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Damaged Tree",
+        "count": 3,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "Tree Alive - in Poor Condition",
+            "count": 1
+          },
+          {
+            "descriptor": "Entire Tree Has Fallen Down",
+            "count": 1
+          },
+          {
+            "descriptor": "Branch or Limb Has Fallen Down",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Derelict Vehicles",
+        "count": 3,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Derelict Vehicles",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "complaint_type": "DOOR/WINDOW",
+        "count": 3,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "WINDOW FRAME",
+            "count": 1
+          },
+          {
+            "descriptor": "DOOR FRAME",
+            "count": 1
+          },
+          {
+            "descriptor": "DOOR",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "For Hire Vehicle Complaint",
+        "count": 3,
+        "open": 2,
+        "top_descriptors": [
+          {
+            "descriptor": "Driver Complaint - Non Passenger",
+            "count": 2
+          },
+          {
+            "descriptor": "Car Service Company Complaint",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Noise",
+        "count": 3,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Noise: Alarms (NR3)",
+            "count": 2
+          },
+          {
+            "descriptor": "Dog",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Air Quality",
+        "count": 2,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "complaint_type": "APPLIANCE",
+        "count": 2,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "ELECTRIC/GAS RANGE",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "complaint_type": "Elevator",
+        "count": 2,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Elevator - Multiple Devices On Property",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "complaint_type": "Food Establishment",
+        "count": 2,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "Rodents/Insects/Garbage",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "complaint_type": "Residential Disposal Complaint",
+        "count": 2,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Storage Area Not Provided",
+            "count": 1
+          },
+          {
+            "descriptor": "Waste Not Separated",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Water Maintenance",
+        "count": 2,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Dirty Water",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "complaint_type": "Animal-Abuse",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Neglected",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Bus Stop Shelter Complaint",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Snow Removal Requested",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Consumer Complaint",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Garage or Parking Lot",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Cooling Tower",
+        "count": 1,
+        "open": 1,
+        "top_descriptors": [
+          {
+            "descriptor": "Unsanitary Condition",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Curb Condition",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Defacement",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "FLOORING/STAIRS",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "FLOOR",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "General Construction/Plumbing",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Curb Cut/Driveway/Carport - Illegal",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Graffiti",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Graffiti",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Non-Emergency Police Matter",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Other (complaint details)",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Obstruction",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Trash or Recycling",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Rodent",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Rat Sighting",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Sewer Maintenance",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Backup",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Standing Water",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Other - Explain Below",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Street Sign - Damaged",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Do Not Enter",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Street Sign - Missing",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "One Way",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "complaint_type": "Traffic Signal Condition",
+        "count": 1,
+        "open": 0,
+        "top_descriptors": [
+          {
+            "descriptor": "Controller",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "saved_at": "2026-10-21T02:18:12+00:00",
+  "source": "complaints",
+  "key": "41.3114_-72.9410",
+  "dataset": {
+    "name": "SeeClickFix public API v2 - issues (New Haven, CT and other participating places)",
+    "id": "seeclickfix/api/v2/issues",
+    "url": "https://seeclickfix.com/api/v2/issues",
+    "terms": "https://dev.seeclickfix.com/ (public read API, no key)"
+  },
+  "data": {
+    "center": {
+      "lat": 41.3113591,
+      "lon": -72.9409808
+    },
+    "radius_m": 200,
+    "months": 12,
+    "since": "2025-10-21",
+    "total_issues": 54,
+    "pages_fetched": 1,
+    "results": [
+      {
+        "request_type": "Missed Trash/Recycling",
+        "count": 14,
+        "open": 0
+      },
+      {
+        "request_type": "Parking Violation",
+        "count": 7,
+        "open": 1
+      },
+      {
+        "request_type": "Parks Request",
+        "count": 4,
+        "open": 0
+      },
+      {
+        "request_type": "Illegal Dumping",
+        "count": 4,
+        "open": 0
+      },
+      {
+        "request_type": "Potholes",
+        "count": 3,
+        "open": 0
+      },
+      {
+        "request_type": "Sidewalks and Curb damage",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "Deceased Animals",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "PUBLIC SPACE ENFORCEMENT",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "Yard Waste",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "Signs",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "SNOW RELATED",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "Tree Debris",
+        "count": 1,
+        "open": 1
+      },
+      {
+        "request_type": "Hanging Branches",
+        "count": 1,
+        "open": 1
+      },
+      {
+        "request_type": "Pavement Markings",
+        "count": 1,
+        "open": 1
+      },
+      {
+        "request_type": "Traffic Signal / Pedestrian Signal",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Streets Division",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Graffiti - TT&P",
+        "count": 1,
+        "open": 1
+      },
+      {
+        "request_type": "Complete Streets Request",
+        "count": 1,
+        "open": 1
+      },
+      {
+        "request_type": "Abandoned Vehicles",
+        "count": 1,
+        "open": 1
+      },
+      {
+        "request_type": "Private Property Issue",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "NHFD - Wires Referred to Frontier",
+        "count": 1,
+        "open": 0
+      }
+    ],
+    "recent": [
+      {
+        "request_type": "Parks Request",
+        "status": "Closed",
+        "created_at": "2026-10-12T08:43:50-04:00",
+        "distance_m": 100,
+        "address": "21 Kensington St New Haven, Connecticut, 06511",
+        "summary": "Parks Request",
+        "url": "https://seeclickfix.com/issues/22995572"
+      },
+      {
+        "request_type": "Tree Debris",
+        "status": "Acknowledged",
+        "created_at": "2026-09-30T10:04:49-04:00",
+        "distance_m": 195,
+        "address": "162 Edgewood Ave New Haven, CT, 06511, USA",
+        "summary": "Tree Debris",
+        "url": "https://seeclickfix.com/issues/22905665"
+      },
+      {
+        "request_type": "Missed Trash/Recycling",
+        "status": "Archived",
+        "created_at": "2026-09-18T15:31:46-04:00",
+        "distance_m": 107,
+        "address": "214 Edgewood Ave New Haven, Connecticut, 06511",
+        "summary": "Missed Trash/Recycling",
+        "url": "https://seeclickfix.com/issues/22813887"
+      },
+      {
+        "request_type": "Sidewalks and Curb damage",
+        "status": "Archived",
+        "created_at": "2026-09-14T14:51:19-04:00",
+        "distance_m": 151,
+        "address": "61 Beers St New Haven, Connecticut, 06511",
+        "summary": "Sidewalks and Curb damage",
+        "url": "https://seeclickfix.com/issues/22773173"
+      },
+      {
+        "request_type": "Deceased Animals",
+        "status": "Archived",
+        "created_at": "2026-09-11T07:14:50-04:00",
+        "distance_m": 130,
+        "address": "186-200 Edgewood Ave New Haven, CT, 06511, USA",
+        "summary": "Deceased Animals",
+        "url": "https://seeclickfix.com/issues/22748628"
+      }
+    ]
+  }
+}

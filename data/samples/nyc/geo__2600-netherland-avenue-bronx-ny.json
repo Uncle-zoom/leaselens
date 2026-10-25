@@ -1,0 +1,26 @@
+{
+  "saved_at": "2026-10-21T02:21:40+00:00",
+  "source": "geo",
+  "key": "2600-netherland-avenue-bronx-ny",
+  "dataset": {
+    "name": "NYC Planning Labs GeoSearch v2 (Pelias, NYC PAD addresses)",
+    "id": "geosearch.planninglabs.nyc/v2/search",
+    "url": "https://geosearch.planninglabs.nyc/v2/search",
+    "terms": "https://geosearch.planninglabs.nyc/docs/ (free, no key)"
+  },
+  "data": {
+    "query": "2600 Netherland Avenue, Bronx, NY",
+    "label": "2600 NETHERLAND AVENUE, Bronx, NY, USA",
+    "bbl": "2057220475",
+    "bin": "2083247",
+    "lat": 40.878762,
+    "lon": -73.914445,
+    "borough": "Bronx",
+    "housenumber": "2600",
+    "street": "NETHERLAND AVENUE",
+    "zip": "10463",
+    "confidence": 0.8,
+    "match_type": "fallback",
+    "accuracy": "point"
+  }
+}

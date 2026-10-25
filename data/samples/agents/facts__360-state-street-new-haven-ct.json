@@ -1,0 +1,189 @@
+{
+  "address": "360 State Street, New Haven, CT",
+  "data": {
+    "address": "360 State Street, New Haven, CT",
+    "area": "New Haven, Connecticut",
+    "my_priorities": {
+      "longest_walk_to_grocery_minutes": 10,
+      "longest_walk_to_gym_minutes": 15,
+      "longest_walk_to_transit_minutes": 8,
+      "night_time_quiet_matters": "medium"
+    },
+    "search_windows": {
+      "places_and_noise_radius_m": 800,
+      "street_reports_radius_m": 200,
+      "street_reports_period": "last 12 months",
+      "street_reports_period_months": 12
+    },
+    "scores": {
+      "Groceries": 99.5,
+      "Gym": 83.3,
+      "Transit": 95.6,
+      "Quiet": 7.6,
+      "Overall": 71.5
+    },
+    "walking": [
+      {
+        "place_type": "Grocery",
+        "nearest": "Elm City Market",
+        "walk_minutes": 0.1,
+        "my_limit_minutes": 10,
+        "meets_limit": true
+      },
+      {
+        "place_type": "Gym",
+        "nearest": "The Lab",
+        "walk_minutes": 5.0,
+        "my_limit_minutes": 15,
+        "meets_limit": true
+      },
+      {
+        "place_type": "Park",
+        "nearest": "park",
+        "walk_minutes": 2.9,
+        "my_limit_minutes": null,
+        "meets_limit": null
+      },
+      {
+        "place_type": "Bus stop",
+        "nearest": "bus stop",
+        "walk_minutes": 0.7,
+        "my_limit_minutes": 8,
+        "meets_limit": true
+      },
+      {
+        "place_type": "Train / subway",
+        "nearest": "New Haven-State Street",
+        "walk_minutes": 2.3,
+        "my_limit_minutes": 8,
+        "meets_limit": true
+      }
+    ],
+    "noise_within_800m": [
+      {
+        "type": "Nightclubs",
+        "count": 3,
+        "nearest": "Joker's Wild Comedy Club",
+        "nearest_distance_m": 402
+      },
+      {
+        "type": "Bars",
+        "count": 12,
+        "nearest": "Equinox",
+        "nearest_distance_m": 184
+      },
+      {
+        "type": "Pubs",
+        "count": 7,
+        "nearest": "The Trinity",
+        "nearest_distance_m": 77
+      },
+      {
+        "type": "Fire stations",
+        "count": 1,
+        "nearest": "New Haven Fire Department Headquarters",
+        "nearest_distance_m": 335
+      },
+      {
+        "type": "Hospitals",
+        "count": 0,
+        "nearest": null,
+        "nearest_distance_m": null
+      },
+      {
+        "type": "Rail lines",
+        "count": 1,
+        "nearest": "New Haven Line",
+        "nearest_distance_m": 128
+      }
+    ],
+    "street_reports": {
+      "what_this_is": "street-level reports by residents about the public street, not housing complaints",
+      "radius_m": 200,
+      "since": "2025-10-21",
+      "total": 87,
+      "by_type": [
+        {
+          "type": "Public Space - Snow Related",
+          "reports": 10,
+          "still_open": 1
+        },
+        {
+          "type": "Traffic Signal / Pedestrian Signal",
+          "reports": 8,
+          "still_open": 2
+        },
+        {
+          "type": "PUBLIC SPACE ENFORCEMENT",
+          "reports": 7,
+          "still_open": 0
+        },
+        {
+          "type": "Illegal Dumping",
+          "reports": 5,
+          "still_open": 0
+        },
+        {
+          "type": "Parking Violation",
+          "reports": 5,
+          "still_open": 0
+        },
+        {
+          "type": "Environmental Health Concerns",
+          "reports": 4,
+          "still_open": 0
+        },
+        {
+          "type": "Private Property Issue",
+          "reports": 4,
+          "still_open": 0
+        },
+        {
+          "type": "Sidewalks and Curb damage",
+          "reports": 4,
+          "still_open": 4
+        }
+      ],
+      "recent_report_titles": [
+        "Long Term Infrastructure Project",
+        "Private Property Issue - Building & Zoning",
+        "Traffic Signal / Pedestrian Signal",
+        "PUBLIC SPACE ENFORCEMENT",
+        "Environmental Health Concerns"
+      ]
+    },
+    "landlord": {
+      "available": true,
+      "parcel_record": {
+        "owner": "ANSONIA STATE STREET LLC",
+        "co_owner": null,
+        "property": "360 STATE ST",
+        "property_use": "CONDO MAIN",
+        "year_built": null,
+        "tax_bill_mailing_address": "192 LEXINGTON AVE, 9TH FL, NEW YORK, NY, 10016"
+      },
+      "business_registry": {
+        "name": "Ansonia State Street LLC",
+        "entity_type": "LLC",
+        "status": "Active",
+        "formed_in": "DELAWARE",
+        "registered": "2022-08-30",
+        "business_address": "257 Park Avenue South, 13th Floor, New York, NY, 10010",
+        "registered_agents": [
+          "C T CORPORATION SYSTEM"
+        ],
+        "principals": [
+          "Ansonia Apartments, L.P."
+        ],
+        "matched_to_parcel_owner_by": "exact name",
+        "match_confidence": "high"
+      },
+      "other_parcels_linked_to_owner": {
+        "total": 0,
+        "count_by_match_type": {},
+        "different_owner_names_at_same_mailing_address": 1,
+        "examples": []
+      }
+    }
+  }
+}

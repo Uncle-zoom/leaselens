@@ -1,0 +1,47 @@
+{
+  "saved_at": "2026-10-21T02:22:30+00:00",
+  "source": "registry",
+  "key": "century-tower-associates-ny-llc",
+  "dataset": {
+    "name": "Active Corporations: Beginning 1800 (NY Department of State, data.ny.gov)",
+    "id": "n9v6-gdp6",
+    "url": "https://data.ny.gov/resource/n9v6-gdp6.json",
+    "terms": "https://data.ny.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "query": "CENTURY TOWER ASSOCIATES NY LLC",
+    "matched_how": "exact name",
+    "confidence": "high",
+    "entity": {
+      "dos_id": "3837402",
+      "current_entity_name": "CENTURY TOWER ASSOCIATES NY LLC",
+      "entity_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+      "jurisdiction": "New York",
+      "initial_dos_filing_date": "2009-07-24T00:00:00.000",
+      "county": "New York",
+      "dos_process_name": "C/O THE OLNICK ORGANIZATION, INC.",
+      "dos_process_address_1": "EXECUTIVE OFFICE",
+      "dos_process_address_2": "950 THIRD AVENUE",
+      "dos_process_city": "NEW YORK",
+      "dos_process_state": "NY",
+      "dos_process_zip": "10022"
+    },
+    "other_records_with_same_name": 0,
+    "results": [
+      {
+        "dos_id": "3837402",
+        "current_entity_name": "CENTURY TOWER ASSOCIATES NY LLC",
+        "entity_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+        "jurisdiction": "New York",
+        "initial_dos_filing_date": "2009-07-24T00:00:00.000",
+        "county": "New York",
+        "dos_process_name": "C/O THE OLNICK ORGANIZATION, INC.",
+        "dos_process_address_1": "EXECUTIVE OFFICE",
+        "dos_process_address_2": "950 THIRD AVENUE",
+        "dos_process_city": "NEW YORK",
+        "dos_process_state": "NY",
+        "dos_process_zip": "10022"
+      }
+    ]
+  }
+}

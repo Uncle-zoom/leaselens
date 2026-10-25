@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:18:15+00:00",
+  "source": "geocode",
+  "key": "400-east-35th-street-new-york-ny",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "400 East 35th Street, New York, NY",
+    "lat": 40.6452397,
+    "lon": -73.9443693,
+    "display_name": "400, East 35th Street, Brooklyn Community District 17, Brooklyn, Kings County, New York, 11203, United States",
+    "house_number": "400",
+    "road": "East 35th Street",
+    "city": "New York",
+    "county": null,
+    "state": "New York",
+    "state_code": "NY",
+    "postcode": "11203",
+    "osm_type": "way",
+    "osm_id": 250139828,
+    "place_class": "building",
+    "place_type": "yes",
+    "importance": 9.175936522464359e-05,
+    "address": {
+      "house_number": "400",
+      "road": "East 35th Street",
+      "neighbourhood": "Brooklyn Community District 17",
+      "suburb": "Brooklyn",
+      "city_district": "Kings County",
+      "city": "New York",
+      "state": "New York",
+      "ISO3166-2-lvl4": "US-NY",
+      "postcode": "11203",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:45:55+00:00",
+  "source": "geocode",
+  "key": "1385-chapel-st-new-haven-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "1385 CHAPEL ST, New Haven, CT",
+    "lat": 41.3108035,
+    "lon": -72.9412485,
+    "display_name": "1385, Chapel Street, Dwight Street Historic District, Dixwell, New Haven, Connecticut, 06511, United States",
+    "house_number": "1385",
+    "road": "Chapel Street",
+    "city": "New Haven",
+    "county": "New Haven",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06511",
+    "osm_type": "node",
+    "osm_id": 9021777796,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 6.999847409776482e-05,
+    "address": {
+      "house_number": "1385",
+      "road": "Chapel Street",
+      "neighbourhood": "Dwight Street Historic District",
+      "suburb": "Dixwell",
+      "city": "New Haven",
+      "county": "New Haven",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06511",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

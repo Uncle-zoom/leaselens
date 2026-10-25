@@ -1,0 +1,107 @@
+{
+  "saved_at": "2026-10-21T02:19:29+00:00",
+  "source": "walking",
+  "key": "40.6452_-73.9444",
+  "dataset": {
+    "name": "OSRM foot routing (public servers), else straight-line estimate",
+    "id": "osrm/table/foot",
+    "url": "https://router.project-osrm.org/table/v1/foot/",
+    "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+  },
+  "data": {
+    "method": "osrm_fossgis_foot",
+    "attempts": [
+      {
+        "method": "osrm_demo_foot",
+        "accepted": false,
+        "reason": "ValueError: not a walking profile (average 6.1 m/s)"
+      }
+    ],
+    "origin": [
+      40.6452397,
+      -73.9443693
+    ],
+    "results": [
+      {
+        "name": "New York Avenue & Beverly Road",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 40.645612,
+        "lon": -73.94602,
+        "straight_m": 145,
+        "walk_m": 197,
+        "walk_min": 2.6
+      },
+      {
+        "name": "New York Avenue & Clarendon Road",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 40.643756,
+        "lon": -73.945826,
+        "straight_m": 206,
+        "walk_m": 305,
+        "walk_min": 4.1
+      },
+      {
+        "name": "Ideal Food Basket",
+        "category": "grocery",
+        "kind": "supermarket",
+        "lat": 40.647382,
+        "lon": -73.943728,
+        "straight_m": 244,
+        "walk_m": 313,
+        "walk_min": 4.2
+      },
+      {
+        "name": null,
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "lat": 40.645061,
+        "lon": -73.948644,
+        "straight_m": 361,
+        "walk_m": 386,
+        "walk_min": 5.2
+      },
+      {
+        "name": "Beverly Road",
+        "category": "train_station",
+        "kind": "subway_station",
+        "lat": 40.645127,
+        "lon": -73.948932,
+        "straight_m": 385,
+        "walk_m": 418,
+        "walk_min": 5.6
+      },
+      {
+        "name": "Established Drugs",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 40.643404,
+        "lon": -73.948598,
+        "straight_m": 411,
+        "walk_m": 567,
+        "walk_min": 7.6
+      },
+      {
+        "name": "Paris Deli & Grocery",
+        "category": "grocery",
+        "kind": "convenience",
+        "lat": 40.643099,
+        "lon": -73.948577,
+        "straight_m": 427,
+        "walk_m": 600,
+        "walk_min": 8.0
+      },
+      {
+        "name": "Walgreens",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 40.650572,
+        "lon": -73.949295,
+        "straight_m": 724,
+        "walk_m": 1005,
+        "walk_min": 13.4
+      }
+    ]
+  }
+}

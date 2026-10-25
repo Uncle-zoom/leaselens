@@ -1,0 +1,226 @@
+{
+  "saved_at": "2026-10-21T02:16:00+00:00",
+  "source": "complaints",
+  "key": "41.3054_-72.9232",
+  "dataset": {
+    "name": "SeeClickFix public API v2 - issues (New Haven, CT and other participating places)",
+    "id": "seeclickfix/api/v2/issues",
+    "url": "https://seeclickfix.com/api/v2/issues",
+    "terms": "https://dev.seeclickfix.com/ (public read API, no key)"
+  },
+  "data": {
+    "center": {
+      "lat": 41.3054423,
+      "lon": -72.9232144
+    },
+    "radius_m": 200,
+    "months": 12,
+    "since": "2025-10-21",
+    "total_issues": 87,
+    "pages_fetched": 2,
+    "results": [
+      {
+        "request_type": "Public Space - Snow Related",
+        "count": 10,
+        "open": 1
+      },
+      {
+        "request_type": "Traffic Signal / Pedestrian Signal",
+        "count": 8,
+        "open": 2
+      },
+      {
+        "request_type": "PUBLIC SPACE ENFORCEMENT",
+        "count": 7,
+        "open": 0
+      },
+      {
+        "request_type": "Illegal Dumping",
+        "count": 5,
+        "open": 0
+      },
+      {
+        "request_type": "Parking Violation",
+        "count": 5,
+        "open": 0
+      },
+      {
+        "request_type": "Environmental Health Concerns",
+        "count": 4,
+        "open": 0
+      },
+      {
+        "request_type": "Private Property Issue",
+        "count": 4,
+        "open": 0
+      },
+      {
+        "request_type": "Sidewalks and Curb damage",
+        "count": 4,
+        "open": 4
+      },
+      {
+        "request_type": "Accessibility for Persons with Disabilities",
+        "count": 4,
+        "open": 3
+      },
+      {
+        "request_type": "Long Term Infrastructure Project",
+        "count": 3,
+        "open": 3
+      },
+      {
+        "request_type": "Deceased Animals",
+        "count": 3,
+        "open": 0
+      },
+      {
+        "request_type": "Potholes",
+        "count": 3,
+        "open": 0
+      },
+      {
+        "request_type": "Graffiti - TT&P",
+        "count": 3,
+        "open": 3
+      },
+      {
+        "request_type": "Unspecified",
+        "count": 3,
+        "open": 2
+      },
+      {
+        "request_type": "Parks Request",
+        "count": 2,
+        "open": 2
+      },
+      {
+        "request_type": "Street Lamp",
+        "count": 2,
+        "open": 2
+      },
+      {
+        "request_type": "Graffiti",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "SNOW RELATED",
+        "count": 2,
+        "open": 0
+      },
+      {
+        "request_type": "Private Property Issue - Building & Zoning",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Health Dept.",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Homeless Service including Encampments.",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Street Sweeping",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Scooters",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "NHFD - Fire Hazard",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "NHFD - Wires",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Missed Trash/Recycling",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Parking Meter",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Complete Streets Request",
+        "count": 1,
+        "open": 1
+      },
+      {
+        "request_type": "Streets Division",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Private Trash Haulers",
+        "count": 1,
+        "open": 0
+      },
+      {
+        "request_type": "Neighborhood News",
+        "count": 1,
+        "open": 1
+      }
+    ],
+    "recent": [
+      {
+        "request_type": "Long Term Infrastructure Project",
+        "status": "Open",
+        "created_at": "2026-10-17T23:17:54-04:00",
+        "distance_m": 93,
+        "address": "Chapel St & State St New Haven, CT, 06510, USA",
+        "summary": "Long Term Infrastructure Project",
+        "url": "https://seeclickfix.com/issues/23043551"
+      },
+      {
+        "request_type": "Private Property Issue - Building & Zoning",
+        "status": "Closed",
+        "created_at": "2026-10-10T15:32:25-04:00",
+        "distance_m": 148,
+        "address": "841 Chapel St New Haven, CT, 06510, USA",
+        "summary": "Private Property Issue - Building & Zoning",
+        "url": "https://seeclickfix.com/issues/22989093"
+      },
+      {
+        "request_type": "Traffic Signal / Pedestrian Signal",
+        "status": "Acknowledged",
+        "created_at": "2026-10-10T11:02:30-04:00",
+        "distance_m": 87,
+        "address": "State St & Chapel St New Haven, CT, 06510, USA",
+        "summary": "Traffic Signal / Pedestrian Signal",
+        "url": "https://seeclickfix.com/issues/22987698"
+      },
+      {
+        "request_type": "PUBLIC SPACE ENFORCEMENT",
+        "status": "Closed",
+        "created_at": "2026-10-09T07:33:09-04:00",
+        "distance_m": 154,
+        "address": "Center St & Orange St New Haven, CT, 06510, USA",
+        "summary": "PUBLIC SPACE ENFORCEMENT",
+        "url": "https://seeclickfix.com/issues/22979056"
+      },
+      {
+        "request_type": "Environmental Health Concerns",
+        "status": "Closed",
+        "created_at": "2026-10-08T23:44:04-04:00",
+        "distance_m": 94,
+        "address": "175 Orange St New Haven, CT, 06510, USA",
+        "summary": "Environmental Health Concerns",
+        "url": "https://seeclickfix.com/issues/22978567"
+      }
+    ]
+  }
+}

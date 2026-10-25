@@ -1,0 +1,65 @@
+{
+  "addresses": [
+    "360 State Street, New Haven, CT",
+    "100 York Street, New Haven, CT",
+    "365 Orchard Street, New Haven, CT"
+  ],
+  "priorities": {
+    "max_grocery": 10,
+    "max_gym": 15,
+    "max_transit": 8,
+    "quiet": "medium"
+  },
+  "output": {
+    "ranking": [
+      {
+        "address": "360 State Street, New Haven, CT",
+        "rank": 1,
+        "headline": "Best overall fit for your walking priorities, but nearby noise is a significant trade-off given your medium priority for night-time quiet.",
+        "strengths": [
+          "Its Overall score is 71.5, with Groceries at 99.5 and Transit at 95.6.",
+          "Elm City Market is a 0.1-minute walk and The Lab is a 5.0-minute walk, within your 10-minute grocery and 15-minute gym limits.",
+          "The parcel record lists ANSONIA STATE STREET LLC as owner, and the registry match is exact name with high confidence."
+        ],
+        "trade_offs": [
+          "The Quiet score is 7.6; The Trinity is 77 metres away and there are 7 pubs within 800 metres.",
+          "Records show 87 street-level reports within 200 metres in the last 12 months, including 4 sidewalk and curb damage reports still open; these concern the public street, not housing."
+        ]
+      },
+      {
+        "address": "100 York Street, New Haven, CT",
+        "rank": 2,
+        "headline": "Convenient walks and a solid overall score, but the lowest Quiet score makes night-time noise a concern for your stated priorities.",
+        "strengths": [
+          "Its Overall score is 65.1, and Sam's Food, Joyride Cycling Studio and 129 York are within your grocery, gym and transit walking limits.",
+          "The parcel record lists UNIVERSITY TOWERS OWNERS CORP as owner, and the registry match is by normalized name with medium confidence.",
+          "The other-parcels search found 379 GEORGE ST and 390 GEORGE ST under the exact owner name, with high-confidence matches."
+        ],
+        "trade_offs": [
+          "The Quiet score is 4.6; Partners is 133 metres away, and there are 4 nightclubs within 800 metres.",
+          "Records show 100 street-level reports within 200 metres in the last 12 months, including 8 Traffic Signal / Pedestrian Signal reports with 3 still open; these concern public streets, not housing."
+        ]
+      },
+      {
+        "address": "365 Orchard Street, New Haven, CT",
+        "rank": 3,
+        "headline": "The strongest Quiet score of the three, but the gym score and overall score are substantially lower than at the other addresses.",
+        "strengths": [
+          "Its Quiet score is 58.0, higher than the Quiet scores for 360 State Street, New Haven, CT and 100 York Street, New Haven, CT.",
+          "J & J is a 2.2-minute walk and the bus stop is a 7.1-minute walk, within your grocery and transit limits.",
+          "The parcel record lists ADAR INVESTMENTS LLC as owner, and the registry match is by normalized name with medium confidence."
+        ],
+        "trade_offs": [
+          "No gym was found within 800 m, and the Gym score is 0.0.",
+          "Its Transit score is 55.6 and Overall score is 50.6, the lowest of the three addresses.",
+          "The other-parcels search found 88 linked parcels, including 78 matched by the same mailing address; that match does not establish common ownership."
+        ]
+      }
+    ],
+    "overall": "I would pick 360 State Street, New Haven, CT for your stated priorities: it has the highest Overall score at 71.5, and its grocery, gym and transit walks meet your limits. Its Quiet score of 7.6 is a clear drawback; I would change my pick toward 365 Orchard Street, New Haven, CT if night-time quiet mattered more to you and its lack of a gym within 800 m worked for you.",
+    "key_tradeoffs": "360 State Street, New Haven, CT has stronger Overall, grocery, gym and transit scores than the other addresses, but its Quiet score is 7.6 and The Trinity is 77 metres away. 100 York Street, New Haven, CT also has convenient grocery, gym and bus walks, but its Quiet score is 4.6 and Partners is 133 metres away. 365 Orchard Street, New Haven, CT has the strongest Quiet score at 58.0, but no gym was found within 800 m and its Overall score is 50.6."
+  },
+  "removed": [],
+  "tokens": 9023,
+  "usd": 0.001593
+}

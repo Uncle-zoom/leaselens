@@ -1,0 +1,119 @@
+{
+  "saved_at": "2026-10-21T02:22:37+00:00",
+  "source": "portfolio",
+  "key": "2057220475",
+  "dataset": {
+    "name": "HPD Registration Contacts (feu5-w2e2) + Multiple Dwelling Registrations (tesw-yqqr), NYC Open Data",
+    "id": "feu5-w2e2 / tesw-yqqr",
+    "url": "https://data.cityofnewyork.us/resource/feu5-w2e2.json",
+    "terms": "https://www.nyc.gov/html/data/terms.html (open data, no key)"
+  },
+  "data": {
+    "bbl": "2057220475",
+    "owner_names": [
+      "CENTURY TOWER ASSOCIATES NY LLC"
+    ],
+    "managing_agents": [
+      "HAMPTON MANAGEMENT CO"
+    ],
+    "head_officers": [
+      "SETH SCHOCHET"
+    ],
+    "total_matches": 9,
+    "counts_by_match_type": {
+      "same registration contact": 9
+    },
+    "results": [
+      {
+        "bbl": "1017300045",
+        "address": "10 WEST 135 STREET",
+        "zip": "10037",
+        "match_type": "same registration contact",
+        "confidence": "medium",
+        "reason": "same managing-agent company on the HPD registration",
+        "matched_contact": "HAMPTON MANAGEMENT CO",
+        "contact_type": "Agent"
+      },
+      {
+        "bbl": "1017300036",
+        "address": "2186 5 AVENUE",
+        "zip": "10037",
+        "match_type": "same registration contact",
+        "confidence": "medium",
+        "reason": "same managing-agent company on the HPD registration",
+        "matched_contact": "HAMPTON MANAGEMENT CO",
+        "contact_type": "Agent"
+      },
+      {
+        "bbl": "1013320029",
+        "address": "240 EAST 59 STREET",
+        "zip": "10022",
+        "match_type": "same registration contact",
+        "confidence": "medium",
+        "reason": "same managing-agent company on the HPD registration",
+        "matched_contact": "HAMPTON MANAGEMENT CO",
+        "contact_type": "Agent"
+      },
+      {
+        "bbl": "1017300025",
+        "address": "25 WEST 132 STREET",
+        "zip": "10037",
+        "match_type": "same registration contact",
+        "confidence": "medium",
+        "reason": "same managing-agent company on the HPD registration",
+        "matched_contact": "HAMPTON MANAGEMENT CO",
+        "contact_type": "Agent"
+      },
+      {
+        "bbl": "1011690029",
+        "address": "360 AMSTERDAM AVENUE",
+        "zip": "10024",
+        "match_type": "same registration contact",
+        "confidence": "medium",
+        "reason": "same person and business address listed as agent or officer on both HPD registrations",
+        "matched_contact": "SETH SCHOCHET",
+        "contact_type": "HeadOfficer"
+      },
+      {
+        "bbl": "1017300064",
+        "address": "40 WEST 135 STREET",
+        "zip": "10037",
+        "match_type": "same registration contact",
+        "confidence": "medium",
+        "reason": "same managing-agent company on the HPD registration",
+        "matched_contact": "HAMPTON MANAGEMENT CO",
+        "contact_type": "Agent"
+      },
+      {
+        "bbl": "1017300009",
+        "address": "45 WEST 132 STREET",
+        "zip": "10037",
+        "match_type": "same registration contact",
+        "confidence": "medium",
+        "reason": "same managing-agent company on the HPD registration",
+        "matched_contact": "HAMPTON MANAGEMENT CO",
+        "contact_type": "Agent"
+      },
+      {
+        "bbl": "1017300075",
+        "address": "470 LENOX AVENUE",
+        "zip": "10037",
+        "match_type": "same registration contact",
+        "confidence": "medium",
+        "reason": "same managing-agent company on the HPD registration",
+        "matched_contact": "HAMPTON MANAGEMENT CO",
+        "contact_type": "Agent"
+      },
+      {
+        "bbl": "1020840056",
+        "address": "542 WEST 153 STREET",
+        "zip": "10031",
+        "match_type": "same registration contact",
+        "confidence": "medium",
+        "reason": "same person and business address listed as agent or officer on both HPD registrations",
+        "matched_contact": "SETH SCHOCHET",
+        "contact_type": "HeadOfficer"
+      }
+    ]
+  }
+}

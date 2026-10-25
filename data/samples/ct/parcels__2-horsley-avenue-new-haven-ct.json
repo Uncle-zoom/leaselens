@@ -1,0 +1,59 @@
+{
+  "saved_at": "2026-10-24T19:08:02+00:00",
+  "source": "parcels",
+  "key": "2-horsley-avenue-new-haven-ct",
+  "dataset": {
+    "name": "2026 Connecticut Parcel and CAMA Data (Office of Policy and Management)",
+    "id": "ibe8-9i3q",
+    "url": "https://data.ct.gov/resource/ibe8-9i3q.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "query": "2 Horsley Avenue, New Haven, CT",
+    "number": "2",
+    "street": "HORSLEY",
+    "city": "New Haven",
+    "primary": {
+      "pid": "354",
+      "location": "2 HORSLEY AV",
+      "address_number": "2",
+      "street_name": "HORSLEY",
+      "property_city": "New Haven",
+      "state_use_description": "Single Family",
+      "assessed_total": "144550.0",
+      "appraised_total": "206500.0",
+      "ayb": "1955.0",
+      "valuation_year": "2021",
+      "sale_date": "9/2/2025 0:00",
+      "sale_price": "302000.0",
+      "link": "52070-354",
+      "cama_site_link": "https://gis.vgsi.com/new havenct/Parcel.aspx?Pid=354",
+      "owner": "a private owner"
+    },
+    "results": [
+      {
+        "pid": "354",
+        "location": "2 HORSLEY AV",
+        "address_number": "2",
+        "street_name": "HORSLEY",
+        "property_city": "New Haven",
+        "state_use_description": "Single Family",
+        "assessed_total": "144550.0",
+        "appraised_total": "206500.0",
+        "ayb": "1955.0",
+        "valuation_year": "2021",
+        "sale_date": "9/2/2025 0:00",
+        "sale_price": "302000.0",
+        "link": "52070-354",
+        "cama_site_link": "https://gis.vgsi.com/new havenct/Parcel.aspx?Pid=354",
+        "owner": "a private owner"
+      }
+    ],
+    "property": {
+      "kind": "private_home",
+      "use": "single family",
+      "message": "Looks like a privately owned home where the owner lives. It may not be a rental.",
+      "unit_records": 0
+    }
+  }
+}

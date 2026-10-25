@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:45:35+00:00",
+  "source": "geocode",
+  "key": "103-ramsdell-st-new-haven-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "103 RAMSDELL ST, New Haven, CT",
+    "lat": 41.3309699,
+    "lon": -72.9768493,
+    "display_name": "103, Ramsdell Street, Amity, West Hills, New Haven, South Central Connecticut Planning Region, Connecticut, 06515, United States",
+    "house_number": "103",
+    "road": "Ramsdell Street",
+    "city": "New Haven",
+    "county": "South Central Connecticut Planning Region",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06515",
+    "osm_type": "way",
+    "osm_id": 17208504,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 9.99999999995449e-06,
+    "address": {
+      "house_number": "103",
+      "road": "Ramsdell Street",
+      "neighbourhood": "Amity",
+      "hamlet": "West Hills",
+      "city": "New Haven",
+      "county": "South Central Connecticut Planning Region",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06515",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "saved_at": "2026-10-21T02:18:10+00:00",
+  "source": "places",
+  "key": "41.3114_-72.9410",
+  "dataset": {
+    "name": "OpenStreetMap via Overpass API (interpreter)",
+    "id": "overpass/interpreter",
+    "url": "https://overpass-api.de/api/interpreter",
+    "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+  },
+  "data": {
+    "center": {
+      "lat": 41.3113591,
+      "lon": -72.9409808
+    },
+    "radius_m": 800,
+    "counts": {
+      "grocery": 18,
+      "gym": 0,
+      "park": 9,
+      "bus_stop": 5,
+      "train_station": 0,
+      "pharmacy": 2,
+      "bar": 2,
+      "pub": 4,
+      "nightclub": 1,
+      "fire_station": 2,
+      "hospital": 3,
+      "rail_line": 0
+    },
+    "results": [
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "J & J",
+        "lat": 41.310709,
+        "lon": -72.941094,
+        "distance_m": 73,
+        "osm": "node/3537205987"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Shop Smart",
+        "lat": 41.312209,
+        "lon": -72.9406,
+        "distance_m": 100,
+        "osm": "node/2983939121"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Dux Market",
+        "lat": 41.310528,
+        "lon": -72.94037,
+        "distance_m": 106,
+        "osm": "node/3537207651"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Kensington Street Playground",
+        "lat": 41.311067,
+        "lon": -72.939614,
+        "distance_m": 119,
+        "osm": "way/43437578"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Walgreens",
+        "lat": 41.311048,
+        "lon": -72.942412,
+        "distance_m": 124,
+        "osm": "node/3537203544"
+      },
+      {
+        "group": "noise",
+        "category": "hospital",
+        "kind": "hospital",
+        "name": "Grimes Center",
+        "lat": 41.309716,
+        "lon": -72.940392,
+        "distance_m": 189,
+        "osm": "way/442001685"
+      },
+      {
+        "group": "noise",
+        "category": "hospital",
+        "kind": "hospital",
+        "name": "Yale New Haven Hospital Saint Raphael Campus",
+        "lat": 41.310151,
+        "lon": -72.942939,
+        "distance_m": 212,
+        "osm": "way/442001687"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Chapel-Day Sitting Plaza",
+        "lat": 41.310354,
+        "lon": -72.938723,
+        "distance_m": 219,
+        "osm": "way/43437572"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Green Corner Market",
+        "lat": 41.313229,
+        "lon": -72.943127,
+        "distance_m": 275,
+        "osm": "node/6597694689"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Garden Street Park`",
+        "lat": 41.312464,
+        "lon": -72.938038,
+        "distance_m": 275,
+        "osm": "way/1057711086"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Day Grocery & Deli",
+        "lat": 41.308851,
+        "lon": -72.939638,
+        "distance_m": 301,
+        "osm": "node/7169618452"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.313723,
+        "lon": -72.938542,
+        "distance_m": 333,
+        "osm": "node/7773708034"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Orchard-Gilbert Neighborhood Park",
+        "lat": 41.307872,
+        "lon": -72.942132,
+        "distance_m": 399,
+        "osm": "way/469294219"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "The Cannon",
+        "lat": 41.30935,
+        "lon": -72.936903,
+        "distance_m": 407,
+        "osm": "node/9975547368"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Stop & Shop",
+        "lat": 41.314264,
+        "lon": -72.9379,
+        "distance_m": 413,
+        "osm": "way/141129254"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Rainbow Park",
+        "lat": 41.310853,
+        "lon": -72.935483,
+        "distance_m": 463,
+        "osm": "way/469292713"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Monitor Square",
+        "lat": 41.311604,
+        "lon": -72.946561,
+        "distance_m": 467,
+        "osm": "way/43437582"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Stop & Shop",
+        "lat": 41.315054,
+        "lon": -72.938249,
+        "distance_m": 470,
+        "osm": "node/7196268692"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Chapel Street Pharmacy",
+        "lat": 41.309511,
+        "lon": -72.935588,
+        "distance_m": 495,
+        "osm": "node/7123374378"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "One Way Corner Mini Market",
+        "lat": 41.307409,
+        "lon": -72.944441,
+        "distance_m": 526,
+        "osm": "node/3537191165"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Rudy's",
+        "lat": 41.309416,
+        "lon": -72.935188,
+        "distance_m": 530,
+        "osm": "node/2191965659"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Howe Minimarket",
+        "lat": 41.310898,
+        "lon": -72.934568,
+        "distance_m": 538,
+        "osm": "node/2719887858"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Mobil Mart",
+        "lat": 41.31614,
+        "lon": -72.942189,
+        "distance_m": 541,
+        "osm": "node/9592261289"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Deli & Grocery",
+        "lat": 41.315525,
+        "lon": -72.937621,
+        "distance_m": 542,
+        "osm": "node/5889481814"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.311101,
+        "lon": -72.934101,
+        "distance_m": 575,
+        "osm": "node/7773708032"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Best Snack Shop",
+        "lat": 41.316489,
+        "lon": -72.943302,
+        "distance_m": 602,
+        "osm": "node/9021774712"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Minore's Market",
+        "lat": 41.316301,
+        "lon": -72.94399,
+        "distance_m": 604,
+        "osm": "way/336080458"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "H&S Food Mart",
+        "lat": 41.316611,
+        "lon": -72.943068,
+        "distance_m": 609,
+        "osm": "node/5892101300"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.315853,
+        "lon": -72.945346,
+        "distance_m": 619,
+        "osm": "node/7773708033"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Sam's Food Store",
+        "lat": 41.316955,
+        "lon": -72.941901,
+        "distance_m": 627,
+        "osm": "node/5892101296"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.314394,
+        "lon": -72.94732,
+        "distance_m": 628,
+        "osm": "node/7773701730"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Three Sheets",
+        "lat": 41.311732,
+        "lon": -72.933376,
+        "distance_m": 637,
+        "osm": "node/470623968"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Chapel Minimarket",
+        "lat": 41.308846,
+        "lon": -72.93387,
+        "distance_m": 656,
+        "osm": "node/2759675049"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Viva Zapata",
+        "lat": 41.308194,
+        "lon": -72.933917,
+        "distance_m": 687,
+        "osm": "node/2759675043"
+      },
+      {
+        "group": "noise",
+        "category": "nightclub",
+        "kind": "nightclub",
+        "name": "Partners",
+        "lat": 41.307965,
+        "lon": -72.934065,
+        "distance_m": 690,
+        "osm": "node/2759675066"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "To Go",
+        "lat": 41.313331,
+        "lon": -72.933143,
+        "distance_m": 690,
+        "osm": "way/239706994"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 41.30969,
+        "lon": -72.932552,
+        "distance_m": 728,
+        "osm": "way/215319838"
+      },
+      {
+        "group": "noise",
+        "category": "fire_station",
+        "kind": "fire_station",
+        "name": "New Haven Fire Department Engine 6",
+        "lat": 41.315715,
+        "lon": -72.934361,
+        "distance_m": 735,
+        "osm": "node/367137977"
+      },
+      {
+        "group": "noise",
+        "category": "fire_station",
+        "kind": "fire_station",
+        "name": "Goffe Street Fire House | Dixwell Fire Station",
+        "lat": 41.315714,
+        "lon": -72.934343,
+        "distance_m": 736,
+        "osm": "way/298357401"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "L&A Mini Mart",
+        "lat": 41.3176,
+        "lon": -72.944267,
+        "distance_m": 746,
+        "osm": "node/5893811229"
+      },
+      {
+        "group": "noise",
+        "category": "hospital",
+        "kind": "hospital",
+        "name": "Connecticut Mental Health Center",
+        "lat": 41.305385,
+        "lon": -72.936792,
+        "distance_m": 751,
+        "osm": "way/442001684"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Upper Court",
+        "lat": 41.310025,
+        "lon": -72.932144,
+        "distance_m": 753,
+        "osm": "way/215319839"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Old Heidelberg",
+        "lat": 41.308801,
+        "lon": -72.9326,
+        "distance_m": 756,
+        "osm": "node/8929479029"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Eddie's Market",
+        "lat": 41.304444,
+        "lon": -72.94066,
+        "distance_m": 769,
+        "osm": "node/3537180193"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 41.310721,
+        "lon": -72.931684,
+        "distance_m": 780,
+        "osm": "way/215319835"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "The Gryphon",
+        "lat": 41.309308,
+        "lon": -72.931996,
+        "distance_m": 784,
+        "osm": "node/3557577359"
+      }
+    ],
+    "server": "https://overpass.openstreetmap.fr/api/interpreter"
+  }
+}

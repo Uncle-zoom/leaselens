@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:45:43+00:00",
+  "source": "geocode",
+  "key": "574-george-st-new-haven-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "574 GEORGE ST, New Haven, CT",
+    "lat": 41.3088153,
+    "lon": -72.9410315,
+    "display_name": "574, George Street, Dwight Street Historic District, Dixwell, New Haven, South Central Connecticut Planning Region, Connecticut, 06511, United States",
+    "house_number": "574",
+    "road": "George Street",
+    "city": "New Haven",
+    "county": "South Central Connecticut Planning Region",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06511",
+    "osm_type": "way",
+    "osm_id": 39366553,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 9.99999999995449e-06,
+    "address": {
+      "house_number": "574",
+      "road": "George Street",
+      "neighbourhood": "Dwight Street Historic District",
+      "suburb": "Dixwell",
+      "city": "New Haven",
+      "county": "South Central Connecticut Planning Region",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06511",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

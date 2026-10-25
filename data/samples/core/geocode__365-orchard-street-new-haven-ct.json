@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:17:23+00:00",
+  "source": "geocode",
+  "key": "365-orchard-street-new-haven-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "365 Orchard Street, New Haven, CT",
+    "lat": 41.3113591,
+    "lon": -72.9409808,
+    "display_name": "365, Orchard Street, Dwight Street Historic District, Dixwell, New Haven, Connecticut, 06511, United States",
+    "house_number": "365",
+    "road": "Orchard Street",
+    "city": "New Haven",
+    "county": "New Haven",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06511",
+    "osm_type": "node",
+    "osm_id": 9021776841,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 6.999847409776482e-05,
+    "address": {
+      "house_number": "365",
+      "road": "Orchard Street",
+      "neighbourhood": "Dwight Street Historic District",
+      "suburb": "Dixwell",
+      "city": "New Haven",
+      "county": "New Haven",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06511",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

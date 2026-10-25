@@ -1,0 +1,41 @@
+{
+  "saved_at": "2026-10-21T02:45:48+00:00",
+  "source": "geocode",
+  "key": "1085-ridge-rd-hamden-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "1085 RIDGE RD, Hamden, CT",
+    "lat": 41.3642696,
+    "lon": -72.8990351,
+    "display_name": "1085, Ridge Road, Whitneyville, Hamden, South Central Connecticut Planning Region, Connecticut, 06517, United States",
+    "house_number": "1085",
+    "road": "Ridge Road",
+    "city": "Hamden",
+    "county": "South Central Connecticut Planning Region",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06517",
+    "osm_type": "node",
+    "osm_id": 8685105211,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 6.999847409776482e-05,
+    "address": {
+      "house_number": "1085",
+      "road": "Ridge Road",
+      "village": "Whitneyville",
+      "town": "Hamden",
+      "county": "South Central Connecticut Planning Region",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06517",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

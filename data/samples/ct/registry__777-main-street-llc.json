@@ -1,0 +1,73 @@
+{
+  "saved_at": "2026-10-24T19:09:39+00:00",
+  "source": "registry",
+  "key": "777-main-street-llc",
+  "dataset": {
+    "name": "Connecticut Business Registry - Business Master (+ Principals ka36-64k6, Agents qh2m-n44y)",
+    "id": "n7gp-d28j / ka36-64k6 / qh2m-n44y",
+    "url": "https://data.ct.gov/resource/n7gp-d28j.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "query": "777 MAIN STREET LLC",
+    "matched_how": "exact name",
+    "confidence": "high",
+    "business": {
+      "id": "001t000000WnhqVAAR",
+      "name": "777 MAIN STREET LLC",
+      "business_type": "LLC",
+      "status": "Active",
+      "accountnumber": "1082383",
+      "date_registration": "2012-09-06T00:00:00.000",
+      "citizenship": "Domestic",
+      "formation_place": "CT",
+      "billingstreet": "21 BRIDGE SQUARE SUITE 360",
+      "billingcity": "WESTPORT",
+      "billingstate": "CT",
+      "billingpostalcode": "06880",
+      "mailing_address": "21 BRIDGE SQUARE SUITE 360 , ,WESTPORT ,CT ,United States ,06880",
+      "naics_code": "Other Activities Related to Real Estate (531390)",
+      "annual_report_due_date": "2027-03-31T00:00:00.000"
+    },
+    "other_records_with_same_name": 0,
+    "registered_agents": [
+      {
+        "name__c": "CORPORATION SERVICE COMPANY",
+        "type": "Business",
+        "business_street_address_1": "Goodwin Square 225 Asylum Street",
+        "business_street_address_2": "20th Floor",
+        "business_city": "Hartford",
+        "business_state": "CT",
+        "business_zip_code": "06103"
+      }
+    ],
+    "principals": [
+      {
+        "name__c": "777 MAIN STREET LLC",
+        "business_street_address_1": "21 BRIDGE SQUARE SUITE 360",
+        "business_city": "WESTPORT",
+        "business_state": "CT",
+        "business_zip_code": "06880"
+      }
+    ],
+    "results": [
+      {
+        "id": "001t000000WnhqVAAR",
+        "name": "777 MAIN STREET LLC",
+        "business_type": "LLC",
+        "status": "Active",
+        "accountnumber": "1082383",
+        "date_registration": "2012-09-06T00:00:00.000",
+        "citizenship": "Domestic",
+        "formation_place": "CT",
+        "billingstreet": "21 BRIDGE SQUARE SUITE 360",
+        "billingcity": "WESTPORT",
+        "billingstate": "CT",
+        "billingpostalcode": "06880",
+        "mailing_address": "21 BRIDGE SQUARE SUITE 360 , ,WESTPORT ,CT ,United States ,06880",
+        "naics_code": "Other Activities Related to Real Estate (531390)",
+        "annual_report_due_date": "2027-03-31T00:00:00.000"
+      }
+    ]
+  }
+}

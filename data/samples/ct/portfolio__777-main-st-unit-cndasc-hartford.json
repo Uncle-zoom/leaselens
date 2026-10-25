@@ -1,0 +1,23 @@
+{
+  "saved_at": "2026-10-24T19:09:40+00:00",
+  "source": "portfolio",
+  "key": "777-main-st-unit-cndasc-hartford",
+  "dataset": {
+    "name": "2026 Connecticut Parcel and CAMA Data (Office of Policy and Management)",
+    "id": "ibe8-9i3q",
+    "url": "https://data.ct.gov/resource/ibe8-9i3q.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "owner": "777 MAIN STREET LLC",
+    "mailing": {
+      "address": "777 MAIN ST",
+      "city": "HARTFORD",
+      "state": "CT"
+    },
+    "distinct_owner_names_at_mailing_address": 1,
+    "total_matches": 0,
+    "counts_by_match_type": {},
+    "results": []
+  }
+}

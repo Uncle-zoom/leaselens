@@ -1,0 +1,147 @@
+{
+  "saved_at": "2026-10-21T02:20:47+00:00",
+  "source": "walking",
+  "key": "40.6940_-73.9828",
+  "dataset": {
+    "name": "OSRM foot routing (public servers), else straight-line estimate",
+    "id": "osrm/table/foot",
+    "url": "https://router.project-osrm.org/table/v1/foot/",
+    "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+  },
+  "data": {
+    "method": "osrm_fossgis_foot",
+    "attempts": [
+      {
+        "method": "osrm_demo_foot",
+        "accepted": false,
+        "reason": "ValueError: not a walking profile (average 7.2 m/s)"
+      }
+    ],
+    "origin": [
+      40.6939945,
+      -73.9828019
+    ],
+    "results": [
+      {
+        "name": null,
+        "category": "park",
+        "kind": "park",
+        "lat": 40.694091,
+        "lon": -73.983027,
+        "straight_m": 22,
+        "walk_m": 120,
+        "walk_min": 1.6
+      },
+      {
+        "name": "NYC Fresh Market",
+        "category": "grocery",
+        "kind": "supermarket",
+        "lat": 40.693384,
+        "lon": -73.982854,
+        "straight_m": 68,
+        "walk_m": 115,
+        "walk_min": 1.5
+      },
+      {
+        "name": "Johnson Gourmet Deli & Grill",
+        "category": "grocery",
+        "kind": "convenience",
+        "lat": 40.694675,
+        "lon": -73.982614,
+        "straight_m": 77,
+        "walk_m": 76,
+        "walk_min": 1.0
+      },
+      {
+        "name": "Myrtle Avenue & Fleet Place",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 40.693506,
+        "lon": -73.98128,
+        "straight_m": 139,
+        "walk_m": 158,
+        "walk_min": 2.1
+      },
+      {
+        "name": "Brooklyn Commons",
+        "category": "park",
+        "kind": "park",
+        "lat": 40.694063,
+        "lon": -73.985683,
+        "straight_m": 243,
+        "walk_m": 312,
+        "walk_min": 4.2
+      },
+      {
+        "name": "Gold Street & Tillary Street",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 40.696302,
+        "lon": -73.983289,
+        "straight_m": 260,
+        "walk_m": 323,
+        "walk_min": 4.3
+      },
+      {
+        "name": null,
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "lat": 40.692299,
+        "lon": -73.985173,
+        "straight_m": 275,
+        "walk_m": 409,
+        "walk_min": 5.5
+      },
+      {
+        "name": null,
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "lat": 40.691574,
+        "lon": -73.982045,
+        "straight_m": 277,
+        "walk_m": 328,
+        "walk_min": 4.4
+      },
+      {
+        "name": "Manhattan Athletic Club",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "lat": 40.691667,
+        "lon": -73.985447,
+        "straight_m": 342,
+        "walk_m": 493,
+        "walk_min": 6.6
+      },
+      {
+        "name": "Planet Fitness",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "lat": 40.690687,
+        "lon": -73.984152,
+        "straight_m": 385,
+        "walk_m": 506,
+        "walk_min": 6.7
+      },
+      {
+        "name": "Faith Pharmacy",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 40.692101,
+        "lon": -73.986806,
+        "straight_m": 398,
+        "walk_m": 566,
+        "walk_min": 7.5
+      },
+      {
+        "name": "Duane Reade",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 40.691219,
+        "lon": -73.987196,
+        "straight_m": 482,
+        "walk_m": 702,
+        "walk_min": 9.4
+      }
+    ]
+  }
+}

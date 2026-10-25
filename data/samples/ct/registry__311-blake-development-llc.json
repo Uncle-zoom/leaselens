@@ -1,0 +1,76 @@
+{
+  "saved_at": "2026-10-24T15:36:47+00:00",
+  "source": "registry",
+  "key": "311-blake-development-llc",
+  "dataset": {
+    "name": "Connecticut Business Registry - Business Master (+ Principals ka36-64k6, Agents qh2m-n44y)",
+    "id": "n7gp-d28j / ka36-64k6 / qh2m-n44y",
+    "url": "https://data.ct.gov/resource/n7gp-d28j.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "query": "311 BLAKE DEVELOPMENT LLC",
+    "matched_how": "exact name",
+    "confidence": "high",
+    "business": {
+      "id": "001t000000nbLJ5AAM",
+      "name": "311 BLAKE DEVELOPMENT LLC",
+      "business_type": "LLC",
+      "status": "Active",
+      "sub_status": "Annual report past due",
+      "accountnumber": "2400033",
+      "date_registration": "2021-12-16T00:00:00.000",
+      "citizenship": "Foreign",
+      "formation_place": "DELAWARE",
+      "billingstreet": "101 Whitney Ave",
+      "billing_unit": "Suite 6B",
+      "billingcity": "New Haven",
+      "billingstate": "CT",
+      "billingpostalcode": "06510-1256",
+      "mailing_address": "101 Whitney Ave ,Suite 6B ,New Haven ,CT ,United States ,06510-1256",
+      "naics_code": "Lessors of Residential Buildings and Dwellings (531110)",
+      "annual_report_due_date": "2026-03-31T00:00:00.000"
+    },
+    "other_records_with_same_name": 0,
+    "registered_agents": [
+      {
+        "name__c": "OCEAN MANAGEMENT, LLC",
+        "type": "Business",
+        "business_street_address_1": "101 WHITNEY AVE 2ND FLOOR",
+        "business_city": "NEW HAVEN",
+        "business_state": "CT",
+        "business_zip_code": "06511"
+      }
+    ],
+    "principals": [
+      {
+        "name__c": "OCEAN MANAGEMENT, LLC",
+        "business_street_address_1": "101 WHITNEY AVE 2ND FLOOR",
+        "business_city": "NEW HAVEN",
+        "business_state": "CT",
+        "business_zip_code": "06511"
+      }
+    ],
+    "results": [
+      {
+        "id": "001t000000nbLJ5AAM",
+        "name": "311 BLAKE DEVELOPMENT LLC",
+        "business_type": "LLC",
+        "status": "Active",
+        "sub_status": "Annual report past due",
+        "accountnumber": "2400033",
+        "date_registration": "2021-12-16T00:00:00.000",
+        "citizenship": "Foreign",
+        "formation_place": "DELAWARE",
+        "billingstreet": "101 Whitney Ave",
+        "billing_unit": "Suite 6B",
+        "billingcity": "New Haven",
+        "billingstate": "CT",
+        "billingpostalcode": "06510-1256",
+        "mailing_address": "101 Whitney Ave ,Suite 6B ,New Haven ,CT ,United States ,06510-1256",
+        "naics_code": "Lessors of Residential Buildings and Dwellings (531110)",
+        "annual_report_due_date": "2026-03-31T00:00:00.000"
+      }
+    ]
+  }
+}

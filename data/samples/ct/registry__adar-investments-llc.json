@@ -1,0 +1,63 @@
+{
+  "saved_at": "2026-10-24T15:36:44+00:00",
+  "source": "registry",
+  "key": "adar-investments-llc",
+  "dataset": {
+    "name": "Connecticut Business Registry - Business Master (+ Principals ka36-64k6, Agents qh2m-n44y)",
+    "id": "n7gp-d28j / ka36-64k6 / qh2m-n44y",
+    "url": "https://data.ct.gov/resource/n7gp-d28j.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "query": "ADAR INVESTMENTS LLC",
+    "matched_how": "normalized name",
+    "confidence": "medium",
+    "business": {
+      "id": "001t000000Wo7ydAAB",
+      "name": "ADAR INVESTMENTS, LLC",
+      "business_type": "LLC",
+      "status": "Active",
+      "accountnumber": "1232513",
+      "date_registration": "2017-03-10T00:00:00.000",
+      "citizenship": "Domestic",
+      "formation_place": "CT",
+      "billingstreet": "19 HOWE ST",
+      "billingcity": "NEW HAVEN",
+      "billingstate": "CT",
+      "billingpostalcode": "06511",
+      "mailing_address": "19 HOWE STREET , ,NEW HAVEN ,CT ,United States ,06511",
+      "naics_code": "Other Activities Related to Real Estate (531390)",
+      "annual_report_due_date": "2027-03-31T00:00:00.000"
+    },
+    "other_records_with_same_name": 0,
+    "registered_agents": [],
+    "principals": [
+      {
+        "name__c": "SAMUEL HECHT",
+        "business_street_address_1": "19 HOWE ST",
+        "business_city": "NEW HAVEN",
+        "business_state": "CT",
+        "business_zip_code": "06511"
+      }
+    ],
+    "results": [
+      {
+        "id": "001t000000Wo7ydAAB",
+        "name": "ADAR INVESTMENTS, LLC",
+        "business_type": "LLC",
+        "status": "Active",
+        "accountnumber": "1232513",
+        "date_registration": "2017-03-10T00:00:00.000",
+        "citizenship": "Domestic",
+        "formation_place": "CT",
+        "billingstreet": "19 HOWE ST",
+        "billingcity": "NEW HAVEN",
+        "billingstate": "CT",
+        "billingpostalcode": "06511",
+        "mailing_address": "19 HOWE STREET , ,NEW HAVEN ,CT ,United States ,06511",
+        "naics_code": "Other Activities Related to Real Estate (531390)",
+        "annual_report_due_date": "2027-03-31T00:00:00.000"
+      }
+    ]
+  }
+}

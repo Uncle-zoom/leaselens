@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:45:32+00:00",
+  "source": "geocode",
+  "key": "379-george-st-new-haven-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "379 GEORGE ST, New Haven, CT",
+    "lat": 41.3056542,
+    "lon": -72.931547,
+    "display_name": "379, George Street, Downtown, Dixwell, New Haven, South Central Connecticut Planning Region, Connecticut, 06511, United States",
+    "house_number": "379",
+    "road": "George Street",
+    "city": "New Haven",
+    "county": "South Central Connecticut Planning Region",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06511",
+    "osm_type": "way",
+    "osm_id": 37136833,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 9.99999999995449e-06,
+    "address": {
+      "house_number": "379",
+      "road": "George Street",
+      "neighbourhood": "Downtown",
+      "suburb": "Dixwell",
+      "city": "New Haven",
+      "county": "South Central Connecticut Planning Region",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06511",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

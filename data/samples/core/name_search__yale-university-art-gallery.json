@@ -1,0 +1,23 @@
+{
+  "saved_at": "2026-10-24T19:05:28+00:00",
+  "source": "name_search",
+  "key": "yale-university-art-gallery",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API (building name)",
+    "id": "nominatim/search?name",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "Yale University Art Gallery",
+    "found": true,
+    "name": "Yale University Art Gallery",
+    "house_number": "1111",
+    "road": "Chapel Street",
+    "city": "New Haven",
+    "state_code": "CT",
+    "lat": 41.3084354,
+    "lon": -72.9308795,
+    "address": "1111 Chapel Street, New Haven, CT"
+  }
+}

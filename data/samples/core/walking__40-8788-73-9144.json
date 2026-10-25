@@ -1,0 +1,127 @@
+{
+  "saved_at": "2026-10-21T02:21:40+00:00",
+  "source": "walking",
+  "key": "40.8788_-73.9144",
+  "dataset": {
+    "name": "OSRM foot routing (public servers), else straight-line estimate",
+    "id": "osrm/table/foot",
+    "url": "https://router.project-osrm.org/table/v1/foot/",
+    "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+  },
+  "data": {
+    "method": "osrm_fossgis_foot",
+    "attempts": [
+      {
+        "method": "osrm_demo_foot",
+        "accepted": false,
+        "reason": "ValueError: not a walking profile (average 7.0 m/s)"
+      }
+    ],
+    "origin": [
+      40.8787539,
+      -73.914437
+    ],
+    "results": [
+      {
+        "name": "Irwin Avenue & Johnson Avenue",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 40.879495,
+        "lon": -73.912295,
+        "straight_m": 198,
+        "walk_m": 922,
+        "walk_min": 12.3
+      },
+      {
+        "name": "Kappock Street & Knolls Crescent",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "lat": 40.878982,
+        "lon": -73.916872,
+        "straight_m": 206,
+        "walk_m": 231,
+        "walk_min": 3.1
+      },
+      {
+        "name": "Rite Aid",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 40.878465,
+        "lon": -73.917605,
+        "straight_m": 268,
+        "walk_m": 344,
+        "walk_min": 4.6
+      },
+      {
+        "name": null,
+        "category": "park",
+        "kind": "park",
+        "lat": 40.877545,
+        "lon": -73.917579,
+        "straight_m": 296,
+        "walk_m": 411,
+        "walk_min": 5.5
+      },
+      {
+        "name": "Phyllis Post Goodman Park",
+        "category": "park",
+        "kind": "park",
+        "lat": 40.880474,
+        "lon": -73.917319,
+        "straight_m": 309,
+        "walk_m": 381,
+        "walk_min": 5.1
+      },
+      {
+        "name": "Marble Hill",
+        "category": "train_station",
+        "kind": "station",
+        "lat": 40.874924,
+        "lon": -73.912702,
+        "straight_m": 450,
+        "walk_m": 2072,
+        "walk_min": 27.6
+      },
+      {
+        "name": "C&G Gourmet Deli",
+        "category": "grocery",
+        "kind": "convenience",
+        "lat": 40.874672,
+        "lon": -73.910876,
+        "straight_m": 544,
+        "walk_m": 1911,
+        "walk_min": 25.5
+      },
+      {
+        "name": null,
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "lat": 40.874463,
+        "lon": -73.910558,
+        "straight_m": 578,
+        "walk_m": 1946,
+        "walk_min": 25.9
+      },
+      {
+        "name": "Marble Hill Pharmacy",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "lat": 40.875631,
+        "lon": -73.908753,
+        "straight_m": 591,
+        "walk_m": 1762,
+        "walk_min": 23.5
+      },
+      {
+        "name": "C-Town",
+        "category": "grocery",
+        "kind": "supermarket",
+        "lat": 40.875746,
+        "lon": -73.908599,
+        "straight_m": 594,
+        "walk_m": 1744,
+        "walk_min": 23.2
+      }
+    ]
+  }
+}

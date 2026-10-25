@@ -1,0 +1,562 @@
+{
+  "saved_at": "2026-10-24T15:36:50+00:00",
+  "source": "trail",
+  "key": "311-blake-development-llc",
+  "dataset": {
+    "name": "Connecticut Business Registry (Business Master n7gp-d28j, Principals ka36-64k6) + 2026 Connecticut Parcel and CAMA Data (ibe8-9i3q)",
+    "id": "n7gp-d28j / ka36-64k6 / ibe8-9i3q",
+    "url": "https://data.ct.gov/resource/ka36-64k6.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "owner": "311 BLAKE DEVELOPMENT LLC",
+    "owner_registry_name": "311 BLAKE DEVELOPMENT LLC",
+    "individual_principals_not_followed": 0,
+    "registered_agents_not_followed": [
+      "OCEAN MANAGEMENT, LLC"
+    ],
+    "entities": [
+      {
+        "name": "OCEAN MANAGEMENT, LLC",
+        "designation": null,
+        "matched_how": "listed as a principal on the owner's registry entry",
+        "confidence": "high",
+        "related_total": 239,
+        "related_total_is_minimum": false,
+        "related_shown": 30,
+        "companies": [
+          {
+            "id": "001t000000hvVg3AAE",
+            "name": "311 BLAKE HOLDINGS LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000rPmS1AAK",
+            "name": "CAPITAL HOLDINGS NH LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000uiNPcAAM",
+            "name": "ETROG LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WobbFAAR",
+            "name": "FITCH DEVELOPMENT, LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoW0XAAV",
+            "name": "MY WAY NH LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoUdNAAV",
+            "name": "NAHAL DOLEV LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoUdOAAV",
+            "name": "NAHAL HASHOFET LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoVbOAAV",
+            "name": "NAHAL MEAROT LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          },
+          {
+            "id": "001t000000WoVbMAAV",
+            "name": "NAHAL MISHMAR LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          },
+          {
+            "id": "0018y00000B0nSLAAZ",
+            "name": "OCEAN 103 DEL LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoTdnAAF",
+            "name": "OCEAN 103 NH LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoYDXAA3",
+            "name": "OCEAN 13 DEL LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "0018y00000B0qivAAB",
+            "name": "OCEAN 50 LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoVbNAAV",
+            "name": "OCEAN 50 NH LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          },
+          {
+            "id": "001t000000Wo4pCAAR",
+            "name": "OCEAN 60 LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          },
+          {
+            "id": "0018y00000AyVuoAAF",
+            "name": "OCEAN 7 DEL LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoUdMAAV",
+            "name": "OCEAN 7 NH LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "0018y00000CLfcVAAT",
+            "name": "OCEAN 70 LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "0018y00000B0qIMAAZ",
+            "name": "PANORAMA DEL LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoNc4AAF",
+            "name": "PANORAMA NH LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000rPmS0AAK",
+            "name": "RASHI HOLDINGS LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WnrlHAAR",
+            "name": "ROSE GARDEN NEW HAVEN, LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WnomzAAB",
+            "name": "SHADMIT, LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "0018y00000BYqMnAAL",
+            "name": "VR INVESTMENTS DELAWARE LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "0018y00000BUjlfAAD",
+            "name": "WOOLSEY HOLDINGS DEL LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoagyAAB",
+            "name": "WOOLSEY HOLDINGS NH LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          },
+          {
+            "id": "001t000000veGBbAAM",
+            "name": "101 Whitney Holdings LLC",
+            "business_type": "LLC",
+            "status": "Forfeited",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000Wo5sjAAB",
+            "name": "108 GREENWOOD NH LLC",
+            "business_type": "LLC",
+            "status": "Forfeited",
+            "city": "NEW HAVEN",
+            "state": "CT",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          },
+          {
+            "id": "001t000000veGHHAA2",
+            "name": "142 Temple Holdings LLC",
+            "business_type": "LLC",
+            "status": "Forfeited",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000ui0xLAAQ",
+            "name": "192 FITCH LLC",
+            "business_type": "LLC",
+            "status": "Forfeited",
+            "city": "New Haven",
+            "state": "CT",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          }
+        ]
+      }
+    ],
+    "entities_not_followed": 0,
+    "parcels": [
+      {
+        "location": "192 FITCH ST",
+        "property_city": "New Haven",
+        "owner": "192 FITCH LLC",
+        "use": "MIXED USE  MDL-94",
+        "link": "52070-23424",
+        "company": "192 FITCH LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "192 FITCH LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "121 ORCHARD ST",
+        "property_city": "New Haven",
+        "owner": "CAPITAL HOLDINGS NH LLC",
+        "use": "APT 4-Unit",
+        "link": "52070-18925",
+        "company": "CAPITAL HOLDINGS NH LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "CAPITAL HOLDINGS NH LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "50 DAGGETT ST",
+        "property_city": "New Haven",
+        "owner": "CAPITAL HOLDINGS NH LLC",
+        "use": "VAC UN BLD",
+        "link": "52070-19264",
+        "company": "CAPITAL HOLDINGS NH LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "CAPITAL HOLDINGS NH LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "52 DAGGETT ST",
+        "property_city": "New Haven",
+        "owner": "CAPITAL HOLDINGS NH LLC",
+        "use": "Single Family",
+        "link": "52070-19263",
+        "company": "CAPITAL HOLDINGS NH LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "CAPITAL HOLDINGS NH LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "168 FITCH ST",
+        "property_city": "New Haven",
+        "owner": "FITCH DEVELOPMENT LLC",
+        "use": "Single Family",
+        "link": "52070-23429",
+        "company": "FITCH DEVELOPMENT, LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner normalized name",
+        "confidence": "medium",
+        "reason": "FITCH DEVELOPMENT, LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "172 FITCH ST",
+        "property_city": "New Haven",
+        "owner": "FITCH DEVELOPMENT LLC",
+        "use": "Single Family",
+        "link": "52070-23427",
+        "company": "FITCH DEVELOPMENT, LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner normalized name",
+        "confidence": "medium",
+        "reason": "FITCH DEVELOPMENT, LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "174 FITCH ST",
+        "property_city": "New Haven",
+        "owner": "FITCH DEVELOPMENT LLC",
+        "use": "Single Family",
+        "link": "52070-23426",
+        "company": "FITCH DEVELOPMENT, LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner normalized name",
+        "confidence": "medium",
+        "reason": "FITCH DEVELOPMENT, LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "176 FITCH ST",
+        "property_city": "New Haven",
+        "owner": "FITCH DEVELOPMENT LLC",
+        "use": "Single Family",
+        "link": "52070-23425",
+        "company": "FITCH DEVELOPMENT, LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner normalized name",
+        "confidence": "medium",
+        "reason": "FITCH DEVELOPMENT, LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "191 FERRY ST",
+        "property_city": "New Haven",
+        "owner": "OCEAN 103 DEL LLC",
+        "use": "Three Family",
+        "link": "52070-7914",
+        "company": "OCEAN 103 DEL LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "OCEAN 103 DEL LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      }
+    ],
+    "parcels_total": 9,
+    "parcels_shown": 9,
+    "caps": {
+      "companies": 30,
+      "parcels": 200,
+      "entities": 3
+    },
+    "companies_total": 239,
+    "companies_shown": 30,
+    "results": [
+      {
+        "location": "192 FITCH ST",
+        "property_city": "New Haven",
+        "owner": "192 FITCH LLC",
+        "use": "MIXED USE  MDL-94",
+        "link": "52070-23424",
+        "company": "192 FITCH LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "192 FITCH LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "121 ORCHARD ST",
+        "property_city": "New Haven",
+        "owner": "CAPITAL HOLDINGS NH LLC",
+        "use": "APT 4-Unit",
+        "link": "52070-18925",
+        "company": "CAPITAL HOLDINGS NH LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "CAPITAL HOLDINGS NH LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "50 DAGGETT ST",
+        "property_city": "New Haven",
+        "owner": "CAPITAL HOLDINGS NH LLC",
+        "use": "VAC UN BLD",
+        "link": "52070-19264",
+        "company": "CAPITAL HOLDINGS NH LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "CAPITAL HOLDINGS NH LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "52 DAGGETT ST",
+        "property_city": "New Haven",
+        "owner": "CAPITAL HOLDINGS NH LLC",
+        "use": "Single Family",
+        "link": "52070-19263",
+        "company": "CAPITAL HOLDINGS NH LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "CAPITAL HOLDINGS NH LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "168 FITCH ST",
+        "property_city": "New Haven",
+        "owner": "FITCH DEVELOPMENT LLC",
+        "use": "Single Family",
+        "link": "52070-23429",
+        "company": "FITCH DEVELOPMENT, LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner normalized name",
+        "confidence": "medium",
+        "reason": "FITCH DEVELOPMENT, LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "172 FITCH ST",
+        "property_city": "New Haven",
+        "owner": "FITCH DEVELOPMENT LLC",
+        "use": "Single Family",
+        "link": "52070-23427",
+        "company": "FITCH DEVELOPMENT, LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner normalized name",
+        "confidence": "medium",
+        "reason": "FITCH DEVELOPMENT, LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "174 FITCH ST",
+        "property_city": "New Haven",
+        "owner": "FITCH DEVELOPMENT LLC",
+        "use": "Single Family",
+        "link": "52070-23426",
+        "company": "FITCH DEVELOPMENT, LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner normalized name",
+        "confidence": "medium",
+        "reason": "FITCH DEVELOPMENT, LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "176 FITCH ST",
+        "property_city": "New Haven",
+        "owner": "FITCH DEVELOPMENT LLC",
+        "use": "Single Family",
+        "link": "52070-23425",
+        "company": "FITCH DEVELOPMENT, LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner normalized name",
+        "confidence": "medium",
+        "reason": "FITCH DEVELOPMENT, LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      },
+      {
+        "location": "191 FERRY ST",
+        "property_city": "New Haven",
+        "owner": "OCEAN 103 DEL LLC",
+        "use": "Three Family",
+        "link": "52070-7914",
+        "company": "OCEAN 103 DEL LLC",
+        "entity": "OCEAN MANAGEMENT, LLC",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "OCEAN 103 DEL LLC lists OCEAN MANAGEMENT, LLC as a principal, and OCEAN MANAGEMENT, LLC is a principal of 311 BLAKE DEVELOPMENT LLC"
+      }
+    ]
+  }
+}

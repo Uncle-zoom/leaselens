@@ -1,0 +1,84 @@
+{
+  "saved_at": "2026-10-24T15:36:40+00:00",
+  "source": "trail",
+  "key": "ansonia-state-street-llc",
+  "dataset": {
+    "name": "Connecticut Business Registry (Business Master n7gp-d28j, Principals ka36-64k6) + 2026 Connecticut Parcel and CAMA Data (ibe8-9i3q)",
+    "id": "n7gp-d28j / ka36-64k6 / ibe8-9i3q",
+    "url": "https://data.ct.gov/resource/ka36-64k6.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "owner": "ANSONIA STATE STREET LLC",
+    "owner_registry_name": "Ansonia State Street LLC",
+    "individual_principals_not_followed": 0,
+    "registered_agents_not_followed": [
+      "C T CORPORATION SYSTEM"
+    ],
+    "entities": [
+      {
+        "name": "Ansonia Apartments, L.P.",
+        "designation": null,
+        "matched_how": "listed as a principal on the owner's registry entry",
+        "confidence": "high",
+        "related_total": 4,
+        "related_total_is_minimum": false,
+        "related_shown": 4,
+        "companies": [
+          {
+            "id": "001t000000WmvL4AAJ",
+            "name": "HAMDEN CENTRE APARTMENTS, LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "NEW YORK",
+            "state": "NY",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          },
+          {
+            "id": "001t000000hJrFgAAK",
+            "name": "ANSONIA ACQUISITIONS IV, LLC",
+            "business_type": "LLC",
+            "status": "Dissolved",
+            "city": "NEW YORK",
+            "state": "NY",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          },
+          {
+            "id": "001t000000WmvL3AAJ",
+            "name": "DOGWOOD HILLS APARTMENTS, LLC",
+            "business_type": "LLC",
+            "status": "Dissolved",
+            "city": "NEW YORK",
+            "state": "NY",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          },
+          {
+            "id": "001t000000WmgeIAAR",
+            "name": "GULL HARBOR APTS, LLC",
+            "business_type": "LLC",
+            "status": "Forfeited",
+            "city": "FORT LAUDERDALE",
+            "state": "FL",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          }
+        ]
+      }
+    ],
+    "entities_not_followed": 0,
+    "parcels": [],
+    "parcels_total": 0,
+    "parcels_shown": 0,
+    "caps": {
+      "companies": 30,
+      "parcels": 200,
+      "entities": 3
+    },
+    "companies_total": 4,
+    "companies_shown": 4,
+    "results": []
+  }
+}

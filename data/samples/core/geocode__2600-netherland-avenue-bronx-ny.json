@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:20:47+00:00",
+  "source": "geocode",
+  "key": "2600-netherland-avenue-bronx-ny",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "2600 Netherland Avenue, Bronx, NY",
+    "lat": 40.8787539,
+    "lon": -73.914437,
+    "display_name": "2600, Netherland Avenue, Spuyten Duyvil, The Bronx, Bronx County, New York, 10463, United States",
+    "house_number": "2600",
+    "road": "Netherland Avenue",
+    "city": "New York",
+    "county": "Bronx County",
+    "state": "New York",
+    "state_code": "NY",
+    "postcode": "10463",
+    "osm_type": "way",
+    "osm_id": 276504949,
+    "place_class": "building",
+    "place_type": "yes",
+    "importance": 9.175936522464359e-05,
+    "address": {
+      "house_number": "2600",
+      "road": "Netherland Avenue",
+      "neighbourhood": "Spuyten Duyvil",
+      "suburb": "The Bronx",
+      "county": "Bronx County",
+      "city": "New York",
+      "state": "New York",
+      "ISO3166-2-lvl4": "US-NY",
+      "postcode": "10463",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

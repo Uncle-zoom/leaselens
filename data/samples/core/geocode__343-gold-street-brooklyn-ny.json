@@ -1,0 +1,41 @@
+{
+  "saved_at": "2026-10-21T02:19:30+00:00",
+  "source": "geocode",
+  "key": "343-gold-street-brooklyn-ny",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "343 Gold Street, Brooklyn, NY",
+    "lat": 40.6939945,
+    "lon": -73.9828019,
+    "display_name": "343, Gold Street, Brooklyn, Kings County, New York, 11201, United States",
+    "house_number": "343",
+    "road": "Gold Street",
+    "city": "New York",
+    "county": null,
+    "state": "New York",
+    "state_code": "NY",
+    "postcode": "11201",
+    "osm_type": "way",
+    "osm_id": 250367220,
+    "place_class": "building",
+    "place_type": "yes",
+    "importance": 9.175936522464359e-05,
+    "address": {
+      "house_number": "343",
+      "road": "Gold Street",
+      "suburb": "Brooklyn",
+      "city_district": "Kings County",
+      "city": "New York",
+      "state": "New York",
+      "ISO3166-2-lvl4": "US-NY",
+      "postcode": "11201",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

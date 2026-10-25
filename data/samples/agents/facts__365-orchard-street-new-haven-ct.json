@@ -1,0 +1,251 @@
+{
+  "address": "365 Orchard Street, New Haven, CT",
+  "data": {
+    "address": "365 Orchard Street, New Haven, CT",
+    "area": "New Haven, Connecticut",
+    "my_priorities": {
+      "longest_walk_to_grocery_minutes": 10,
+      "longest_walk_to_gym_minutes": 15,
+      "longest_walk_to_transit_minutes": 8,
+      "night_time_quiet_matters": "medium"
+    },
+    "search_windows": {
+      "places_and_noise_radius_m": 800,
+      "street_reports_radius_m": 200,
+      "street_reports_period": "last 12 months",
+      "street_reports_period_months": 12
+    },
+    "scores": {
+      "Groceries": 89.0,
+      "Gym": 0.0,
+      "Transit": 55.6,
+      "Quiet": 58.0,
+      "Overall": 50.6
+    },
+    "walking": [
+      {
+        "place_type": "Grocery",
+        "nearest": "J & J",
+        "walk_minutes": 2.2,
+        "my_limit_minutes": 10,
+        "meets_limit": true
+      },
+      {
+        "place_type": "Gym",
+        "nearest": "none within 800 m",
+        "walk_minutes": null,
+        "my_limit_minutes": 15,
+        "meets_limit": null
+      },
+      {
+        "place_type": "Park",
+        "nearest": "Kensington Street Playground",
+        "walk_minutes": 3.5,
+        "my_limit_minutes": null,
+        "meets_limit": null
+      },
+      {
+        "place_type": "Bus stop",
+        "nearest": "bus stop",
+        "walk_minutes": 7.1,
+        "my_limit_minutes": 8,
+        "meets_limit": true
+      },
+      {
+        "place_type": "Train / subway",
+        "nearest": "none within 800 m",
+        "walk_minutes": null,
+        "my_limit_minutes": 8,
+        "meets_limit": null
+      }
+    ],
+    "noise_within_800m": [
+      {
+        "type": "Nightclubs",
+        "count": 1,
+        "nearest": "Partners",
+        "nearest_distance_m": 690
+      },
+      {
+        "type": "Bars",
+        "count": 2,
+        "nearest": "Old Heidelberg",
+        "nearest_distance_m": 756
+      },
+      {
+        "type": "Pubs",
+        "count": 4,
+        "nearest": "The Cannon",
+        "nearest_distance_m": 407
+      },
+      {
+        "type": "Fire stations",
+        "count": 2,
+        "nearest": "New Haven Fire Department Engine 6",
+        "nearest_distance_m": 735
+      },
+      {
+        "type": "Hospitals",
+        "count": 3,
+        "nearest": "Grimes Center",
+        "nearest_distance_m": 189
+      },
+      {
+        "type": "Rail lines",
+        "count": 0,
+        "nearest": null,
+        "nearest_distance_m": null
+      }
+    ],
+    "street_reports": {
+      "what_this_is": "street-level reports by residents about the public street, not housing complaints",
+      "radius_m": 200,
+      "since": "2025-10-21",
+      "total": 54,
+      "by_type": [
+        {
+          "type": "Missed Trash/Recycling",
+          "reports": 14,
+          "still_open": 0
+        },
+        {
+          "type": "Parking Violation",
+          "reports": 7,
+          "still_open": 1
+        },
+        {
+          "type": "Parks Request",
+          "reports": 4,
+          "still_open": 0
+        },
+        {
+          "type": "Illegal Dumping",
+          "reports": 4,
+          "still_open": 0
+        },
+        {
+          "type": "Potholes",
+          "reports": 3,
+          "still_open": 0
+        },
+        {
+          "type": "Sidewalks and Curb damage",
+          "reports": 2,
+          "still_open": 0
+        },
+        {
+          "type": "Deceased Animals",
+          "reports": 2,
+          "still_open": 0
+        },
+        {
+          "type": "PUBLIC SPACE ENFORCEMENT",
+          "reports": 2,
+          "still_open": 0
+        }
+      ],
+      "recent_report_titles": [
+        "Parks Request",
+        "Tree Debris",
+        "Missed Trash/Recycling",
+        "Sidewalks and Curb damage",
+        "Deceased Animals"
+      ]
+    },
+    "landlord": {
+      "available": true,
+      "parcel_record": {
+        "owner": "ADAR INVESTMENTS LLC",
+        "co_owner": null,
+        "property": "365 ORCHARD ST",
+        "property_use": "APT Over12  MDL-94",
+        "year_built": "1967",
+        "tax_bill_mailing_address": "19 HOWE ST, NEW HAVEN, CT, 06511"
+      },
+      "business_registry": {
+        "name": "ADAR INVESTMENTS, LLC",
+        "entity_type": "LLC",
+        "status": "Active",
+        "formed_in": "CT",
+        "registered": "2017-03-10",
+        "business_address": "19 HOWE ST, NEW HAVEN, CT, 06511",
+        "registered_agents": [],
+        "principals": [
+          "SAMUEL HECHT"
+        ],
+        "matched_to_parcel_owner_by": "normalized name",
+        "match_confidence": "medium"
+      },
+      "other_parcels_linked_to_owner": {
+        "total": 88,
+        "count_by_match_type": {
+          "exact name": 10,
+          "same mailing address": 78
+        },
+        "different_owner_names_at_same_mailing_address": 18,
+        "examples": [
+          {
+            "address": "101 DWIGHT ST",
+            "owner_on_record": "ADAR INVESTMENTS LLC",
+            "how_matched": "exact name",
+            "confidence": "high"
+          },
+          {
+            "address": "103 RAMSDELL ST",
+            "owner_on_record": "ADAR INVESTMENTS LLC",
+            "how_matched": "exact name",
+            "confidence": "high"
+          },
+          {
+            "address": "109 DWIGHT ST",
+            "owner_on_record": "ADAR INVESTMENTS LLC",
+            "how_matched": "exact name",
+            "confidence": "high"
+          },
+          {
+            "address": "115 DWIGHT ST",
+            "owner_on_record": "ADAR INVESTMENTS LLC",
+            "how_matched": "exact name",
+            "confidence": "high"
+          },
+          {
+            "address": "24 KENSINGTON ST",
+            "owner_on_record": "ADAR INVESTMENTS LLC",
+            "how_matched": "exact name",
+            "confidence": "high"
+          },
+          {
+            "address": "28 KENSINGTON ST",
+            "owner_on_record": "ADAR INVESTMENTS LLC",
+            "how_matched": "exact name",
+            "confidence": "high"
+          },
+          {
+            "address": "33 HOWE ST",
+            "owner_on_record": "ADAR INVESTMENTS LLC",
+            "how_matched": "exact name",
+            "confidence": "high"
+          },
+          {
+            "address": "38 TILTON ST",
+            "owner_on_record": "ADAR INVESTMENTS LLC",
+            "how_matched": "exact name",
+            "confidence": "high"
+          },
+          {
+            "address": "574 GEORGE ST",
+            "owner_on_record": "ADAR INVESTMENTS LLC",
+            "how_matched": "exact name",
+            "confidence": "high"
+          },
+          {
+            "address": "68 ANTHONY ST",
+            "owner_on_record": "ADAR INVESTMENTS LLC",
+            "how_matched": "exact name",
+            "confidence": "high"
+          }
+        ]
+      }
+    }
+  }
+}

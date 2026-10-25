@@ -1,0 +1,165 @@
+{
+  "address": "360 State Street, New Haven, CT",
+  "priorities": {
+    "max_grocery": 10,
+    "max_gym": 15,
+    "max_transit": 8,
+    "quiet": "medium"
+  },
+  "flagged_untrusted_strings": [],
+  "block": {
+    "output": {
+      "verdict": "think twice",
+      "reasons": [
+        "Your grocery and gym walks meet your limits, with Elm City Market 0.1 minutes away against your 10-minute grocery limit and The Lab 5.0 minutes away against your 15-minute gym limit.",
+        "Because night-time quiet matters to you at a medium level, the Quiet score of 7.6 and nearby noise sources stand out: The Trinity is 77 metres away and there are 7 pubs within 800 metres.",
+        "The records show 87 street-level reports within 200 metres in the last 12 months, including 4 sidewalk and curb damage reports that are still open; these concern the public street, not housing."
+      ],
+      "summary": "You may want to visit at night to judge the nearby noise before deciding."
+    },
+    "removed": [],
+    "tokens": 3285,
+    "usd": 0.000381
+  },
+  "landlord": {
+    "output": {
+      "plain_english": "The parcel record for 360 STATE ST lists ANSONIA STATE STREET LLC as the owner, with tax bills mailed to 192 LEXINGTON AVE, 9TH FL, NEW YORK, NY, 10016. The registry lists Ansonia State Street LLC as an Active LLC formed in DELAWARE, with C T CORPORATION SYSTEM as registered agent and Ansonia Apartments, L.P. as principal; its owner match is exact name with high confidence. The search found no other parcels linked to the owner. It did find one parcel under a different owner name with the same mailing address; that kind of match does not prove common ownership and can reflect a shared manager or office.",
+      "observations": [
+        "The parcel record lists the property's use as CONDO MAIN.",
+        "The registry lists the business address as 257 Park Avenue South, 13th Floor, New York, NY, 10010.",
+        "The other-parcels search found no linked parcels but found one different owner name at the same mailing address."
+      ],
+      "questions": [
+        "Will the owner named on my lease be ANSONIA STATE STREET LLC, the owner listed on the parcel record?",
+        "Who manages the building and handles repair requests for this property?",
+        "Does the mailing address shared with a different owner name belong to a property manager or office, or is there another explanation?"
+      ]
+    },
+    "removed": [],
+    "tokens": 3395,
+    "usd": 0.000402
+  },
+  "email_ask_questions": {
+    "output": {
+      "purpose": "ask_questions",
+      "subject": "Questions about nighttime noise at 360 State Street",
+      "body": "Hello, \n\nI’m considering [unit number] and nighttime quiet matters to me. The records show a Quiet score of 7.6, with The Trinity 77 metres away and New Haven Line 128 metres away. Could you tell me what nighttime noise is typically like inside the unit, and whether it has sound-insulating windows? If possible, could I view the unit in the evening to assess this? \n\nThank you, \n[Your name]",
+      "facts_cited": [
+        "\"Quiet\": 7.6",
+        "\"nearest\": \"The Trinity\"",
+        "\"nearest_distance_m\": 77",
+        "\"nearest\": \"New Haven Line\"",
+        "\"nearest_distance_m\": 128"
+      ]
+    },
+    "removed": [],
+    "tokens": 3529,
+    "usd": 0.000472
+  },
+  "email_negotiate": {
+    "output": {
+      "purpose": "negotiate",
+      "subject": "Request to discuss sound-related terms",
+      "body": "Hello, \n\nI’m interested in the apartment, but night-time quiet matters to me. The Quiet score is 7.6, and the records list 7 pubs within 800 metres, with The Trinity 77 metres away, as well as the New Haven Line 128 metres away. Would you be open to discussing a sound-mitigation measure before move-in or another concession to address potential noise? Please let me know what options may be available. \n\nBest, \n[Your name]",
+      "facts_cited": [
+        "\"Quiet\": 7.6",
+        "\"count\": 7",
+        "\"nearest_distance_m\": 77",
+        "\"nearest\": \"New Haven Line\"",
+        "\"nearest_distance_m\": 128"
+      ]
+    },
+    "removed": [],
+    "tokens": 3500,
+    "usd": 0.000457
+  },
+  "chat_examples": [
+    {
+      "question": "How far is the nearest grocery store, and does it meet my limit?",
+      "output": {
+        "answer": "The nearest grocery store is Elm City Market, 0.1 walking minutes away. That meets your 10-minute limit.",
+        "known": true,
+        "sources": [
+          "walking"
+        ]
+      },
+      "removed": [],
+      "tokens": 3543,
+      "usd": 0.000247
+    },
+    {
+      "question": "Who owns this building and what else do they own?",
+      "output": {
+        "answer": "The parcel record lists ANSONIA STATE STREET LLC as the owner of 360 STATE ST, identified as CONDO MAIN. No other parcels are linked to that owner in the records. There is one parcel with a different owner name but the same tax-bill mailing address; that shared address does not establish common ownership, so ask the owner or manager to confirm which entity would be named on your lease.",
+        "known": true,
+        "sources": [
+          "landlord",
+          "other_parcels"
+        ]
+      },
+      "removed": [],
+      "tokens": 4681,
+      "usd": 0.000317
+    },
+    {
+      "question": "What is the monthly rent and are pets allowed?",
+      "output": {
+        "answer": "The monthly rent and whether pets are allowed are not in the records we have. Ask the property manager or listing contact for the current rent and pet policy.",
+        "known": false,
+        "sources": [
+          "landlord"
+        ]
+      },
+      "removed": [],
+      "tokens": 5878,
+      "usd": 0.000219
+    }
+  ],
+  "email_negotiate_firm": {
+    "output": {
+      "purpose": "negotiate",
+      "tone": "firm",
+      "subject": "Questions and requested terms for [unit number] at 360 State Street, New Haven, CT",
+      "body": "Hello,\n\nThe location meets the walking limits you gave: Elm City Market is 0.1 walking minutes against 10; The Lab is 5.0 against 15; the bus stop is 0.7 and New Haven-State Street is 2.3, against 8 for transit. Night-time quiet may be a concern: the Quiet score is 7.6. Within 800 metres, records show 3 Nightclubs, nearest Joker's Wild Comedy Club at 402 metres; 12 Bars, nearest Equinox at 184 metres; 7 Pubs, nearest The Trinity at 77 metres; 1 Fire station, nearest New Haven Fire Department Headquarters at 335 metres; 0 Hospitals; and 1 Rail line, nearest New Haven Line at 128 metres.\n\nThere were 87 street-level reports about the public street within 200 metres in the last 12 months; these are not housing complaints. The parcel record lists ANSONIA STATE STREET LLC as owner. The registry lists Ansonia State Street LLC as an LLC with Active status, matched by exact name with high confidence. No other parcels are linked to the owner; records also show 1 different owner name at the same mailing address, which is a mailing-address link only.\n\nBefore signing, please let me know:\n1. Whether the monthly rent can be reduced or a concession offered.\n2. Whether you can provide a written list of repairs to be finished before move-in, arrange a walk-through, and identify who handles repair requests.\n3. The lease length, renewal terms, notice needed to leave, and which entity will be named as landlord on the lease.\n\nPlease reply in writing. Thank you.\n\n[Your name]",
+      "facts_cited": [
+        "\"walk_minutes\": 0.1",
+        "\"my_limit_minutes\": 10",
+        "\"walk_minutes\": 5.0",
+        "\"my_limit_minutes\": 15",
+        "\"walk_minutes\": 0.7",
+        "\"walk_minutes\": 2.3",
+        "\"my_limit_minutes\": 8",
+        "\"Quiet\": 7.6",
+        "\"Nightclubs\": 3",
+        "\"nearest\": \"Joker's Wild Comedy Club\"",
+        "\"nearest_distance_m\": 402",
+        "\"Bars\": 12",
+        "\"nearest\": \"Equinox\"",
+        "\"nearest_distance_m\": 184",
+        "\"Pubs\": 7",
+        "\"nearest\": \"The Trinity\"",
+        "\"nearest_distance_m\": 77",
+        "\"Fire stations\": 1",
+        "\"nearest\": \"New Haven Fire Department Headquarters\"",
+        "\"nearest_distance_m\": 335",
+        "\"Hospitals\": 0",
+        "\"Rail lines\": 1",
+        "\"nearest\": \"New Haven Line\"",
+        "\"nearest_distance_m\": 128",
+        "\"total\": 87",
+        "\"radius_m\": 200",
+        "\"since\": \"2025-10-21\"",
+        "\"owner\": \"ANSONIA STATE STREET LLC\"",
+        "\"entity_type\": \"LLC\"",
+        "\"status\": \"Active\"",
+        "\"matched_to_parcel_owner_by\": \"exact name\"",
+        "\"match_confidence\": \"high\"",
+        "\"total\": 0",
+        "\"different_owner_names_at_same_mailing_address\": 1"
+      ]
+    },
+    "removed": [],
+    "tokens": 4461,
+    "usd": 0.000935
+  }
+}

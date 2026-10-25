@@ -1,0 +1,325 @@
+{
+  "saved_at": "2026-10-21T02:21:39+00:00",
+  "source": "places",
+  "key": "40.8788_-73.9144",
+  "dataset": {
+    "name": "OpenStreetMap via Overpass API (interpreter)",
+    "id": "overpass/interpreter",
+    "url": "https://overpass-api.de/api/interpreter",
+    "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+  },
+  "data": {
+    "center": {
+      "lat": 40.8787539,
+      "lon": -73.914437
+    },
+    "radius_m": 800,
+    "counts": {
+      "grocery": 2,
+      "gym": 0,
+      "park": 9,
+      "bus_stop": 7,
+      "train_station": 7,
+      "pharmacy": 2,
+      "bar": 0,
+      "pub": 0,
+      "nightclub": 0,
+      "fire_station": 0,
+      "hospital": 1,
+      "rail_line": 1
+    },
+    "results": [
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Irwin Avenue & Johnson Avenue",
+        "lat": 40.879495,
+        "lon": -73.912295,
+        "distance_m": 198,
+        "osm": "node/5588603822"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Kappock Street & Knolls Crescent",
+        "lat": 40.878982,
+        "lon": -73.916872,
+        "distance_m": 206,
+        "osm": "node/5588603824"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Kappock Street & Arlington Avenue",
+        "lat": 40.879542,
+        "lon": -73.916672,
+        "distance_m": 207,
+        "osm": "node/5588603825"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Rite Aid",
+        "lat": 40.878465,
+        "lon": -73.917605,
+        "distance_m": 268,
+        "osm": "node/2811013896"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 40.877545,
+        "lon": -73.917579,
+        "distance_m": 296,
+        "osm": "way/1214220124"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Kappock Street & Johnson Avenue",
+        "lat": 40.877683,
+        "lon": -73.917716,
+        "distance_m": 300,
+        "osm": "node/5588640756"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Phyllis Post Goodman Park",
+        "lat": 40.880474,
+        "lon": -73.917319,
+        "distance_m": 309,
+        "osm": "node/357632950"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Kappock Street & Johnson Avenue",
+        "lat": 40.877409,
+        "lon": -73.918032,
+        "distance_m": 337,
+        "osm": "node/5588603823"
+      },
+      {
+        "group": "noise",
+        "category": "rail_line",
+        "kind": "rail",
+        "name": "Hudson Line",
+        "lat": 40.875816,
+        "lon": -73.915699,
+        "distance_m": 343,
+        "osm": "way/760062798"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "station",
+        "name": "Marble Hill",
+        "lat": 40.874924,
+        "lon": -73.912702,
+        "distance_m": 450,
+        "osm": "node/7100222053"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Ewen Park",
+        "lat": 40.882197,
+        "lon": -73.909999,
+        "distance_m": 535,
+        "osm": "way/423247653"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "C&G Gourmet Deli",
+        "lat": 40.874672,
+        "lon": -73.910876,
+        "distance_m": 544,
+        "osm": "node/13817854850"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Marble Hill Playground",
+        "lat": 40.877513,
+        "lon": -73.908139,
+        "distance_m": 547,
+        "osm": "way/222233979"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Henry Hudson Park",
+        "lat": 40.881486,
+        "lon": -73.919997,
+        "distance_m": 558,
+        "osm": "relation/14735368"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.874463,
+        "lon": -73.910558,
+        "distance_m": 578,
+        "osm": "node/7578364023"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Spuyten Duyvil Shorefront Park",
+        "lat": 40.878976,
+        "lon": -73.921432,
+        "distance_m": 589,
+        "osm": "way/244726397"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Marble Hill Pharmacy",
+        "lat": 40.875631,
+        "lon": -73.908753,
+        "distance_m": 591,
+        "osm": "node/2811004406"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "C-Town",
+        "lat": 40.875746,
+        "lon": -73.908599,
+        "distance_m": 594,
+        "osm": "node/2302043640"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_station",
+        "name": "Marble Hill–225th Street",
+        "lat": 40.874297,
+        "lon": -73.910195,
+        "distance_m": 611,
+        "osm": "node/4248884831"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Baker Field",
+        "lat": 40.873155,
+        "lon": -73.914025,
+        "distance_m": 623,
+        "osm": "node/357545993"
+      },
+      {
+        "group": "noise",
+        "category": "hospital",
+        "kind": "hospital",
+        "name": "NewYork-Presbyterian/Allen Hospital",
+        "lat": 40.873262,
+        "lon": -73.912806,
+        "distance_m": 626,
+        "osm": "way/562562103"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.874305,
+        "lon": -73.909796,
+        "distance_m": 630,
+        "osm": "node/7578364024"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Lawrence A Wein Stadium",
+        "lat": 40.873233,
+        "lon": -73.916477,
+        "distance_m": 637,
+        "osm": "node/357616388"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 40.880165,
+        "lon": -73.921941,
+        "distance_m": 650,
+        "osm": "way/244728119"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "station",
+        "name": "Spuyten Duyvil",
+        "lat": 40.878869,
+        "lon": -73.922173,
+        "distance_m": 651,
+        "osm": "node/7100222051"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "West Kingsbridge Road & Broadway",
+        "lat": 40.874187,
+        "lon": -73.909299,
+        "distance_m": 667,
+        "osm": "node/5557669560"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "West 231st Street & BROADWAY",
+        "lat": 40.879261,
+        "lon": -73.905365,
+        "distance_m": 765,
+        "osm": "node/5615733243"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.878965,
+        "lon": -73.905055,
+        "distance_m": 789,
+        "osm": "node/7671392429"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.87879,
+        "lon": -73.90504,
+        "distance_m": 790,
+        "osm": "node/7578364025"
+      }
+    ],
+    "server": "https://overpass.openstreetmap.fr/api/interpreter"
+  }
+}

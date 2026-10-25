@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:45:44+00:00",
+  "source": "geocode",
+  "key": "68-anthony-st-new-haven-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "68 ANTHONY ST, New Haven, CT",
+    "lat": 41.330419,
+    "lon": -72.9751035,
+    "display_name": "68;70, Anthony Street, Amity, West Hills, New Haven, Connecticut, 06515, United States",
+    "house_number": "68;70",
+    "road": "Anthony Street",
+    "city": "New Haven",
+    "county": "New Haven",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06515",
+    "osm_type": "node",
+    "osm_id": 9018721891,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 6.999847409776482e-05,
+    "address": {
+      "house_number": "68;70",
+      "road": "Anthony Street",
+      "neighbourhood": "Amity",
+      "hamlet": "West Hills",
+      "city": "New Haven",
+      "county": "New Haven",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06515",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

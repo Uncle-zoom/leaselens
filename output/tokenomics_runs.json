@@ -1,0 +1,191 @@
+{
+  "experiment": "nocache-20261020-225741",
+  "runs": {
+    "cached_warmup": {
+      "errors": [],
+      "addresses": {
+        "360 State Street, New Haven, CT": {
+          "verdict": "think twice",
+          "reasons": [
+            "Your grocery and gym walks meet your limits, with Elm City Market 0.1 minutes away against your 10-minute grocery limit and The Lab 5.0 minutes away against your 15-minute gym limit.",
+            "Because night-time quiet matters to you at a medium level, the Quiet score of 7.6 and nearby noise sources stand out: The Trinity is 77 metres away and there are 7 pubs within 800 metres.",
+            "The records show 87 street-level reports within 200 metres in the last 12 months, including 4 sidewalk and curb damage reports that are still open; these concern the public street, not housing."
+          ],
+          "questions": [
+            "Will the owner named on my lease be ANSONIA STATE STREET LLC, the owner listed on the parcel record?",
+            "Who manages the building and handles repair requests for this property?",
+            "Does the mailing address shared with a different owner name belong to a property manager or office, or is there another explanation?"
+          ],
+          "removed": 0
+        },
+        "100 York Street, New Haven, CT": {
+          "verdict": "think twice",
+          "reasons": [
+            "Sam's Food is a 2.8-minute walk against your 10-minute grocery limit, Joyride Cycling Studio is a 6.4-minute walk against your 15-minute gym limit, and 129 York is a 1.4-minute walk against your 8-minute transit limit.",
+            "Your Quiet score is 4.6, and the records list 4 nightclubs within 800 metres, with Partners 133 metres away, which matters given your medium priority for night-time quiet.",
+            "The records list 100 street-level reports within 200 metres in the last 12 months, including 8 Traffic Signal / Pedestrian Signal reports with 3 still open; these concern public streets, not housing."
+          ],
+          "questions": [
+            "Will the owner named on my lease be UNIVERSITY TOWERS OWNERS CORP, the owner listed on the parcel record?",
+            "Who manages the property and should you contact for repairs or other building issues?",
+            "Can you confirm why the registry business address is 100 York St, New Haven, CT, 06511, while tax bills are mailed to 100 YORK ST, NEW HAVEN, CT, 06510?"
+          ],
+          "removed": 0
+        },
+        "365 Orchard Street, New Haven, CT": {
+          "verdict": "think twice",
+          "reasons": [
+            "Your grocery walk to J & J is 2.2 minutes and the bus stop is 7.1 minutes against your 10-minute and 8-minute limits, but no gym was found within 800 m.",
+            "Because night-time quiet matters to you at a medium level, note the Quiet score of 58.0 and that The Cannon is 407 m away, while Grimes Center is 189 m away.",
+            "Records show 54 public street reports within 200 m since 2025-10-21, including 14 Missed Trash/Recycling reports and 4 Illegal Dumping reports; these are street-level reports, not housing complaints."
+          ],
+          "questions": [
+            "Will the owner named on my lease be ADAR INVESTMENTS LLC, as listed on the parcel record?",
+            "Who manages the property and should I contact for repairs or other building issues?",
+            "Who is the registered agent or other contact for receiving formal notices, given that no registered agents are listed in the registry record?"
+          ],
+          "removed": 0
+        }
+      },
+      "ranking": [
+        [
+          1,
+          "360 State Street, New Haven, CT"
+        ],
+        [
+          2,
+          "100 York Street, New Haven, CT"
+        ],
+        [
+          3,
+          "365 Orchard Street, New Haven, CT"
+        ]
+      ],
+      "recommendation_removed": 0
+    },
+    "cached": {
+      "errors": [],
+      "addresses": {
+        "360 State Street, New Haven, CT": {
+          "verdict": "think twice",
+          "reasons": [
+            "Your grocery and gym walks meet your limits, with Elm City Market 0.1 minutes away against your 10-minute grocery limit and The Lab 5.0 minutes away against your 15-minute gym limit.",
+            "Because night-time quiet matters to you at a medium level, the Quiet score of 7.6 and nearby noise sources stand out: The Trinity is 77 metres away and there are 7 pubs within 800 metres.",
+            "The records show 87 street-level reports within 200 metres in the last 12 months, including 4 sidewalk and curb damage reports that are still open; these concern the public street, not housing."
+          ],
+          "questions": [
+            "Will the owner named on my lease be ANSONIA STATE STREET LLC, the owner listed on the parcel record?",
+            "Who manages the building and handles repair requests for this property?",
+            "Does the mailing address shared with a different owner name belong to a property manager or office, or is there another explanation?"
+          ],
+          "removed": 0
+        },
+        "100 York Street, New Haven, CT": {
+          "verdict": "think twice",
+          "reasons": [
+            "Sam's Food is a 2.8-minute walk against your 10-minute grocery limit, Joyride Cycling Studio is a 6.4-minute walk against your 15-minute gym limit, and 129 York is a 1.4-minute walk against your 8-minute transit limit.",
+            "Your Quiet score is 4.6, and the records list 4 nightclubs within 800 metres, with Partners 133 metres away, which matters given your medium priority for night-time quiet.",
+            "The records list 100 street-level reports within 200 metres in the last 12 months, including 8 Traffic Signal / Pedestrian Signal reports with 3 still open; these concern public streets, not housing."
+          ],
+          "questions": [
+            "Will the owner named on my lease be UNIVERSITY TOWERS OWNERS CORP, the owner listed on the parcel record?",
+            "Who manages the property and should you contact for repairs or other building issues?",
+            "Can you confirm why the registry business address is 100 York St, New Haven, CT, 06511, while tax bills are mailed to 100 YORK ST, NEW HAVEN, CT, 06510?"
+          ],
+          "removed": 0
+        },
+        "365 Orchard Street, New Haven, CT": {
+          "verdict": "think twice",
+          "reasons": [
+            "Your grocery walk to J & J is 2.2 minutes and the bus stop is 7.1 minutes against your 10-minute and 8-minute limits, but no gym was found within 800 m.",
+            "Because night-time quiet matters to you at a medium level, note the Quiet score of 58.0 and that The Cannon is 407 m away, while Grimes Center is 189 m away.",
+            "Records show 54 public street reports within 200 m since 2025-10-21, including 14 Missed Trash/Recycling reports and 4 Illegal Dumping reports; these are street-level reports, not housing complaints."
+          ],
+          "questions": [
+            "Will the owner named on my lease be ADAR INVESTMENTS LLC, as listed on the parcel record?",
+            "Who manages the property and should I contact for repairs or other building issues?",
+            "Who is the registered agent or other contact for receiving formal notices, given that no registered agents are listed in the registry record?"
+          ],
+          "removed": 0
+        }
+      },
+      "ranking": [
+        [
+          1,
+          "360 State Street, New Haven, CT"
+        ],
+        [
+          2,
+          "100 York Street, New Haven, CT"
+        ],
+        [
+          3,
+          "365 Orchard Street, New Haven, CT"
+        ]
+      ],
+      "recommendation_removed": 0
+    },
+    "busted": {
+      "errors": [],
+      "addresses": {
+        "360 State Street, New Haven, CT": {
+          "verdict": "think twice",
+          "reasons": [
+            "Walking fits your limits: Elm City Market is 0.1 minutes away, The Lab is 5.0 minutes away, and New Haven-State Street is 2.3 minutes away, within your grocery, gym and transit limits.",
+            "Quiet scores 7.6, and The Trinity is 77 metres away while New Haven Line is 128 metres away, which matters given your medium priority for night-time quiet.",
+            "There are 87 street-level reports within 200 metres in the last 12 months, including four sidewalk and curb damage reports, all still open; these concern the public street, not the building."
+          ],
+          "questions": [
+            "Will the owner named on your lease be ANSONIA STATE STREET LLC?",
+            "Who manages the building and should you contact for repairs, given that tax bills are mailed to 192 LEXINGTON AVE, 9TH FL, NEW YORK, NY, 10016?",
+            "Does the different owner name that shares the tax-bill mailing address have any management role for this building?"
+          ],
+          "removed": 0
+        },
+        "100 York Street, New Haven, CT": {
+          "verdict": "think twice",
+          "reasons": [
+            "Your grocery walk to Sam's Food is 2.8 minutes against your 10-minute limit, and the bus stop 129 York is 1.4 minutes away against your 8-minute limit.",
+            "Quiet scores 4.6, and the records list 4 nightclubs within 800 metres, with Partners 133 metres away, which may matter given your medium priority for night-time quiet.",
+            "There are 100 street-level reports within 200 metres since 2025-10-21, including 8 traffic signal or pedestrian signal reports, and these are about the public street, not housing complaints."
+          ],
+          "questions": [
+            "Will the owner named on my lease be UNIVERSITY TOWERS OWNERS CORP, as listed on the parcel record?",
+            "Who manages the building and should I contact for repairs or other building issues?",
+            "Does the registered agent, Charles A. Ryan, have any role in handling tenant questions, or should I contact someone else?"
+          ],
+          "removed": 1
+        },
+        "365 Orchard Street, New Haven, CT": {
+          "verdict": "think twice",
+          "reasons": [
+            "No gym is listed within 800 m and the Gym score is 0.0, so your 15-minute gym limit is the main walking concern; J & J is 2.2 minutes away against your 10-minute grocery limit, and the bus stop is 7.1 minutes away against your 8-minute transit limit.",
+            "The Cannon is the nearest pub at 407 m, and the Quiet score is 58.0, which matters given your medium priority for night-time quiet.",
+            "There were 54 reports about the public street within 200 m in the last 12 months, including 14 missed trash or recycling reports; these are street-level reports, not housing complaints."
+          ],
+          "questions": [
+            "Will the lease name ADAR INVESTMENTS LLC as the owner, or a different entity?",
+            "Who manages the building and handles repair requests for this property?",
+            "Who should you contact about the tenancy, given that the registry lists no registered agents?"
+          ],
+          "removed": 0
+        }
+      },
+      "ranking": [
+        [
+          1,
+          "360 State Street, New Haven, CT"
+        ],
+        [
+          2,
+          "100 York Street, New Haven, CT"
+        ],
+        [
+          3,
+          "365 Orchard Street, New Haven, CT"
+        ]
+      ],
+      "recommendation_removed": 1
+    }
+  }
+}

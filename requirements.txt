@@ -1,0 +1,12 @@
+# Python 3.10 - 3.14. Ranges, not pins: pip picks the newest release each Python supports
+# (for example pydantic-ai 2.54.x on Python 3.10, 2.58+ on 3.11 and newer).
+streamlit>=1.50,<2
+pydantic-ai>=2.40,<3
+openai>=1.60
+python-dotenv>=1.0
+requests>=2.31
+folium>=0.17
+
+pandas>=2.0
+pytest>=8.0
+tomli>=2.0; python_version < "3.11"   # only the tests read TOML; 3.11+ has tomllib built in

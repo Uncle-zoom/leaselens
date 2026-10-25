@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:45:56+00:00",
+  "source": "geocode",
+  "key": "140-orange-st-new-haven-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "140 ORANGE ST, New Haven, CT",
+    "lat": 41.305864,
+    "lon": -72.9240879,
+    "display_name": "140, Orange Street, Ninth Square Historic District, Dixwell, New Haven, Connecticut, 06510, United States",
+    "house_number": "140",
+    "road": "Orange Street",
+    "city": "New Haven",
+    "county": "New Haven",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06510",
+    "osm_type": "node",
+    "osm_id": 9021779622,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 6.999847409776482e-05,
+    "address": {
+      "house_number": "140",
+      "road": "Orange Street",
+      "neighbourhood": "Ninth Square Historic District",
+      "suburb": "Dixwell",
+      "city": "New Haven",
+      "county": "New Haven",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06510",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

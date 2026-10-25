@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:45:59+00:00",
+  "source": "geocode",
+  "key": "1403-chapel-st-new-haven-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "1403 CHAPEL ST, New Haven, CT",
+    "lat": 41.3108416,
+    "lon": -72.9419614,
+    "display_name": "1403, Chapel Street, Edgewood, Dixwell, New Haven, South Central Connecticut Planning Region, Connecticut, 06511, United States",
+    "house_number": "1403",
+    "road": "Chapel Street",
+    "city": "New Haven",
+    "county": "South Central Connecticut Planning Region",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06511",
+    "osm_type": "way",
+    "osm_id": 37138480,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 9.99999999995449e-06,
+    "address": {
+      "house_number": "1403",
+      "road": "Chapel Street",
+      "neighbourhood": "Edgewood",
+      "suburb": "Dixwell",
+      "city": "New Haven",
+      "county": "South Central Connecticut Planning Region",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06511",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

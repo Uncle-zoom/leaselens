@@ -1,0 +1,75 @@
+{
+  "saved_at": "2026-10-24T15:36:39+00:00",
+  "source": "registry",
+  "key": "ansonia-state-street-llc",
+  "dataset": {
+    "name": "Connecticut Business Registry - Business Master (+ Principals ka36-64k6, Agents qh2m-n44y)",
+    "id": "n7gp-d28j / ka36-64k6 / qh2m-n44y",
+    "url": "https://data.ct.gov/resource/n7gp-d28j.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "query": "ANSONIA STATE STREET LLC",
+    "matched_how": "exact name",
+    "confidence": "high",
+    "business": {
+      "id": "001t000000vd4i3AAA",
+      "name": "Ansonia State Street LLC",
+      "business_type": "LLC",
+      "status": "Active",
+      "accountnumber": "2623295",
+      "date_registration": "2022-08-30T00:00:00.000",
+      "citizenship": "Foreign",
+      "formation_place": "DELAWARE",
+      "billingstreet": "257 Park Avenue South",
+      "billing_unit": "13th Floor",
+      "billingcity": "New York",
+      "billingstate": "NY",
+      "billingpostalcode": "10010",
+      "mailing_address": "257 Park Avenue South ,13th Floor ,New York ,NY ,United States ,10010",
+      "naics_code": "Lessors of Residential Buildings and Dwellings (531110)",
+      "annual_report_due_date": "2027-03-31T00:00:00.000"
+    },
+    "other_records_with_same_name": 0,
+    "registered_agents": [
+      {
+        "name__c": "C T CORPORATION SYSTEM",
+        "type": "Business",
+        "business_street_address_1": "357 E CENTER ST STE 2J",
+        "business_city": "MANCHESTER",
+        "business_state": "CT",
+        "business_zip_code": "06040-4471"
+      }
+    ],
+    "principals": [
+      {
+        "name__c": "Ansonia Apartments, L.P.",
+        "business_street_address_1": "257 Park Avenue South",
+        "business_street_address_2": "13th Floor",
+        "business_city": "New York",
+        "business_state": "NY",
+        "business_zip_code": "10010"
+      }
+    ],
+    "results": [
+      {
+        "id": "001t000000vd4i3AAA",
+        "name": "Ansonia State Street LLC",
+        "business_type": "LLC",
+        "status": "Active",
+        "accountnumber": "2623295",
+        "date_registration": "2022-08-30T00:00:00.000",
+        "citizenship": "Foreign",
+        "formation_place": "DELAWARE",
+        "billingstreet": "257 Park Avenue South",
+        "billing_unit": "13th Floor",
+        "billingcity": "New York",
+        "billingstate": "NY",
+        "billingpostalcode": "10010",
+        "mailing_address": "257 Park Avenue South ,13th Floor ,New York ,NY ,United States ,10010",
+        "naics_code": "Lessors of Residential Buildings and Dwellings (531110)",
+        "annual_report_due_date": "2027-03-31T00:00:00.000"
+      }
+    ]
+  }
+}

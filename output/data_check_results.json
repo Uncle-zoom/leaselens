@@ -1,0 +1,1411 @@
+{
+  "mode": "live",
+  "llm": {
+    "model": "gpt-6-luna",
+    "ok": true,
+    "seconds": 4.6,
+    "error": null,
+    "usage": {
+      "input_tokens": 13,
+      "cached_tokens": 0,
+      "output_tokens": 5,
+      "cost_usd": 3.8e-06
+    },
+    "reply": "ready"
+  },
+  "addresses": [
+    {
+      "group": "New Haven",
+      "address": "360 State Street, New Haven, CT",
+      "why": "assigned: downtown condo/apartment tower, owner mails from New York",
+      "plan": {
+        "markets": [
+          "core",
+          "ct"
+        ],
+        "adapters": {
+          "core": [
+            "geocode",
+            "places",
+            "walking"
+          ],
+          "ct": [
+            "complaints",
+            "parcels",
+            "registry",
+            "portfolio"
+          ]
+        },
+        "label": "Nationwide (OpenStreetMap) + Connecticut"
+      },
+      "geo": {
+        "lat": 41.3054423,
+        "lon": -72.9232144,
+        "city": "New Haven",
+        "county": "South Central Connecticut Planning Region",
+        "state_code": "CT"
+      },
+      "sources": [
+        {
+          "market": "core",
+          "source": "geocode",
+          "status": "PASS",
+          "seconds": 0.18,
+          "count": 1,
+          "fields": [
+            "query",
+            "lat",
+            "lon",
+            "display_name",
+            "house_number",
+            "road",
+            "city",
+            "county",
+            "state",
+            "state_code",
+            "postcode",
+            "osm_type",
+            "osm_id",
+            "place_class",
+            "place_type",
+            "importance"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap Nominatim search API",
+            "id": "nominatim/search",
+            "url": "https://nominatim.openstreetmap.org/search",
+            "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "places",
+          "status": "PASS",
+          "seconds": 47.93,
+          "count": 108,
+          "fields": [
+            "category",
+            "distance_m",
+            "group",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "osm"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap via Overpass API (interpreter)",
+            "id": "overpass/interpreter",
+            "url": "https://overpass-api.de/api/interpreter",
+            "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "walking",
+          "status": "PASS",
+          "seconds": 0.86,
+          "count": 12,
+          "fields": [
+            "method",
+            "category",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "straight_m",
+            "walk_m",
+            "walk_min"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OSRM foot routing (public servers), else straight-line estimate",
+            "id": "osrm/table/foot",
+            "url": "https://router.project-osrm.org/table/v1/foot/",
+            "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "complaints",
+          "status": "PASS",
+          "seconds": 3.37,
+          "count": 87,
+          "fields": [
+            "request_type",
+            "count",
+            "open",
+            "address",
+            "created_at",
+            "distance_m",
+            "request_type",
+            "status",
+            "summary",
+            "url"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "SeeClickFix public API v2 - issues (New Haven, CT and other participating places)",
+            "id": "seeclickfix/api/v2/issues",
+            "url": "https://seeclickfix.com/api/v2/issues",
+            "terms": "https://dev.seeclickfix.com/ (public read API, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "parcels",
+          "status": "PASS",
+          "seconds": 0.33,
+          "count": 5,
+          "fields": [
+            "address_number",
+            "appraised_total",
+            "assessed_total",
+            "cama_site_link",
+            "link",
+            "location",
+            "mailing_address",
+            "mailing_address_2",
+            "mailing_city",
+            "mailing_state",
+            "mailing_zip",
+            "owner",
+            "pid",
+            "property_city",
+            "sale_date",
+            "sale_price",
+            "state_use_description",
+            "street_name",
+            "valuation_year"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "2026 Connecticut Parcel and CAMA Data (Office of Policy and Management)",
+            "id": "ibe8-9i3q",
+            "url": "https://data.ct.gov/resource/ibe8-9i3q.json",
+            "terms": "https://data.ct.gov (open data, Socrata, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "registry",
+          "status": "PASS",
+          "seconds": 0.92,
+          "count": 3,
+          "fields": [
+            "accountnumber",
+            "annual_report_due_date",
+            "billing_unit",
+            "billingcity",
+            "billingpostalcode",
+            "billingstate",
+            "billingstreet",
+            "business_type",
+            "citizenship",
+            "date_registration",
+            "formation_place",
+            "id",
+            "mailing_address",
+            "naics_code",
+            "name",
+            "principals",
+            "registered_agents",
+            "status"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "Connecticut Business Registry - Business Master (+ Principals ka36-64k6, Agents qh2m-n44y)",
+            "id": "n7gp-d28j / ka36-64k6 / qh2m-n44y",
+            "url": "https://data.ct.gov/resource/n7gp-d28j.json",
+            "terms": "https://data.ct.gov (open data, Socrata, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "portfolio",
+          "status": "PASS-EMPTY",
+          "seconds": 1.38,
+          "count": 0,
+          "fields": [],
+          "origin": "live",
+          "dataset": {
+            "name": "2026 Connecticut Parcel and CAMA Data (Office of Policy and Management)",
+            "id": "ibe8-9i3q",
+            "url": "https://data.ct.gov/resource/ibe8-9i3q.json",
+            "terms": "https://data.ct.gov (open data, Socrata, no key)"
+          },
+          "error": null,
+          "live_error": null
+        }
+      ],
+      "total_seconds": 55.0
+    },
+    {
+      "group": "New Haven",
+      "address": "100 York Street, New Haven, CT",
+      "why": "assigned: University Towers, 12+ unit apartment building near Yale",
+      "plan": {
+        "markets": [
+          "core",
+          "ct"
+        ],
+        "adapters": {
+          "core": [
+            "geocode",
+            "places",
+            "walking"
+          ],
+          "ct": [
+            "complaints",
+            "parcels",
+            "registry",
+            "portfolio"
+          ]
+        },
+        "label": "Nationwide (OpenStreetMap) + Connecticut"
+      },
+      "geo": {
+        "lat": 41.3070241,
+        "lon": -72.9330858,
+        "city": "New Haven",
+        "county": "New Haven",
+        "state_code": "CT"
+      },
+      "sources": [
+        {
+          "market": "core",
+          "source": "geocode",
+          "status": "PASS",
+          "seconds": 0.69,
+          "count": 1,
+          "fields": [
+            "query",
+            "lat",
+            "lon",
+            "display_name",
+            "house_number",
+            "road",
+            "city",
+            "county",
+            "state",
+            "state_code",
+            "postcode",
+            "osm_type",
+            "osm_id",
+            "place_class",
+            "place_type",
+            "importance"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap Nominatim search API",
+            "id": "nominatim/search",
+            "url": "https://nominatim.openstreetmap.org/search",
+            "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "places",
+          "status": "PASS",
+          "seconds": 72.44,
+          "count": 125,
+          "fields": [
+            "category",
+            "distance_m",
+            "group",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "osm"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap via Overpass API (interpreter)",
+            "id": "overpass/interpreter",
+            "url": "https://overpass-api.de/api/interpreter",
+            "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "walking",
+          "status": "PASS",
+          "seconds": 0.87,
+          "count": 9,
+          "fields": [
+            "method",
+            "category",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "straight_m",
+            "walk_m",
+            "walk_min"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OSRM foot routing (public servers), else straight-line estimate",
+            "id": "osrm/table/foot",
+            "url": "https://router.project-osrm.org/table/v1/foot/",
+            "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "complaints",
+          "status": "PASS",
+          "seconds": 2.58,
+          "count": 100,
+          "fields": [
+            "request_type",
+            "count",
+            "open",
+            "address",
+            "created_at",
+            "distance_m",
+            "request_type",
+            "status",
+            "summary",
+            "url"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "SeeClickFix public API v2 - issues (New Haven, CT and other participating places)",
+            "id": "seeclickfix/api/v2/issues",
+            "url": "https://seeclickfix.com/api/v2/issues",
+            "terms": "https://dev.seeclickfix.com/ (public read API, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "parcels",
+          "status": "PASS",
+          "seconds": 0.55,
+          "count": 1,
+          "fields": [
+            "address_number",
+            "appraised_total",
+            "assessed_total",
+            "ayb",
+            "cama_site_link",
+            "link",
+            "location",
+            "mailing_address",
+            "mailing_city",
+            "mailing_state",
+            "mailing_zip",
+            "owner",
+            "pid",
+            "property_city",
+            "sale_date",
+            "sale_price",
+            "state_use_description",
+            "street_name",
+            "valuation_year"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "2026 Connecticut Parcel and CAMA Data (Office of Policy and Management)",
+            "id": "ibe8-9i3q",
+            "url": "https://data.ct.gov/resource/ibe8-9i3q.json",
+            "terms": "https://data.ct.gov (open data, Socrata, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "registry",
+          "status": "PASS",
+          "seconds": 1.45,
+          "count": 8,
+          "fields": [
+            "accountnumber",
+            "annual_report_due_date",
+            "billingcity",
+            "billingpostalcode",
+            "billingstate",
+            "billingstreet",
+            "business_type",
+            "citizenship",
+            "date_registration",
+            "formation_place",
+            "id",
+            "mailing_address",
+            "naics_code",
+            "name",
+            "principals",
+            "registered_agents",
+            "status"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "Connecticut Business Registry - Business Master (+ Principals ka36-64k6, Agents qh2m-n44y)",
+            "id": "n7gp-d28j / ka36-64k6 / qh2m-n44y",
+            "url": "https://data.ct.gov/resource/n7gp-d28j.json",
+            "terms": "https://data.ct.gov (open data, Socrata, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "portfolio",
+          "status": "PASS",
+          "seconds": 0.65,
+          "count": 2,
+          "fields": [
+            "address_number",
+            "confidence",
+            "link",
+            "location",
+            "mailing_address",
+            "mailing_city",
+            "mailing_state",
+            "match_type",
+            "owner",
+            "property_city",
+            "reason",
+            "state_use_description",
+            "street_name"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "2026 Connecticut Parcel and CAMA Data (Office of Policy and Management)",
+            "id": "ibe8-9i3q",
+            "url": "https://data.ct.gov/resource/ibe8-9i3q.json",
+            "terms": "https://data.ct.gov (open data, Socrata, no key)"
+          },
+          "error": null,
+          "live_error": null
+        }
+      ],
+      "total_seconds": 79.3
+    },
+    {
+      "group": "New Haven",
+      "address": "365 Orchard Street, New Haven, CT",
+      "why": "my pick: a 12+ unit apartment building in a residential neighborhood west of downtown, owned by a local LLC (Adar Investments) that owns many other New Haven parcels, so it exercises the registry and portfolio chain",
+      "plan": {
+        "markets": [
+          "core",
+          "ct"
+        ],
+        "adapters": {
+          "core": [
+            "geocode",
+            "places",
+            "walking"
+          ],
+          "ct": [
+            "complaints",
+            "parcels",
+            "registry",
+            "portfolio"
+          ]
+        },
+        "label": "Nationwide (OpenStreetMap) + Connecticut"
+      },
+      "geo": {
+        "lat": 41.3113591,
+        "lon": -72.9409808,
+        "city": "New Haven",
+        "county": "New Haven",
+        "state_code": "CT"
+      },
+      "sources": [
+        {
+          "market": "core",
+          "source": "geocode",
+          "status": "PASS",
+          "seconds": 0.48,
+          "count": 1,
+          "fields": [
+            "query",
+            "lat",
+            "lon",
+            "display_name",
+            "house_number",
+            "road",
+            "city",
+            "county",
+            "state",
+            "state_code",
+            "postcode",
+            "osm_type",
+            "osm_id",
+            "place_class",
+            "place_type",
+            "importance"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap Nominatim search API",
+            "id": "nominatim/search",
+            "url": "https://nominatim.openstreetmap.org/search",
+            "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "places",
+          "status": "PASS",
+          "seconds": 47.38,
+          "count": 46,
+          "fields": [
+            "category",
+            "distance_m",
+            "group",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "osm"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap via Overpass API (interpreter)",
+            "id": "overpass/interpreter",
+            "url": "https://overpass-api.de/api/interpreter",
+            "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "walking",
+          "status": "PASS",
+          "seconds": 0.86,
+          "count": 8,
+          "fields": [
+            "method",
+            "category",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "straight_m",
+            "walk_m",
+            "walk_min"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OSRM foot routing (public servers), else straight-line estimate",
+            "id": "osrm/table/foot",
+            "url": "https://router.project-osrm.org/table/v1/foot/",
+            "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "complaints",
+          "status": "PASS",
+          "seconds": 1.61,
+          "count": 54,
+          "fields": [
+            "request_type",
+            "count",
+            "open",
+            "address",
+            "created_at",
+            "distance_m",
+            "request_type",
+            "status",
+            "summary",
+            "url"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "SeeClickFix public API v2 - issues (New Haven, CT and other participating places)",
+            "id": "seeclickfix/api/v2/issues",
+            "url": "https://seeclickfix.com/api/v2/issues",
+            "terms": "https://dev.seeclickfix.com/ (public read API, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "parcels",
+          "status": "PASS",
+          "seconds": 0.33,
+          "count": 1,
+          "fields": [
+            "address_number",
+            "appraised_total",
+            "assessed_total",
+            "ayb",
+            "cama_site_link",
+            "link",
+            "location",
+            "mailing_address",
+            "mailing_city",
+            "mailing_state",
+            "mailing_zip",
+            "owner",
+            "pid",
+            "property_city",
+            "sale_date",
+            "sale_price",
+            "state_use_description",
+            "street_name",
+            "valuation_year"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "2026 Connecticut Parcel and CAMA Data (Office of Policy and Management)",
+            "id": "ibe8-9i3q",
+            "url": "https://data.ct.gov/resource/ibe8-9i3q.json",
+            "terms": "https://data.ct.gov (open data, Socrata, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "registry",
+          "status": "PASS",
+          "seconds": 1.32,
+          "count": 2,
+          "fields": [
+            "accountnumber",
+            "annual_report_due_date",
+            "billingcity",
+            "billingpostalcode",
+            "billingstate",
+            "billingstreet",
+            "business_type",
+            "citizenship",
+            "date_registration",
+            "formation_place",
+            "id",
+            "mailing_address",
+            "naics_code",
+            "name",
+            "principals",
+            "registered_agents",
+            "status"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "Connecticut Business Registry - Business Master (+ Principals ka36-64k6, Agents qh2m-n44y)",
+            "id": "n7gp-d28j / ka36-64k6 / qh2m-n44y",
+            "url": "https://data.ct.gov/resource/n7gp-d28j.json",
+            "terms": "https://data.ct.gov (open data, Socrata, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "ct",
+          "source": "portfolio",
+          "status": "PASS",
+          "seconds": 0.93,
+          "count": 88,
+          "fields": [
+            "address_number",
+            "confidence",
+            "link",
+            "location",
+            "mailing_address",
+            "mailing_city",
+            "mailing_state",
+            "match_type",
+            "number_of_units",
+            "owner",
+            "property_city",
+            "reason",
+            "state_use_description",
+            "street_name"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "2026 Connecticut Parcel and CAMA Data (Office of Policy and Management)",
+            "id": "ibe8-9i3q",
+            "url": "https://data.ct.gov/resource/ibe8-9i3q.json",
+            "terms": "https://data.ct.gov (open data, Socrata, no key)"
+          },
+          "error": null,
+          "live_error": null
+        }
+      ],
+      "total_seconds": 52.9
+    },
+    {
+      "group": "NYC Manhattan",
+      "address": "400 East 35th Street, New York, NY",
+      "why": "my pick: Rivergate, 739 apartments in one rental tower (UDR REIT), an LLC owner and an HPD-registered agent",
+      "plan": {
+        "markets": [
+          "core"
+        ],
+        "adapters": {
+          "core": [
+            "geocode",
+            "places",
+            "walking"
+          ]
+        },
+        "label": "Nationwide (OpenStreetMap)"
+      },
+      "geo": {
+        "lat": 40.6452397,
+        "lon": -73.9443693,
+        "city": "New York",
+        "county": null,
+        "state_code": "NY"
+      },
+      "sources": [
+        {
+          "market": "core",
+          "source": "geocode",
+          "status": "PASS",
+          "seconds": 0.38,
+          "count": 1,
+          "fields": [
+            "query",
+            "lat",
+            "lon",
+            "display_name",
+            "house_number",
+            "road",
+            "city",
+            "county",
+            "state",
+            "state_code",
+            "postcode",
+            "osm_type",
+            "osm_id",
+            "place_class",
+            "place_type",
+            "importance"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap Nominatim search API",
+            "id": "nominatim/search",
+            "url": "https://nominatim.openstreetmap.org/search",
+            "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "places",
+          "status": "PASS",
+          "seconds": 73.0,
+          "count": 67,
+          "fields": [
+            "category",
+            "distance_m",
+            "group",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "osm"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap via Overpass API (interpreter)",
+            "id": "overpass/interpreter",
+            "url": "https://overpass-api.de/api/interpreter",
+            "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "walking",
+          "status": "PASS",
+          "seconds": 0.88,
+          "count": 8,
+          "fields": [
+            "method",
+            "category",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "straight_m",
+            "walk_m",
+            "walk_min"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OSRM foot routing (public servers), else straight-line estimate",
+            "id": "osrm/table/foot",
+            "url": "https://router.project-osrm.org/table/v1/foot/",
+            "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+          },
+          "error": null,
+          "live_error": null
+        }
+      ],
+      "total_seconds": 74.3
+    },
+    {
+      "group": "NYC Brooklyn",
+      "address": "343 Gold Street, Brooklyn, NY",
+      "why": "my pick: Avalon Fort Greene, 631-unit rental tower in downtown Brooklyn (AvalonBay)",
+      "plan": {
+        "markets": [
+          "core"
+        ],
+        "adapters": {
+          "core": [
+            "geocode",
+            "places",
+            "walking"
+          ]
+        },
+        "label": "Nationwide (OpenStreetMap)"
+      },
+      "geo": {
+        "lat": 40.6939945,
+        "lon": -73.9828019,
+        "city": "New York",
+        "county": null,
+        "state_code": "NY"
+      },
+      "sources": [
+        {
+          "market": "core",
+          "source": "geocode",
+          "status": "PASS",
+          "seconds": 0.51,
+          "count": 1,
+          "fields": [
+            "query",
+            "lat",
+            "lon",
+            "display_name",
+            "house_number",
+            "road",
+            "city",
+            "county",
+            "state",
+            "state_code",
+            "postcode",
+            "osm_type",
+            "osm_id",
+            "place_class",
+            "place_type",
+            "importance"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap Nominatim search API",
+            "id": "nominatim/search",
+            "url": "https://nominatim.openstreetmap.org/search",
+            "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "places",
+          "status": "PASS",
+          "seconds": 75.97,
+          "count": 183,
+          "fields": [
+            "category",
+            "distance_m",
+            "group",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "osm"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap via Overpass API (interpreter)",
+            "id": "overpass/interpreter",
+            "url": "https://overpass-api.de/api/interpreter",
+            "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "walking",
+          "status": "PASS",
+          "seconds": 1.19,
+          "count": 12,
+          "fields": [
+            "method",
+            "category",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "straight_m",
+            "walk_m",
+            "walk_min"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OSRM foot routing (public servers), else straight-line estimate",
+            "id": "osrm/table/foot",
+            "url": "https://router.project-osrm.org/table/v1/foot/",
+            "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+          },
+          "error": null,
+          "live_error": null
+        }
+      ],
+      "total_seconds": 77.7
+    },
+    {
+      "group": "NYC Bronx",
+      "address": "2600 Netherland Avenue, Bronx, NY",
+      "why": "my pick: Riverdale tower, 569 units in a single rental building owned by Edgehill Associates",
+      "plan": {
+        "markets": [
+          "core",
+          "nyc"
+        ],
+        "adapters": {
+          "core": [
+            "geocode",
+            "places",
+            "walking"
+          ],
+          "nyc": [
+            "geo",
+            "complaints",
+            "violations",
+            "owner",
+            "registry",
+            "portfolio"
+          ]
+        },
+        "label": "Nationwide (OpenStreetMap) + New York City"
+      },
+      "geo": {
+        "lat": 40.8787539,
+        "lon": -73.914437,
+        "city": "New York",
+        "county": "Bronx County",
+        "state_code": "NY"
+      },
+      "sources": [
+        {
+          "market": "core",
+          "source": "geocode",
+          "status": "PASS",
+          "seconds": 0.59,
+          "count": 1,
+          "fields": [
+            "query",
+            "lat",
+            "lon",
+            "display_name",
+            "house_number",
+            "road",
+            "city",
+            "county",
+            "state",
+            "state_code",
+            "postcode",
+            "osm_type",
+            "osm_id",
+            "place_class",
+            "place_type",
+            "importance"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap Nominatim search API",
+            "id": "nominatim/search",
+            "url": "https://nominatim.openstreetmap.org/search",
+            "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "places",
+          "status": "PASS",
+          "seconds": 51.14,
+          "count": 29,
+          "fields": [
+            "category",
+            "distance_m",
+            "group",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "osm"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap via Overpass API (interpreter)",
+            "id": "overpass/interpreter",
+            "url": "https://overpass-api.de/api/interpreter",
+            "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "walking",
+          "status": "PASS",
+          "seconds": 0.92,
+          "count": 10,
+          "fields": [
+            "method",
+            "category",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "straight_m",
+            "walk_m",
+            "walk_min"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OSRM foot routing (public servers), else straight-line estimate",
+            "id": "osrm/table/foot",
+            "url": "https://router.project-osrm.org/table/v1/foot/",
+            "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "nyc",
+          "source": "geo",
+          "status": "PASS",
+          "seconds": 0.16,
+          "count": 1,
+          "fields": [
+            "accuracy",
+            "bbl",
+            "bin",
+            "borough",
+            "confidence",
+            "housenumber",
+            "label",
+            "lat",
+            "lon",
+            "match_type",
+            "query",
+            "street",
+            "zip"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "NYC Planning Labs GeoSearch v2 (Pelias, NYC PAD addresses)",
+            "id": "geosearch.planninglabs.nyc/v2/search",
+            "url": "https://geosearch.planninglabs.nyc/v2/search",
+            "terms": "https://geosearch.planninglabs.nyc/docs/ (free, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "nyc",
+          "source": "complaints",
+          "status": "PASS",
+          "seconds": 17.27,
+          "count": 667,
+          "fields": [
+            "complaint_type",
+            "count",
+            "open",
+            "top_descriptors"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "311 Service Requests from 2020 to Present (NYC Open Data)",
+            "id": "erm2-nwe9",
+            "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+            "terms": "https://www.nyc.gov/html/data/terms.html (open data, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "nyc",
+          "source": "violations",
+          "status": "PASS",
+          "seconds": 18.97,
+          "count": 412,
+          "fields": [
+            "class",
+            "meaning",
+            "open",
+            "closed",
+            "issued_last_12_months",
+            "major_category",
+            "complaints",
+            "novdescription",
+            "inspectiondate"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "Housing Maintenance Code Violations (wvxf-dwi5) + Housing Maintenance Code Complaints and Problems (ygpa-z7cr), NYC HPD",
+            "id": "wvxf-dwi5 / ygpa-z7cr",
+            "url": "https://data.cityofnewyork.us/resource/wvxf-dwi5.json",
+            "terms": "https://www.nyc.gov/html/data/terms.html (open data, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "nyc",
+          "source": "owner",
+          "status": "PASS",
+          "seconds": 14.13,
+          "count": 5,
+          "fields": [
+            "address",
+            "bbl",
+            "bldgclass",
+            "businessapartment",
+            "businesscity",
+            "businesshousenumber",
+            "businessstate",
+            "businessstreetname",
+            "businesszip",
+            "contactdescription",
+            "corporationname",
+            "firstname",
+            "landuse",
+            "lastname",
+            "name",
+            "numfloors",
+            "ownername",
+            "title",
+            "type",
+            "unitsres",
+            "unitstotal",
+            "yearbuilt",
+            "zipcode"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "PLUTO (64uk-42ks) + HPD Multiple Dwelling Registrations (tesw-yqqr) + HPD Registration Contacts (feu5-w2e2), NYC Open Data",
+            "id": "64uk-42ks / tesw-yqqr / feu5-w2e2",
+            "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json",
+            "terms": "https://www.nyc.gov/html/data/terms.html (open data, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "nyc",
+          "source": "registry",
+          "status": "PASS",
+          "seconds": 0.31,
+          "count": 1,
+          "fields": [
+            "county",
+            "current_entity_name",
+            "dos_id",
+            "dos_process_address_1",
+            "dos_process_address_2",
+            "dos_process_city",
+            "dos_process_name",
+            "dos_process_state",
+            "dos_process_zip",
+            "entity_type",
+            "initial_dos_filing_date",
+            "jurisdiction"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "Active Corporations: Beginning 1800 (NY Department of State, data.ny.gov)",
+            "id": "n9v6-gdp6",
+            "url": "https://data.ny.gov/resource/n9v6-gdp6.json",
+            "terms": "https://data.ny.gov (open data, Socrata, no key)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "nyc",
+          "source": "portfolio",
+          "status": "PASS",
+          "seconds": 6.34,
+          "count": 9,
+          "fields": [
+            "address",
+            "bbl",
+            "confidence",
+            "contact_type",
+            "match_type",
+            "matched_contact",
+            "reason",
+            "zip"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "HPD Registration Contacts (feu5-w2e2) + Multiple Dwelling Registrations (tesw-yqqr), NYC Open Data",
+            "id": "feu5-w2e2 / tesw-yqqr",
+            "url": "https://data.cityofnewyork.us/resource/feu5-w2e2.json",
+            "terms": "https://www.nyc.gov/html/data/terms.html (open data, no key)"
+          },
+          "error": null,
+          "live_error": null
+        }
+      ],
+      "total_seconds": 109.9
+    },
+    {
+      "group": "Outside CT/NYC",
+      "address": "85 East India Row, Boston, MA",
+      "why": "nationwide fallback: Harbor Towers, residential towers in Boston, MA",
+      "plan": {
+        "markets": [
+          "core"
+        ],
+        "adapters": {
+          "core": [
+            "geocode",
+            "places",
+            "walking"
+          ]
+        },
+        "label": "Nationwide (OpenStreetMap)"
+      },
+      "geo": {
+        "lat": 42.358119,
+        "lon": -71.0498059,
+        "city": "Boston",
+        "county": "Suffolk County",
+        "state_code": "MA"
+      },
+      "sources": [
+        {
+          "market": "core",
+          "source": "geocode",
+          "status": "PASS",
+          "seconds": 0.67,
+          "count": 1,
+          "fields": [
+            "query",
+            "lat",
+            "lon",
+            "display_name",
+            "house_number",
+            "road",
+            "city",
+            "county",
+            "state",
+            "state_code",
+            "postcode",
+            "osm_type",
+            "osm_id",
+            "place_class",
+            "place_type",
+            "importance"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap Nominatim search API",
+            "id": "nominatim/search",
+            "url": "https://nominatim.openstreetmap.org/search",
+            "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "places",
+          "status": "PASS",
+          "seconds": 72.48,
+          "count": 139,
+          "fields": [
+            "category",
+            "distance_m",
+            "group",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "osm"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OpenStreetMap via Overpass API (interpreter)",
+            "id": "overpass/interpreter",
+            "url": "https://overpass-api.de/api/interpreter",
+            "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+          },
+          "error": null,
+          "live_error": null
+        },
+        {
+          "market": "core",
+          "source": "walking",
+          "status": "PASS",
+          "seconds": 0.9,
+          "count": 12,
+          "fields": [
+            "method",
+            "category",
+            "kind",
+            "lat",
+            "lon",
+            "name",
+            "straight_m",
+            "walk_m",
+            "walk_min"
+          ],
+          "origin": "live",
+          "dataset": {
+            "name": "OSRM foot routing (public servers), else straight-line estimate",
+            "id": "osrm/table/foot",
+            "url": "https://router.project-osrm.org/table/v1/foot/",
+            "terms": "https://github.com/Project-OSRM/osrm-backend/wiki/Demo-server (demo server: no heavy use)"
+          },
+          "error": null,
+          "live_error": null
+        }
+      ],
+      "total_seconds": 74.1
+    }
+  ]
+}

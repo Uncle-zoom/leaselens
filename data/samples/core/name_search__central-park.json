@@ -1,0 +1,22 @@
+{
+  "saved_at": "2026-10-24T19:05:16+00:00",
+  "source": "name_search",
+  "key": "central-park",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API (building name)",
+    "id": "nominatim/search?name",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "Central Park",
+    "found": false,
+    "name": "Central Park",
+    "house_number": null,
+    "road": null,
+    "city": "New York",
+    "state_code": "NY",
+    "lat": 40.7827725,
+    "lon": -73.9653627
+  }
+}

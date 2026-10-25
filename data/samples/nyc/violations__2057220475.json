@@ -1,0 +1,159 @@
+{
+  "saved_at": "2026-10-21T02:22:16+00:00",
+  "source": "violations",
+  "key": "2057220475",
+  "dataset": {
+    "name": "Housing Maintenance Code Violations (wvxf-dwi5) + Housing Maintenance Code Complaints and Problems (ygpa-z7cr), NYC HPD",
+    "id": "wvxf-dwi5 / ygpa-z7cr",
+    "url": "https://data.cityofnewyork.us/resource/wvxf-dwi5.json",
+    "terms": "https://www.nyc.gov/html/data/terms.html (open data, no key)"
+  },
+  "data": {
+    "bbl": "2057220475",
+    "months": 12,
+    "since": "2025-10-21",
+    "violations_total": 275,
+    "violations_open": 100,
+    "violations_by_class": [
+      {
+        "class": "A",
+        "meaning": "non-hazardous",
+        "open": 8,
+        "closed": 34,
+        "issued_last_12_months": 7
+      },
+      {
+        "class": "B",
+        "meaning": "hazardous",
+        "open": 51,
+        "closed": 67,
+        "issued_last_12_months": 22
+      },
+      {
+        "class": "C",
+        "meaning": "immediately hazardous",
+        "open": 41,
+        "closed": 74,
+        "issued_last_12_months": 19
+      }
+    ],
+    "open_class_c_examples": [
+      {
+        "class": "C",
+        "apartment": "2106",
+        "story": "20",
+        "inspectiondate": "2026-09-23T00:00:00.000",
+        "novdescription": "HMC ADM CODE: § 27-2017.4 ABATE THE INFESTATION CONSISTING OF ROACHES IN THE ENTIRE APARTMENT LOCATED AT APT 2106, 20th STORY, 1st APARTMENT FROM WEST AT NORTH , SECTION ''WEST''",
+        "currentstatus": "NOTICE OF ISSUANCE SENT TO TENANT",
+        "rentimpairing": "N"
+      },
+      {
+        "class": "C",
+        "apartment": "1718",
+        "story": "17",
+        "inspectiondate": "2026-09-17T00:00:00.000",
+        "novdescription": "HMC ADM CODE: § 27-2017.4 ABATE THE INFESTATION CONSISTING OF ROACHES IN THE ENTIRE APARTMENT LOCATED AT APT 1718, 17th STORY, 1st APARTMENT FROM SOUTH AT WEST , SECTION AT EAST",
+        "currentstatus": "NOTICE OF ISSUANCE SENT TO TENANT",
+        "rentimpairing": "N"
+      },
+      {
+        "class": "C",
+        "apartment": "1718",
+        "story": "17",
+        "inspectiondate": "2026-09-17T00:00:00.000",
+        "novdescription": "§ 27-2005 HMC: PROPERLY REPAIR OR REPLACE THE BROKEN OR DEFECTIVE GLASS PANE AT LOWER SASH WINDOW IN THE 1st ROOM FROM NORTH LOCATED AT APT 1718, 17th STORY, 1st APARTMENT FROM SOUTH AT WEST , SECTION AT EAST",
+        "currentstatus": "NOV SENT OUT",
+        "rentimpairing": "N"
+      },
+      {
+        "class": "C",
+        "apartment": "2018",
+        "story": "20",
+        "inspectiondate": "2026-09-02T00:00:00.000",
+        "novdescription": "HMC ADM CODE: § 27-2017.4 ABATE THE INFESTATION CONSISTING OF ROACHES IN THE ENTIRE APARTMENT LOCATED AT APT 2018, 20th STORY, 1st APARTMENT FROM SOUTH AT WEST , SECTION ''EAST''",
+        "currentstatus": "NOTICE OF ISSUANCE SENT TO TENANT",
+        "rentimpairing": "N"
+      },
+      {
+        "class": "C",
+        "apartment": "1422",
+        "story": "14",
+        "inspectiondate": "2026-09-02T00:00:00.000",
+        "novdescription": "HMC ADM CODE: § 27-2017.4 ABATE THE INFESTATION CONSISTING OF ROACHES IN THE ENTIRE APARTMENT LOCATED AT APT 1422, 14th STORY, 2nd APARTMENT FROM SOUTH AT WEST",
+        "currentstatus": "NOTICE OF ISSUANCE SENT TO TENANT",
+        "rentimpairing": "N"
+      }
+    ],
+    "hpd_complaints_last_12_months": 137,
+    "hpd_complaints_by_category": [
+      {
+        "major_category": "UNSANITARY CONDITION",
+        "complaints": 61,
+        "open": 1
+      },
+      {
+        "major_category": "PLUMBING",
+        "complaints": 25,
+        "open": 1
+      },
+      {
+        "major_category": "HEAT/HOT WATER",
+        "complaints": 17,
+        "open": 0
+      },
+      {
+        "major_category": "PAINT/PLASTER",
+        "complaints": 17,
+        "open": 1
+      },
+      {
+        "major_category": "WATER LEAK",
+        "complaints": 7,
+        "open": 1
+      },
+      {
+        "major_category": "GENERAL",
+        "complaints": 4,
+        "open": 0
+      },
+      {
+        "major_category": "DOOR/WINDOW",
+        "complaints": 3,
+        "open": 1
+      },
+      {
+        "major_category": "APPLIANCE",
+        "complaints": 2,
+        "open": 1
+      },
+      {
+        "major_category": "FLOORING/STAIRS",
+        "complaints": 1,
+        "open": 0
+      }
+    ],
+    "results": [
+      {
+        "class": "A",
+        "meaning": "non-hazardous",
+        "open": 8,
+        "closed": 34,
+        "issued_last_12_months": 7
+      },
+      {
+        "class": "B",
+        "meaning": "hazardous",
+        "open": 51,
+        "closed": 67,
+        "issued_last_12_months": 22
+      },
+      {
+        "class": "C",
+        "meaning": "immediately hazardous",
+        "open": 41,
+        "closed": 74,
+        "issued_last_12_months": 19
+      }
+    ]
+  }
+}

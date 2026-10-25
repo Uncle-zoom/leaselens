@@ -1,0 +1,24 @@
+# Colours here must match styles.TOKENS (tests/test_design.py checks this and the contrast of every pair).
+[theme]
+primaryColor = "#0071E3"
+font = "sans serif"
+baseFontSize = 16
+
+[theme.light]
+backgroundColor = "#F5F5F7"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1D1D1F"
+primaryColor = "#0071E3"
+
+[theme.dark]
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#1C1C1E"
+textColor = "#F5F5F7"
+primaryColor = "#0A84FF"
+
+[server]
+headless = true
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false

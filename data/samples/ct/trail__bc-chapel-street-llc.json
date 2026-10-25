@@ -1,0 +1,334 @@
+{
+  "saved_at": "2026-10-24T15:36:46+00:00",
+  "source": "trail",
+  "key": "bc-chapel-street-llc",
+  "dataset": {
+    "name": "Connecticut Business Registry (Business Master n7gp-d28j, Principals ka36-64k6) + 2026 Connecticut Parcel and CAMA Data (ibe8-9i3q)",
+    "id": "n7gp-d28j / ka36-64k6 / ibe8-9i3q",
+    "url": "https://data.ct.gov/resource/ka36-64k6.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "owner": "BC CHAPEL STREET LLC",
+    "owner_registry_name": "BC CHAPEL STREET LLC",
+    "individual_principals_not_followed": 0,
+    "registered_agents_not_followed": [
+      "CORPORATION SERVICE COMPANY"
+    ],
+    "entities": [
+      {
+        "name": "Beacon Communities Corp.",
+        "designation": null,
+        "matched_how": "listed as a principal on the owner's registry entry",
+        "confidence": "high",
+        "related_total": 24,
+        "related_total_is_minimum": false,
+        "related_shown": 24,
+        "companies": [
+          {
+            "id": "001eq00001Tt1YXAAZ",
+            "name": "10 Security Drive A MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "Boston",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "0018y00000AtGVaAAN",
+            "name": "20 SECURITY DRIVE 1A MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "Boston",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "0018y00000AtF1WAAV",
+            "name": "20 SECURITY DRIVE 1B MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "Boston",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001eq00000WzQssAAF",
+            "name": "BC 20 SECURITY DRIVE 2 MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "Boston",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoVDQAA3",
+            "name": "BC STATE STREET LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000hJoybAAC",
+            "name": "BCJ EDITH JOHNSON LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000hJeJAAA0",
+            "name": "BCJ EDITH JOHNSON MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001eq00000Me3PAAAZ",
+            "name": "BCJ Southwood Square II MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "Boston",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001eq00000Mk6QjAAJ",
+            "name": "BCJ Southwood Square III MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "Boston",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001eq00000LxVSjAAN",
+            "name": "BCJ Southwood Square MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "Boston",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "0018y00000BnhuyAAB",
+            "name": "BEACON BREWERY SQUARE GP LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001eq00001YKTxpAAH",
+            "name": "BEACON COMMUNITIES DEVELOPMENT LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoDMUAA3",
+            "name": "BEACON COMMUNITIES REI LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoDMTAA3",
+            "name": "BEACON COMMUNITIES SERVICES LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000Wo6aPAAR",
+            "name": "BEACON MONTGOMERY MILL LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoVDRAA3",
+            "name": "CHAPEL STREET MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (normalized)",
+            "confidence": "medium"
+          },
+          {
+            "id": "001t000000x9Dt9AAE",
+            "name": "COPPERMINE MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "Boston",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoHo6AAF",
+            "name": "NINTH SQUARE MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoSOZAA3",
+            "name": "PARKSIDE VILLAGE I MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000WoVDSAA3",
+            "name": "STATE STREET MM LLC",
+            "business_type": "LLC",
+            "status": "Active",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000hJareAAC",
+            "name": "BC COUNTRYSIDE I LLC",
+            "business_type": "LLC",
+            "status": "Dissolved",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000hJa95AAC",
+            "name": "BC FLANDERS WEST LLC",
+            "business_type": "LLC",
+            "status": "Dissolved",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000hJabuAAC",
+            "name": "BEACON COUNTRYSIDE II LLC",
+            "business_type": "LLC",
+            "status": "Dissolved",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          },
+          {
+            "id": "001t000000hJbHRAA0",
+            "name": "BEACON EXCHANGE PLACE LLC",
+            "business_type": "LLC",
+            "status": "Dissolved",
+            "city": "BOSTON",
+            "state": "MA",
+            "matched_how": "same principal name (exact)",
+            "confidence": "high"
+          }
+        ]
+      }
+    ],
+    "entities_not_followed": 0,
+    "parcels": [
+      {
+        "location": "114 BRISTOL ST",
+        "property_city": "New Haven",
+        "owner": "BCJ EDITH JOHNSON LLC",
+        "use": "APT Over12  MDL-94",
+        "link": "52070-100902",
+        "company": "BCJ EDITH JOHNSON LLC",
+        "entity": "Beacon Communities Corp.",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "BCJ EDITH JOHNSON LLC lists Beacon Communities Corp. as a principal, and Beacon Communities Corp. is a principal of BC CHAPEL STREET LLC"
+      },
+      {
+        "location": "114 BRISTOL ST",
+        "property_city": "New Haven",
+        "owner": "BCJ EDITH JOHNSON LLC",
+        "use": "CBL-TV TR",
+        "link": "52070-100903",
+        "company": "BCJ EDITH JOHNSON LLC",
+        "entity": "Beacon Communities Corp.",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "BCJ EDITH JOHNSON LLC lists Beacon Communities Corp. as a principal, and Beacon Communities Corp. is a principal of BC CHAPEL STREET LLC"
+      }
+    ],
+    "parcels_total": 2,
+    "parcels_shown": 2,
+    "caps": {
+      "companies": 30,
+      "parcels": 200,
+      "entities": 3
+    },
+    "companies_total": 24,
+    "companies_shown": 24,
+    "results": [
+      {
+        "location": "114 BRISTOL ST",
+        "property_city": "New Haven",
+        "owner": "BCJ EDITH JOHNSON LLC",
+        "use": "APT Over12  MDL-94",
+        "link": "52070-100902",
+        "company": "BCJ EDITH JOHNSON LLC",
+        "entity": "Beacon Communities Corp.",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "BCJ EDITH JOHNSON LLC lists Beacon Communities Corp. as a principal, and Beacon Communities Corp. is a principal of BC CHAPEL STREET LLC"
+      },
+      {
+        "location": "114 BRISTOL ST",
+        "property_city": "New Haven",
+        "owner": "BCJ EDITH JOHNSON LLC",
+        "use": "CBL-TV TR",
+        "link": "52070-100903",
+        "company": "BCJ EDITH JOHNSON LLC",
+        "entity": "Beacon Communities Corp.",
+        "match_type": "same principal name (exact); parcel owner exact name",
+        "confidence": "high",
+        "reason": "BCJ EDITH JOHNSON LLC lists Beacon Communities Corp. as a principal, and Beacon Communities Corp. is a principal of BC CHAPEL STREET LLC"
+      }
+    ]
+  }
+}

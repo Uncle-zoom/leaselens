@@ -1,0 +1,57 @@
+{
+  "saved_at": "2026-10-25T22:01:28+00:00",
+  "source": "parcels",
+  "key": "777-main-street-hartford-ct",
+  "dataset": {
+    "name": "2026 Connecticut Parcel and CAMA Data (Office of Policy and Management)",
+    "id": "ibe8-9i3q",
+    "url": "https://data.ct.gov/resource/ibe8-9i3q.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "query": "777 Main Street, Hartford, CT",
+    "number": "777",
+    "street": "MAIN",
+    "city": "Hartford",
+    "primary": {
+      "pid": "28533",
+      "location": "777 MAIN ST, Unit CNDASC",
+      "address_number": "777",
+      "street_name": "MAIN ST",
+      "property_city": "Hartford",
+      "owner": "777 MAIN STREET LLC",
+      "mailing_address": "777 MAIN ST",
+      "mailing_city": "HARTFORD",
+      "mailing_state": "CT",
+      "mailing_zip": "06103",
+      "assessed_total": "0.0",
+      "appraised_total": "0.0",
+      "valuation_year": "2021",
+      "link": "37070-269346900"
+    },
+    "results": [
+      {
+        "pid": "28533",
+        "location": "777 MAIN ST, Unit CNDASC",
+        "address_number": "777",
+        "street_name": "MAIN ST",
+        "property_city": "Hartford",
+        "owner": "777 MAIN STREET LLC",
+        "mailing_address": "777 MAIN ST",
+        "mailing_city": "HARTFORD",
+        "mailing_state": "CT",
+        "mailing_zip": "06103",
+        "assessed_total": "0.0",
+        "appraised_total": "0.0",
+        "valuation_year": "2021",
+        "link": "37070-269346900"
+      }
+    ],
+    "property": {
+      "kind": "condo_association",
+      "use": "",
+      "message": "This record belongs to the condo association (the shared building), not to a single unit.",
+      "unit_records": 0
+    }
+  }
+}

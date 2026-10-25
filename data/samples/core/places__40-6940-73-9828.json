@@ -1,0 +1,1865 @@
+{
+  "saved_at": "2026-10-21T02:20:46+00:00",
+  "source": "places",
+  "key": "40.6940_-73.9828",
+  "dataset": {
+    "name": "OpenStreetMap via Overpass API (interpreter)",
+    "id": "overpass/interpreter",
+    "url": "https://overpass-api.de/api/interpreter",
+    "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+  },
+  "data": {
+    "center": {
+      "lat": 40.6939945,
+      "lon": -73.9828019
+    },
+    "radius_m": 800,
+    "counts": {
+      "grocery": 43,
+      "gym": 20,
+      "park": 17,
+      "bus_stop": 63,
+      "train_station": 59,
+      "pharmacy": 7,
+      "bar": 13,
+      "pub": 3,
+      "nightclub": 0,
+      "fire_station": 2,
+      "hospital": 1,
+      "rail_line": 0
+    },
+    "results": [
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 40.694091,
+        "lon": -73.983027,
+        "distance_m": 22,
+        "osm": "way/191317112"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "NYC Fresh Market",
+        "lat": 40.693384,
+        "lon": -73.982854,
+        "distance_m": 68,
+        "osm": "node/6535598487"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Johnson Gourmet Deli & Grill",
+        "lat": 40.694675,
+        "lon": -73.982614,
+        "distance_m": 77,
+        "osm": "node/7890935591"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Bolla Market",
+        "lat": 40.694694,
+        "lon": -73.983457,
+        "distance_m": 95,
+        "osm": "way/250372646"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Vine",
+        "lat": 40.693359,
+        "lon": -73.981611,
+        "distance_m": 123,
+        "osm": "node/9793717861"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Fleet Organic Market",
+        "lat": 40.693455,
+        "lon": -73.981451,
+        "distance_m": 129,
+        "osm": "node/7890935587"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Myrtle Avenue & Fleet Place",
+        "lat": 40.693506,
+        "lon": -73.98128,
+        "distance_m": 139,
+        "osm": "node/11822813549"
+      },
+      {
+        "group": "noise",
+        "category": "fire_station",
+        "kind": "fire_station",
+        "name": "FDNY Engine 207/Ladder 110",
+        "lat": 40.695741,
+        "lon": -73.982837,
+        "distance_m": 194,
+        "osm": "node/368047016"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Brooklyn Deli",
+        "lat": 40.69223,
+        "lon": -73.984477,
+        "distance_m": 242,
+        "osm": "node/2568345283"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Brooklyn Commons",
+        "lat": 40.694063,
+        "lon": -73.985683,
+        "distance_m": 243,
+        "osm": "way/174220810"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Gold Organic Farm",
+        "lat": 40.69625,
+        "lon": -73.982975,
+        "distance_m": 251,
+        "osm": "node/6932672126"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Gold Street & Tillary Street",
+        "lat": 40.696302,
+        "lon": -73.983289,
+        "distance_m": 260,
+        "osm": "node/5642847202"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Abolitionist Place",
+        "lat": 40.691685,
+        "lon": -73.983887,
+        "distance_m": 273,
+        "osm": "way/1039404269"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692299,
+        "lon": -73.985173,
+        "distance_m": 275,
+        "osm": "node/3239349200"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.691574,
+        "lon": -73.982045,
+        "distance_m": 277,
+        "osm": "node/1907741118"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Trader Joe's",
+        "lat": 40.691416,
+        "lon": -73.982755,
+        "distance_m": 287,
+        "osm": "node/5233168036"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Gold Street & Tillary Street",
+        "lat": 40.696577,
+        "lon": -73.983087,
+        "distance_m": 288,
+        "osm": "node/5642847317"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Arbor Place",
+        "lat": 40.696017,
+        "lon": -73.980607,
+        "distance_m": 291,
+        "osm": "way/334212043"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692021,
+        "lon": -73.985122,
+        "distance_m": 294,
+        "osm": "node/4735727612"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692021,
+        "lon": -73.985165,
+        "distance_m": 296,
+        "osm": "node/7576485624"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "CVS Pharmacy",
+        "lat": 40.69336,
+        "lon": -73.979348,
+        "distance_m": 300,
+        "osm": "node/9811482618"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.691247,
+        "lon": -73.982396,
+        "distance_m": 307,
+        "osm": "node/4735727619"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "House of Wax",
+        "lat": 40.691251,
+        "lon": -73.983186,
+        "distance_m": 307,
+        "osm": "node/6680633193"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692025,
+        "lon": -73.98538,
+        "distance_m": 309,
+        "osm": "node/3239349204"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Rooftop Bar",
+        "lat": 40.691477,
+        "lon": -73.984546,
+        "distance_m": 316,
+        "osm": "node/4416209989"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Gold Street Market",
+        "lat": 40.696875,
+        "lon": -73.982976,
+        "distance_m": 321,
+        "osm": "node/2568322217"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Brooklyn Brewhouse",
+        "lat": 40.69126,
+        "lon": -73.984236,
+        "distance_m": 327,
+        "osm": "node/4922165421"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_station",
+        "name": "Jay Street–MetroTech",
+        "lat": 40.69218,
+        "lon": -73.985942,
+        "distance_m": 333,
+        "osm": "node/2013867806"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692255,
+        "lon": -73.986058,
+        "distance_m": 336,
+        "osm": "node/3502009821"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692367,
+        "lon": -73.986173,
+        "distance_m": 337,
+        "osm": "node/3239349202"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Manhattan Athletic Club",
+        "lat": 40.691667,
+        "lon": -73.985447,
+        "distance_m": 342,
+        "osm": "node/7795032953"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692124,
+        "lon": -73.986067,
+        "distance_m": 345,
+        "osm": "node/3502009822"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Skyline Gourmet",
+        "lat": 40.692085,
+        "lon": -73.986139,
+        "distance_m": 352,
+        "osm": "node/2550005939"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692059,
+        "lon": -73.986181,
+        "distance_m": 357,
+        "osm": "node/3239349199"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.693586,
+        "lon": -73.987009,
+        "distance_m": 358,
+        "osm": "node/4558023905"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Sunrise Mini Mart",
+        "lat": 40.692015,
+        "lon": -73.986421,
+        "distance_m": 376,
+        "osm": "node/2550005805"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Circa Brewing Co.",
+        "lat": 40.691678,
+        "lon": -73.986145,
+        "distance_m": 382,
+        "osm": "node/5103598321"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "McLaughlin Park",
+        "lat": 40.696497,
+        "lon": -73.985911,
+        "distance_m": 382,
+        "osm": "way/191317113"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_station",
+        "name": "DeKalb Avenue",
+        "lat": 40.690635,
+        "lon": -73.981824,
+        "distance_m": 383,
+        "osm": "node/219726610"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Planet Fitness",
+        "lat": 40.690687,
+        "lon": -73.984152,
+        "distance_m": 385,
+        "osm": "way/248156254"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Tillary Street & Jay Street",
+        "lat": 40.695964,
+        "lon": -73.986566,
+        "distance_m": 386,
+        "osm": "node/11745555665"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.690931,
+        "lon": -73.985246,
+        "distance_m": 398,
+        "osm": "node/219726629"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Faith Pharmacy",
+        "lat": 40.692101,
+        "lon": -73.986806,
+        "distance_m": 398,
+        "osm": "node/9193984161"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.693253,
+        "lon": -73.987441,
+        "distance_m": 400,
+        "osm": "node/7576485622"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Chapel Deli & Market",
+        "lat": 40.697064,
+        "lon": -73.985324,
+        "distance_m": 402,
+        "osm": "node/11658786257"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.693105,
+        "lon": -73.987446,
+        "distance_m": 404,
+        "osm": "node/7576485623"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.693208,
+        "lon": -73.987488,
+        "distance_m": 405,
+        "osm": "node/7576485621"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692455,
+        "lon": -73.987162,
+        "distance_m": 406,
+        "osm": "node/4735727611"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.693153,
+        "lon": -73.987489,
+        "distance_m": 406,
+        "osm": "node/7576485620"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.690932,
+        "lon": -73.985452,
+        "distance_m": 407,
+        "osm": "node/219726644"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692329,
+        "lon": -73.987167,
+        "distance_m": 412,
+        "osm": "node/3239349201"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.690458,
+        "lon": -73.98433,
+        "distance_m": 414,
+        "osm": "node/3781611357"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Fulton Street & Duffield Street",
+        "lat": 40.690494,
+        "lon": -73.98485,
+        "distance_m": 426,
+        "osm": "node/2550005912"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Jay Street & Willoughby Street",
+        "lat": 40.692351,
+        "lon": -73.987384,
+        "distance_m": 427,
+        "osm": "node/5747568677"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692529,
+        "lon": -73.987481,
+        "distance_m": 427,
+        "osm": "node/7576485618"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_station",
+        "name": "Hoyt Street",
+        "lat": 40.690513,
+        "lon": -73.984986,
+        "distance_m": 429,
+        "osm": "node/219726617"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692484,
+        "lon": -73.987527,
+        "distance_m": 432,
+        "osm": "node/7576485619"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.69234,
+        "lon": -73.987453,
+        "distance_m": 433,
+        "osm": "node/3314298580"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692381,
+        "lon": -73.987485,
+        "distance_m": 434,
+        "osm": "node/7576485616"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.692429,
+        "lon": -73.987528,
+        "distance_m": 435,
+        "osm": "node/7576485617"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Jay Street & Willoughby Street",
+        "lat": 40.692008,
+        "lon": -73.987255,
+        "distance_m": 436,
+        "osm": "node/5747570858"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Fulton Street & Hoyt Street",
+        "lat": 40.690756,
+        "lon": -73.985713,
+        "distance_m": 436,
+        "osm": "node/11158142733"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Golconda Playground",
+        "lat": 40.697914,
+        "lon": -73.982255,
+        "distance_m": 438,
+        "osm": "way/1047745549"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "DeKalb Avenue & Bond Street",
+        "lat": 40.690041,
+        "lon": -73.98272,
+        "distance_m": 440,
+        "osm": "node/11175031832"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.690626,
+        "lon": -73.985588,
+        "distance_m": 442,
+        "osm": "node/11388933537"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Jay Street & Tillary Street",
+        "lat": 40.696526,
+        "lon": -73.986974,
+        "distance_m": 451,
+        "osm": "node/11740100274"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Myrtle Avenue & Saint Edwards Street",
+        "lat": 40.693374,
+        "lon": -73.977476,
+        "distance_m": 454,
+        "osm": "node/3314298564"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.691612,
+        "lon": -73.987195,
+        "distance_m": 455,
+        "osm": "node/3239349203"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.690369,
+        "lon": -73.985327,
+        "distance_m": 456,
+        "osm": "node/3781596237"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Jay Street Finest Deli",
+        "lat": 40.691876,
+        "lon": -73.987486,
+        "distance_m": 460,
+        "osm": "node/6896501838"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Fulton Street & Jay Street",
+        "lat": 40.691412,
+        "lon": -73.987084,
+        "distance_m": 461,
+        "osm": "node/5747566922"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "DeKalb Avenue & Flatbush Avenue Extension",
+        "lat": 40.690003,
+        "lon": -73.981238,
+        "distance_m": 463,
+        "osm": "node/11175031760"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.689967,
+        "lon": -73.984265,
+        "distance_m": 465,
+        "osm": "node/3781611358"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Jay Street & Fulton Street",
+        "lat": 40.691662,
+        "lon": -73.987387,
+        "distance_m": 465,
+        "osm": "node/5747572423"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.691699,
+        "lon": -73.987456,
+        "distance_m": 468,
+        "osm": "node/219763223"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Concord Market",
+        "lat": 40.696382,
+        "lon": -73.987414,
+        "distance_m": 471,
+        "osm": "node/2568406396"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Lidl",
+        "lat": 40.689802,
+        "lon": -73.983565,
+        "distance_m": 471,
+        "osm": "node/12966652201"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Fulton Street & Bond Street",
+        "lat": 40.689723,
+        "lon": -73.983113,
+        "distance_m": 476,
+        "osm": "node/6109948518"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Duane Reade",
+        "lat": 40.691219,
+        "lon": -73.987196,
+        "distance_m": 482,
+        "osm": "node/2605312632"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Fulton Street & Bond Street",
+        "lat": 40.689657,
+        "lon": -73.982694,
+        "distance_m": 482,
+        "osm": "node/6109948519"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.689807,
+        "lon": -73.981061,
+        "distance_m": 488,
+        "osm": "node/4735727618"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.689793,
+        "lon": -73.981133,
+        "distance_m": 488,
+        "osm": "node/7576419098"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Duane Reade",
+        "lat": 40.689611,
+        "lon": -73.982364,
+        "distance_m": 489,
+        "osm": "node/8613851356"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Fulton Street & Smith Street",
+        "lat": 40.691514,
+        "lon": -73.987606,
+        "distance_m": 490,
+        "osm": "node/5747565474"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Commodore Barry Park",
+        "lat": 40.697305,
+        "lon": -73.978924,
+        "distance_m": 492,
+        "osm": "way/40709911"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Good Luck Newsstand & Lotto",
+        "lat": 40.692084,
+        "lon": -73.988097,
+        "distance_m": 494,
+        "osm": "node/5798968797"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Hana Lounge",
+        "lat": 40.692523,
+        "lon": -73.988338,
+        "distance_m": 495,
+        "osm": "node/10109662185"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.689718,
+        "lon": -73.981127,
+        "distance_m": 496,
+        "osm": "node/1907741120"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Tillary Street & Adams Street",
+        "lat": 40.696018,
+        "lon": -73.988082,
+        "distance_m": 499,
+        "osm": "node/5890687732"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Flushing Avenue & Navy Street",
+        "lat": 40.698172,
+        "lon": -73.980106,
+        "distance_m": 517,
+        "osm": "node/3314298569"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "7-Eleven",
+        "lat": 40.689543,
+        "lon": -73.980995,
+        "distance_m": 518,
+        "osm": "way/631941653"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Smith Street & Livingston Street",
+        "lat": 40.690924,
+        "lon": -73.987555,
+        "distance_m": 526,
+        "osm": "node/5784062653"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "A1 Deli",
+        "lat": 40.689385,
+        "lon": -73.984448,
+        "distance_m": 531,
+        "osm": "node/6681823624"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Jay Street & Concord Street",
+        "lat": 40.697615,
+        "lon": -73.986951,
+        "distance_m": 533,
+        "osm": "node/5636126289"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Adams Street & Johnson Street",
+        "lat": 40.694629,
+        "lon": -73.989094,
+        "distance_m": 535,
+        "osm": "node/5463213903"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Jay Street & Concord Street",
+        "lat": 40.697514,
+        "lon": -73.987146,
+        "distance_m": 536,
+        "osm": "node/5636126282"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Solidcore",
+        "lat": 40.689456,
+        "lon": -73.984943,
+        "distance_m": 536,
+        "osm": "node/11783969919"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 40.69787,
+        "lon": -73.986593,
+        "distance_m": 536,
+        "osm": "way/802054760"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Livingston Street & Hoyt Street",
+        "lat": 40.689883,
+        "lon": -73.986139,
+        "distance_m": 537,
+        "osm": "node/5784060938"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Adams Street & Brooklyn Supreme Court",
+        "lat": 40.692822,
+        "lon": -73.989169,
+        "distance_m": 552,
+        "osm": "node/5463215273"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Livingston Street & Hoyt Street",
+        "lat": 40.689423,
+        "lon": -73.985396,
+        "distance_m": 553,
+        "osm": "node/11201597507"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Fulton Street & Flatbush Avenue Extention",
+        "lat": 40.689099,
+        "lon": -73.981539,
+        "distance_m": 555,
+        "osm": "node/13687468260"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Livingston Street & Bond Street",
+        "lat": 40.689081,
+        "lon": -73.984098,
+        "distance_m": 557,
+        "osm": "node/5784062823"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "New Way Newsstand Candy Store",
+        "lat": 40.689569,
+        "lon": -73.985954,
+        "distance_m": 559,
+        "osm": "node/6453371205"
+      },
+      {
+        "group": "noise",
+        "category": "hospital",
+        "kind": "hospital",
+        "name": "Brooklyn Hospital Center",
+        "lat": 40.690584,
+        "lon": -73.977918,
+        "distance_m": 560,
+        "osm": "way/562256746"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Livingston Street & Smith Street",
+        "lat": 40.690449,
+        "lon": -73.987592,
+        "distance_m": 564,
+        "osm": "node/5784061384"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Park Candy & Grocery",
+        "lat": 40.693493,
+        "lon": -73.976127,
+        "distance_m": 565,
+        "osm": "node/2568310631"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Myrtle Avenue & North Portland Avenue",
+        "lat": 40.693441,
+        "lon": -73.976129,
+        "distance_m": 566,
+        "osm": "node/3314298576"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Nature Deli",
+        "lat": 40.689203,
+        "lon": -73.985054,
+        "distance_m": 566,
+        "osm": "node/9876431435"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Smith Street & Livingston Street",
+        "lat": 40.690634,
+        "lon": -73.987899,
+        "distance_m": 569,
+        "osm": "node/5784062045"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Munch Gourmet Market",
+        "lat": 40.689102,
+        "lon": -73.980791,
+        "distance_m": 570,
+        "osm": "node/5960375361"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Ten Star Deli & Grill",
+        "lat": 40.69349,
+        "lon": -73.976033,
+        "distance_m": 573,
+        "osm": "node/2568310632"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Livingston Street & Smith Street",
+        "lat": 40.690256,
+        "lon": -73.987571,
+        "distance_m": 578,
+        "osm": "node/5784055527"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": null,
+        "lat": 40.688811,
+        "lon": -73.983291,
+        "distance_m": 578,
+        "osm": "node/6680340121"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Trinity Park",
+        "lat": 40.699171,
+        "lon": -73.984652,
+        "distance_m": 596,
+        "osm": "relation/17327758"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_station",
+        "name": "Borough Hall",
+        "lat": 40.693029,
+        "lon": -73.989791,
+        "distance_m": 599,
+        "osm": "node/5106080578"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "A & J Deli Grocery",
+        "lat": 40.689714,
+        "lon": -73.978462,
+        "distance_m": 600,
+        "osm": "node/2572920295"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Columbus Park",
+        "lat": 40.693652,
+        "lon": -73.989917,
+        "distance_m": 601,
+        "osm": "way/20517264"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Boerum Place & Joralemon Street",
+        "lat": 40.691752,
+        "lon": -73.989358,
+        "distance_m": 606,
+        "osm": "node/5203987048"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Skider & Sons",
+        "lat": 40.689232,
+        "lon": -73.986344,
+        "distance_m": 608,
+        "osm": "node/2550002280"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Gold Street & Sands Street",
+        "lat": 40.699466,
+        "lon": -73.983052,
+        "distance_m": 609,
+        "osm": "node/5626433329"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.689045,
+        "lon": -73.985913,
+        "distance_m": 610,
+        "osm": "node/3781597102"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_station",
+        "name": "Nevins Street",
+        "lat": 40.68871,
+        "lon": -73.980814,
+        "distance_m": 611,
+        "osm": "node/5106238469"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Brooklyn Center Pharmacy",
+        "lat": 40.689697,
+        "lon": -73.978276,
+        "distance_m": 612,
+        "osm": "node/9811399782"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Tangerine Hot Power Yoga",
+        "lat": 40.688738,
+        "lon": -73.985029,
+        "distance_m": 614,
+        "osm": "node/4919818061"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "subway_entrance",
+        "name": null,
+        "lat": 40.68879,
+        "lon": -73.985248,
+        "distance_m": 614,
+        "osm": "node/5521763751"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Metro Finest Deli",
+        "lat": 40.688603,
+        "lon": -73.984714,
+        "distance_m": 621,
+        "osm": "node/6035186898"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Greene Bites",
+        "lat": 40.689698,
+        "lon": -73.978074,
+        "distance_m": 622,
+        "osm": "node/2572920297"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Blue Line Newsstand",
+        "lat": 40.688416,
+        "lon": -73.984249,
+        "distance_m": 632,
+        "osm": "node/2550065265"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Fulton Street & Hudson Avenue",
+        "lat": 40.688678,
+        "lon": -73.980161,
+        "distance_m": 632,
+        "osm": "node/11158142728"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "The Rockwell Place",
+        "lat": 40.689039,
+        "lon": -73.979122,
+        "distance_m": 632,
+        "osm": "way/250965847"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Sands Street & Gold Street",
+        "lat": 40.699704,
+        "lon": -73.983178,
+        "distance_m": 636,
+        "osm": "node/3314298565"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Brooklyn Fare",
+        "lat": 40.688825,
+        "lon": -73.986057,
+        "distance_m": 637,
+        "osm": "node/5994119517"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Cadman Plaza West & Montague Street",
+        "lat": 40.693543,
+        "lon": -73.990349,
+        "distance_m": 638,
+        "osm": "node/9033268205"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Wegmans",
+        "lat": 40.698886,
+        "lon": -73.978777,
+        "distance_m": 641,
+        "osm": "node/6573662312"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Boerum Place & Livingston Street",
+        "lat": 40.690807,
+        "lon": -73.989189,
+        "distance_m": 645,
+        "osm": "node/5203982898"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Navy Street & Sands Street",
+        "lat": 40.699547,
+        "lon": -73.980359,
+        "distance_m": 651,
+        "osm": "node/3314298573"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "CVS Pharmacy",
+        "lat": 40.688328,
+        "lon": -73.98085,
+        "distance_m": 651,
+        "osm": "node/4772979121"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Sands Street & Gold Street",
+        "lat": 40.699883,
+        "lon": -73.983342,
+        "distance_m": 656,
+        "osm": "node/3314298568"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Duane Reade",
+        "lat": 40.693636,
+        "lon": -73.990651,
+        "distance_m": 663,
+        "osm": "node/5799183569"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Nevins Foodmart",
+        "lat": 40.688107,
+        "lon": -73.981426,
+        "distance_m": 665,
+        "osm": "node/2550005863"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Duane Reade",
+        "lat": 40.693653,
+        "lon": -73.990712,
+        "distance_m": 668,
+        "osm": "node/5799183580"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Chelsea Piers Fitness",
+        "lat": 40.687986,
+        "lon": -73.983124,
+        "distance_m": 669,
+        "osm": "node/6035186902"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Kings County Distillery Tasting Room",
+        "lat": 40.699706,
+        "lon": -73.980211,
+        "distance_m": 672,
+        "osm": "relation/12554650"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Fort Greene Park",
+        "lat": 40.691523,
+        "lon": -73.975484,
+        "distance_m": 675,
+        "osm": "way/20512138"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Korean War Veterans Plaza",
+        "lat": 40.695609,
+        "lon": -73.990537,
+        "distance_m": 676,
+        "osm": "way/20518483"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "The Lobby",
+        "lat": 40.687942,
+        "lon": -73.983805,
+        "distance_m": 678,
+        "osm": "node/9528668469"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Oxport Playground",
+        "lat": 40.697531,
+        "lon": -73.976236,
+        "distance_m": 679,
+        "osm": "way/334258793"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "F45 Training",
+        "lat": 40.689518,
+        "lon": -73.988318,
+        "distance_m": 681,
+        "osm": "node/6554175161"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "My Deli",
+        "lat": 40.696379,
+        "lon": -73.975302,
+        "distance_m": 686,
+        "osm": "node/9964813457"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "The Row House",
+        "lat": 40.689456,
+        "lon": -73.988355,
+        "distance_m": 688,
+        "osm": "node/6554175160"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Healthy Choice Food Market Deli",
+        "lat": 40.688028,
+        "lon": -73.980102,
+        "distance_m": 701,
+        "osm": "node/2572920337"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Form Fitness",
+        "lat": 40.69299,
+        "lon": -73.991028,
+        "distance_m": 703,
+        "osm": "node/6896325797"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Grand Army",
+        "lat": 40.688268,
+        "lon": -73.986535,
+        "distance_m": 710,
+        "osm": "node/5807804737"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "New York Sports Club",
+        "lat": 40.693313,
+        "lon": -73.991194,
+        "distance_m": 712,
+        "osm": "node/5804810612"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "State Express Deli",
+        "lat": 40.687693,
+        "lon": -73.984426,
+        "distance_m": 714,
+        "osm": "node/2550065279"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Cork & Kale",
+        "lat": 40.687578,
+        "lon": -73.981825,
+        "distance_m": 718,
+        "osm": "node/6680357308"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "SoulCycle",
+        "lat": 40.692169,
+        "lon": -73.990967,
+        "distance_m": 718,
+        "osm": "node/6896363476"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 40.700067,
+        "lon": -73.985916,
+        "distance_m": 724,
+        "osm": "way/357269230"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Walt Whitman Park",
+        "lat": 40.698233,
+        "lon": -73.989371,
+        "distance_m": 727,
+        "osm": "way/20521006"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Bridge Park 3",
+        "lat": 40.700254,
+        "lon": -73.985455,
+        "distance_m": 731,
+        "osm": "relation/12045634"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Forté Plaza",
+        "lat": 40.688227,
+        "lon": -73.978522,
+        "distance_m": 736,
+        "osm": "way/1210539676"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Orangetheory Fitness",
+        "lat": 40.693809,
+        "lon": -73.991681,
+        "distance_m": 749,
+        "osm": "node/9525654463"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Equinox",
+        "lat": 40.692501,
+        "lon": -73.991492,
+        "distance_m": 751,
+        "osm": "node/6896325803"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "5 Star Candy Deli",
+        "lat": 40.693408,
+        "lon": -73.973887,
+        "distance_m": 754,
+        "osm": "node/2568294796"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Heatwise",
+        "lat": 40.693537,
+        "lon": -73.991723,
+        "distance_m": 754,
+        "osm": "node/9525802260"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Finetune Pilates Studio",
+        "lat": 40.688211,
+        "lon": -73.987513,
+        "distance_m": 756,
+        "osm": "node/6422095824"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "O'Keefes Bar & Grill",
+        "lat": 40.692028,
+        "lon": -73.991423,
+        "distance_m": 759,
+        "osm": "node/2494203007"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Nu Hotel Bar & Lounge",
+        "lat": 40.688862,
+        "lon": -73.988736,
+        "distance_m": 759,
+        "osm": "node/7132236862"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Woven",
+        "lat": 40.688104,
+        "lon": -73.987383,
+        "distance_m": 760,
+        "osm": "node/9749399769"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Vera Yoga",
+        "lat": 40.688132,
+        "lon": -73.98746,
+        "distance_m": 761,
+        "osm": "node/8569965508"
+      },
+      {
+        "group": "noise",
+        "category": "fire_station",
+        "kind": "fire_station",
+        "name": "FDNY Engine 226",
+        "lat": 40.687129,
+        "lon": -73.982715,
+        "distance_m": 763,
+        "osm": "way/248165590"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Radar Mini Market",
+        "lat": 40.696335,
+        "lon": -73.974206,
+        "distance_m": 770,
+        "osm": "node/2568288798"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Petit Paulette",
+        "lat": 40.689612,
+        "lon": -73.975738,
+        "distance_m": 770,
+        "osm": "node/12254052901"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Metamorphosis",
+        "lat": 40.688456,
+        "lon": -73.988299,
+        "distance_m": 771,
+        "osm": "node/2550002274"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Fresh Start Marketplace",
+        "lat": 40.693982,
+        "lon": -73.991964,
+        "distance_m": 772,
+        "osm": "node/9330433962"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Whitman Pharnacy",
+        "lat": 40.6934,
+        "lon": -73.973669,
+        "distance_m": 773,
+        "osm": "node/2568294807"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Aymen Organic Mini Mart",
+        "lat": 40.693155,
+        "lon": -73.973665,
+        "distance_m": 776,
+        "osm": "node/2494256360"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Fulton Hall",
+        "lat": 40.687761,
+        "lon": -73.978586,
+        "distance_m": 779,
+        "osm": "node/7177751482"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "CKO Kickboxing",
+        "lat": 40.687108,
+        "lon": -73.980786,
+        "distance_m": 784,
+        "osm": "node/10726941727"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Crunch Fitness",
+        "lat": 40.687889,
+        "lon": -73.977987,
+        "distance_m": 791,
+        "osm": "node/2572920407"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Enso Pilates",
+        "lat": 40.686946,
+        "lon": -73.984415,
+        "distance_m": 795,
+        "osm": "node/5812402061"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Someday",
+        "lat": 40.687335,
+        "lon": -73.98633,
+        "distance_m": 798,
+        "osm": "node/5808313095"
+      }
+    ],
+    "server": "https://overpass.openstreetmap.fr/api/interpreter"
+  }
+}

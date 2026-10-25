@@ -1,0 +1,140 @@
+{
+  "saved_at": "2026-10-21T02:22:30+00:00",
+  "source": "owner",
+  "key": "2057220475",
+  "dataset": {
+    "name": "PLUTO (64uk-42ks) + HPD Multiple Dwelling Registrations (tesw-yqqr) + HPD Registration Contacts (feu5-w2e2), NYC Open Data",
+    "id": "64uk-42ks / tesw-yqqr / feu5-w2e2",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json",
+    "terms": "https://www.nyc.gov/html/data/terms.html (open data, no key)"
+  },
+  "data": {
+    "bbl": "2057220475",
+    "pluto": {
+      "address": "2600 NETHERLAND AVENUE",
+      "ownername": "EDGEHILL ASSOCIATES",
+      "bldgclass": "D7",
+      "unitsres": "569",
+      "unitstotal": "589",
+      "numfloors": "30.0000000",
+      "yearbuilt": "1975",
+      "landuse": "4",
+      "zipcode": "10463",
+      "bbl": "2057220475.00000000"
+    },
+    "pluto_owner_name": "EDGEHILL ASSOCIATES",
+    "registration": {
+      "registrationid": "221892",
+      "housenumber": "2600",
+      "streetname": "NETHERLAND AVENUE",
+      "zip": "10463",
+      "bin": "2083247",
+      "lastregistrationdate": "2025-08-08T00:00:00.000",
+      "registrationenddate": "2026-09-01T00:00:00.000"
+    },
+    "owners": [
+      {
+        "type": "CorporateOwner",
+        "contactdescription": "GEN.PART",
+        "corporationname": "CENTURY TOWER ASSOCIATES NY LLC",
+        "businesshousenumber": "135",
+        "businessstreetname": "EAST 57 STREET",
+        "businessapartment": "22NDFL",
+        "businesscity": "NEW YORK",
+        "businessstate": "NY",
+        "businesszip": "10022",
+        "name": "CENTURY TOWER ASSOCIATES NY LLC"
+      }
+    ],
+    "managing_agents": [
+      {
+        "type": "Agent",
+        "contactdescription": "GEN.PART",
+        "corporationname": "HAMPTON MANAGEMENT CO",
+        "firstname": "ANTOINETTE",
+        "lastname": "MARESCO",
+        "businesshousenumber": "2600",
+        "businessstreetname": "NETHERLAND AVE",
+        "businessapartment": "MGMT",
+        "businesscity": "RIVERDALE",
+        "businessstate": "NY",
+        "businesszip": "10463",
+        "name": "HAMPTON MANAGEMENT CO"
+      }
+    ],
+    "head_officers": [
+      {
+        "type": "HeadOfficer",
+        "contactdescription": "GEN.PART",
+        "title": "MANAGER",
+        "firstname": "SETH",
+        "lastname": "SCHOCHET",
+        "businesshousenumber": "135",
+        "businessstreetname": "EAST 57 STREET",
+        "businessapartment": "22NDFL",
+        "businesscity": "NEW YORK",
+        "businessstate": "NY",
+        "businesszip": "10022",
+        "name": "SETH SCHOCHET"
+      }
+    ],
+    "other_contacts": [
+      {
+        "type": "SiteManager",
+        "contactdescription": "GEN.PART",
+        "firstname": "STEVE",
+        "lastname": "KING",
+        "name": "STEVE KING"
+      }
+    ],
+    "results": [
+      {
+        "type": "CorporateOwner",
+        "contactdescription": "GEN.PART",
+        "corporationname": "CENTURY TOWER ASSOCIATES NY LLC",
+        "businesshousenumber": "135",
+        "businessstreetname": "EAST 57 STREET",
+        "businessapartment": "22NDFL",
+        "businesscity": "NEW YORK",
+        "businessstate": "NY",
+        "businesszip": "10022",
+        "name": "CENTURY TOWER ASSOCIATES NY LLC"
+      },
+      {
+        "type": "Agent",
+        "contactdescription": "GEN.PART",
+        "corporationname": "HAMPTON MANAGEMENT CO",
+        "firstname": "ANTOINETTE",
+        "lastname": "MARESCO",
+        "businesshousenumber": "2600",
+        "businessstreetname": "NETHERLAND AVE",
+        "businessapartment": "MGMT",
+        "businesscity": "RIVERDALE",
+        "businessstate": "NY",
+        "businesszip": "10463",
+        "name": "HAMPTON MANAGEMENT CO"
+      },
+      {
+        "type": "HeadOfficer",
+        "contactdescription": "GEN.PART",
+        "title": "MANAGER",
+        "firstname": "SETH",
+        "lastname": "SCHOCHET",
+        "businesshousenumber": "135",
+        "businessstreetname": "EAST 57 STREET",
+        "businessapartment": "22NDFL",
+        "businesscity": "NEW YORK",
+        "businessstate": "NY",
+        "businesszip": "10022",
+        "name": "SETH SCHOCHET"
+      },
+      {
+        "type": "SiteManager",
+        "contactdescription": "GEN.PART",
+        "firstname": "STEVE",
+        "lastname": "KING",
+        "name": "STEVE KING"
+      }
+    ]
+  }
+}

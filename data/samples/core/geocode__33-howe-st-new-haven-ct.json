@@ -1,0 +1,42 @@
+{
+  "saved_at": "2026-10-21T02:45:41+00:00",
+  "source": "geocode",
+  "key": "33-howe-st-new-haven-ct",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API",
+    "id": "nominatim/search",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "33 HOWE ST, New Haven, CT",
+    "lat": 41.3079595,
+    "lon": -72.9361653,
+    "display_name": "33;35, Howe Street, Dwight Street Historic District, Dixwell, New Haven, Connecticut, 06511, United States",
+    "house_number": "33;35",
+    "road": "Howe Street",
+    "city": "New Haven",
+    "county": "New Haven",
+    "state": "Connecticut",
+    "state_code": "CT",
+    "postcode": "06511",
+    "osm_type": "node",
+    "osm_id": 9021776379,
+    "place_class": "place",
+    "place_type": "house",
+    "importance": 6.999847409776482e-05,
+    "address": {
+      "house_number": "33;35",
+      "road": "Howe Street",
+      "neighbourhood": "Dwight Street Historic District",
+      "suburb": "Dixwell",
+      "city": "New Haven",
+      "county": "New Haven",
+      "state": "Connecticut",
+      "ISO3166-2-lvl4": "US-CT",
+      "postcode": "06511",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+}

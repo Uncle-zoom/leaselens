@@ -1,0 +1,61 @@
+{
+  "saved_at": "2026-10-21T02:17:20+00:00",
+  "source": "parcels",
+  "key": "100-york-street-new-haven-ct",
+  "dataset": {
+    "name": "2026 Connecticut Parcel and CAMA Data (Office of Policy and Management)",
+    "id": "ibe8-9i3q",
+    "url": "https://data.ct.gov/resource/ibe8-9i3q.json",
+    "terms": "https://data.ct.gov (open data, Socrata, no key)"
+  },
+  "data": {
+    "query": "100 York Street, New Haven, CT",
+    "number": "100",
+    "street": "YORK",
+    "city": "New Haven",
+    "primary": {
+      "pid": "15036",
+      "location": "100  YORK ST",
+      "address_number": "100",
+      "street_name": "YORK",
+      "property_city": "New Haven",
+      "owner": "UNIVERSITY TOWERS OWNERS CORP",
+      "mailing_address": "100 YORK ST",
+      "mailing_city": "NEW HAVEN",
+      "mailing_state": "CT",
+      "mailing_zip": "06510",
+      "state_use_description": "APT Over12  MDL-94",
+      "assessed_total": "20003200.0",
+      "appraised_total": "28576000.0",
+      "ayb": "1958.0",
+      "valuation_year": "2021",
+      "sale_date": "1/1/2020 0:00",
+      "sale_price": "0.0",
+      "link": "52070-15036",
+      "cama_site_link": "https://gis.vgsi.com/new havenct/Parcel.aspx?Pid=15036"
+    },
+    "results": [
+      {
+        "pid": "15036",
+        "location": "100  YORK ST",
+        "address_number": "100",
+        "street_name": "YORK",
+        "property_city": "New Haven",
+        "owner": "UNIVERSITY TOWERS OWNERS CORP",
+        "mailing_address": "100 YORK ST",
+        "mailing_city": "NEW HAVEN",
+        "mailing_state": "CT",
+        "mailing_zip": "06510",
+        "state_use_description": "APT Over12  MDL-94",
+        "assessed_total": "20003200.0",
+        "appraised_total": "28576000.0",
+        "ayb": "1958.0",
+        "valuation_year": "2021",
+        "sale_date": "1/1/2020 0:00",
+        "sale_price": "0.0",
+        "link": "52070-15036",
+        "cama_site_link": "https://gis.vgsi.com/new havenct/Parcel.aspx?Pid=15036"
+      }
+    ]
+  }
+}

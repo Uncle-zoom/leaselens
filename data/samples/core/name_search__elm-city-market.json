@@ -1,0 +1,22 @@
+{
+  "saved_at": "2026-10-24T19:05:13+00:00",
+  "source": "name_search",
+  "key": "elm-city-market",
+  "dataset": {
+    "name": "OpenStreetMap Nominatim search API (building name)",
+    "id": "nominatim/search?name",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "terms": "https://operations.osmfoundation.org/policies/nominatim/ (max 1 req/s, User-Agent required)"
+  },
+  "data": {
+    "query": "Elm City Market",
+    "found": false,
+    "name": "Elm City Market",
+    "house_number": null,
+    "road": "Chapel Street",
+    "city": "New Haven",
+    "state_code": "CT",
+    "lat": 41.3052712,
+    "lon": -72.9234482
+  }
+}

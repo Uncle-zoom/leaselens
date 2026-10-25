@@ -1,0 +1,209 @@
+{
+  "address": "100 York Street, New Haven, CT",
+  "data": {
+    "address": "100 York Street, New Haven, CT",
+    "area": "New Haven, Connecticut",
+    "my_priorities": {
+      "longest_walk_to_grocery_minutes": 10,
+      "longest_walk_to_gym_minutes": 15,
+      "longest_walk_to_transit_minutes": 8,
+      "night_time_quiet_matters": "medium"
+    },
+    "search_windows": {
+      "places_and_noise_radius_m": 800,
+      "street_reports_radius_m": 200,
+      "street_reports_period": "last 12 months",
+      "street_reports_period_months": 12
+    },
+    "scores": {
+      "Groceries": 86.0,
+      "Gym": 78.7,
+      "Transit": 91.2,
+      "Quiet": 4.6,
+      "Overall": 65.1
+    },
+    "walking": [
+      {
+        "place_type": "Grocery",
+        "nearest": "Sam's Food",
+        "walk_minutes": 2.8,
+        "my_limit_minutes": 10,
+        "meets_limit": true
+      },
+      {
+        "place_type": "Gym",
+        "nearest": "Joyride Cycling Studio",
+        "walk_minutes": 6.4,
+        "my_limit_minutes": 15,
+        "meets_limit": true
+      },
+      {
+        "place_type": "Park",
+        "nearest": "Yale University Art Gallery Sculpture Garden",
+        "walk_minutes": 4.6,
+        "my_limit_minutes": null,
+        "meets_limit": null
+      },
+      {
+        "place_type": "Bus stop",
+        "nearest": "129 York",
+        "walk_minutes": 1.4,
+        "my_limit_minutes": 8,
+        "meets_limit": true
+      },
+      {
+        "place_type": "Train / subway",
+        "nearest": "none within 800 m",
+        "walk_minutes": null,
+        "my_limit_minutes": 8,
+        "meets_limit": null
+      }
+    ],
+    "noise_within_800m": [
+      {
+        "type": "Nightclubs",
+        "count": 4,
+        "nearest": "Partners",
+        "nearest_distance_m": 133
+      },
+      {
+        "type": "Bars",
+        "count": 15,
+        "nearest": "168 York Street Cafe",
+        "nearest_distance_m": 152
+      },
+      {
+        "type": "Pubs",
+        "count": 9,
+        "nearest": "Viva Zapata",
+        "nearest_distance_m": 147
+      },
+      {
+        "type": "Fire stations",
+        "count": 0,
+        "nearest": null,
+        "nearest_distance_m": null
+      },
+      {
+        "type": "Hospitals",
+        "count": 6,
+        "nearest": "Smilow Cancer Hospital",
+        "nearest_distance_m": 313
+      },
+      {
+        "type": "Rail lines",
+        "count": 0,
+        "nearest": null,
+        "nearest_distance_m": null
+      }
+    ],
+    "street_reports": {
+      "what_this_is": "street-level reports by residents about the public street, not housing complaints",
+      "radius_m": 200,
+      "since": "2025-10-21",
+      "total": 100,
+      "by_type": [
+        {
+          "type": "Private Property Issue",
+          "reports": 13,
+          "still_open": 0
+        },
+        {
+          "type": "Private Property Issue - Building & Zoning",
+          "reports": 10,
+          "still_open": 0
+        },
+        {
+          "type": "Traffic Signal / Pedestrian Signal",
+          "reports": 8,
+          "still_open": 3
+        },
+        {
+          "type": "Missed Trash/Recycling",
+          "reports": 7,
+          "still_open": 0
+        },
+        {
+          "type": "PUBLIC SPACE ENFORCEMENT",
+          "reports": 6,
+          "still_open": 0
+        },
+        {
+          "type": "Potholes",
+          "reports": 5,
+          "still_open": 0
+        },
+        {
+          "type": "Graffiti - TT&P",
+          "reports": 5,
+          "still_open": 5
+        },
+        {
+          "type": "Parking Violation",
+          "reports": 5,
+          "still_open": 0
+        }
+      ],
+      "recent_report_titles": [
+        "Illegal Dumping",
+        "Traffic Signal / Pedestrian Signal",
+        "Private Property Issue",
+        "Missed Trash/Recycling",
+        "Illegal Dumping"
+      ]
+    },
+    "landlord": {
+      "available": true,
+      "parcel_record": {
+        "owner": "UNIVERSITY TOWERS OWNERS CORP",
+        "co_owner": null,
+        "property": "100 YORK ST",
+        "property_use": "APT Over12  MDL-94",
+        "year_built": "1958",
+        "tax_bill_mailing_address": "100 YORK ST, NEW HAVEN, CT, 06510"
+      },
+      "business_registry": {
+        "name": "UNIVERSITY TOWERS OWNERS CORP.",
+        "entity_type": "Stock",
+        "status": "Active",
+        "formed_in": "CT",
+        "registered": "1981-05-06",
+        "business_address": "100 York St, New Haven, CT, 06511",
+        "registered_agents": [
+          "Charles A. Ryan"
+        ],
+        "principals": [
+          "Kathy Faught",
+          "Michael Harris",
+          "Carroll Ryan",
+          "Elisabeth Martin",
+          "Mary Mclnerney",
+          "Phoebe Barron"
+        ],
+        "matched_to_parcel_owner_by": "normalized name",
+        "match_confidence": "medium"
+      },
+      "other_parcels_linked_to_owner": {
+        "total": 2,
+        "count_by_match_type": {
+          "exact name": 2
+        },
+        "different_owner_names_at_same_mailing_address": 0,
+        "examples": [
+          {
+            "address": "379 GEORGE ST",
+            "owner_on_record": "UNIVERSITY TOWERS OWNERS CORP",
+            "how_matched": "exact name",
+            "confidence": "high"
+          },
+          {
+            "address": "390 GEORGE ST",
+            "owner_on_record": "UNIVERSITY TOWERS OWNERS CORP",
+            "how_matched": "exact name",
+            "confidence": "high"
+          }
+        ]
+      }
+    }
+  }
+}

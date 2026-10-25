@@ -1,0 +1,1115 @@
+{
+  "saved_at": "2026-10-21T02:15:56+00:00",
+  "source": "places",
+  "key": "41.3054_-72.9232",
+  "dataset": {
+    "name": "OpenStreetMap via Overpass API (interpreter)",
+    "id": "overpass/interpreter",
+    "url": "https://overpass-api.de/api/interpreter",
+    "terms": "https://wiki.openstreetmap.org/wiki/Overpass_API (fair use; ODbL data)"
+  },
+  "data": {
+    "center": {
+      "lat": 41.3054423,
+      "lon": -72.9232144
+    },
+    "radius_m": 800,
+    "counts": {
+      "grocery": 13,
+      "gym": 2,
+      "park": 29,
+      "bus_stop": 36,
+      "train_station": 2,
+      "pharmacy": 2,
+      "bar": 12,
+      "pub": 7,
+      "nightclub": 3,
+      "fire_station": 1,
+      "hospital": 0,
+      "rail_line": 1
+    },
+    "results": [
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "supermarket",
+        "name": "Elm City Market",
+        "lat": 41.305271,
+        "lon": -72.923448,
+        "distance_m": 27,
+        "osm": "node/1801930795"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.304946,
+        "lon": -72.92328,
+        "distance_m": 55,
+        "osm": "node/571690390"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.305368,
+        "lon": -72.923998,
+        "distance_m": 66,
+        "osm": "node/1801930520"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "The Trinity",
+        "lat": 41.306041,
+        "lon": -72.923671,
+        "distance_m": 77,
+        "osm": "node/2400994283"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "station",
+        "name": "State Street",
+        "lat": 41.305247,
+        "lon": -72.921818,
+        "distance_m": 119,
+        "osm": "node/2265902174"
+      },
+      {
+        "group": "amenity",
+        "category": "train_station",
+        "kind": "station",
+        "name": "New Haven-State Street",
+        "lat": 41.305098,
+        "lon": -72.921765,
+        "distance_m": 127,
+        "osm": "relation/5562312"
+      },
+      {
+        "group": "noise",
+        "category": "rail_line",
+        "kind": "rail",
+        "name": "New Haven Line",
+        "lat": 41.30473,
+        "lon": -72.922003,
+        "distance_m": 128,
+        "osm": "way/760408717"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Ninth Square Market",
+        "lat": 41.304618,
+        "lon": -72.925078,
+        "distance_m": 181,
+        "osm": "node/2917385600"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Equinox",
+        "lat": 41.304827,
+        "lon": -72.92526,
+        "distance_m": 184,
+        "osm": "node/2921284414"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 41.303744,
+        "lon": -72.923428,
+        "distance_m": 190,
+        "osm": "way/236094848"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Barcade",
+        "lat": 41.304471,
+        "lon": -72.925197,
+        "distance_m": 198,
+        "osm": "node/2921269866"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Firehouse 12",
+        "lat": 41.304021,
+        "lon": -72.924674,
+        "distance_m": 200,
+        "osm": "node/2921269975"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "CVS Pharmacy",
+        "lat": 41.306104,
+        "lon": -72.925482,
+        "distance_m": 203,
+        "osm": "node/2412787847"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Chapel/Church",
+        "lat": 41.306026,
+        "lon": -72.925551,
+        "distance_m": 206,
+        "osm": "node/7201980529"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.306278,
+        "lon": -72.925434,
+        "distance_m": 207,
+        "osm": "node/573859577"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Cafe Nine",
+        "lat": 41.303664,
+        "lon": -72.923927,
+        "distance_m": 207,
+        "osm": "node/2441439303"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Skappo",
+        "lat": 41.304134,
+        "lon": -72.92497,
+        "distance_m": 207,
+        "osm": "node/2921269974"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.306746,
+        "lon": -72.925102,
+        "distance_m": 214,
+        "osm": "node/573859588"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.305787,
+        "lon": -72.925842,
+        "distance_m": 223,
+        "osm": "node/573859559"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Union Street Parkway",
+        "lat": 41.303528,
+        "lon": -72.922349,
+        "distance_m": 225,
+        "osm": "way/43437036"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Gateway Food Store",
+        "lat": 41.305188,
+        "lon": -72.926152,
+        "distance_m": 247,
+        "osm": "node/8929409167"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Union Street Small Dog Park",
+        "lat": 41.303251,
+        "lon": -72.922366,
+        "distance_m": 254,
+        "osm": "node/12599261139"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "55 Church",
+        "lat": 41.305166,
+        "lon": -72.926303,
+        "distance_m": 260,
+        "osm": "node/573859563"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "116 Crown",
+        "lat": 41.30444,
+        "lon": -72.926234,
+        "distance_m": 276,
+        "osm": "node/2655099668"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Dangle's Bar & Grill",
+        "lat": 41.307885,
+        "lon": -72.922301,
+        "distance_m": 282,
+        "osm": "node/2400994287"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.303899,
+        "lon": -72.920528,
+        "distance_m": 283,
+        "osm": "node/8044394078"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "The Lab",
+        "lat": 41.307473,
+        "lon": -72.921075,
+        "distance_m": 288,
+        "osm": "node/13330056524"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.306467,
+        "lon": -72.926594,
+        "distance_m": 304,
+        "osm": "node/571690391"
+      },
+      {
+        "group": "amenity",
+        "category": "pharmacy",
+        "kind": "pharmacy",
+        "name": "Rite Aid",
+        "lat": 41.305008,
+        "lon": -72.926815,
+        "distance_m": 305,
+        "osm": "node/470632958"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Jazzy's Cabaret",
+        "lat": 41.303374,
+        "lon": -72.925844,
+        "distance_m": 318,
+        "osm": "node/2385964406"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.304341,
+        "lon": -72.926918,
+        "distance_m": 333,
+        "osm": "node/573859568"
+      },
+      {
+        "group": "noise",
+        "category": "fire_station",
+        "kind": "fire_station",
+        "name": "New Haven Fire Department Headquarters",
+        "lat": 41.306988,
+        "lon": -72.919765,
+        "distance_m": 335,
+        "osm": "way/217000912"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.302938,
+        "lon": -72.925511,
+        "distance_m": 338,
+        "osm": "node/12907200835"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Ninth Square Market Too",
+        "lat": 41.30353,
+        "lon": -72.926408,
+        "distance_m": 341,
+        "osm": "node/2921249263"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.306913,
+        "lon": -72.926896,
+        "distance_m": 348,
+        "osm": "node/571690392"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Te Amo Tequila",
+        "lat": 41.306399,
+        "lon": -72.927298,
+        "distance_m": 357,
+        "osm": "node/8929412340"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.307612,
+        "lon": -72.926411,
+        "distance_m": 360,
+        "osm": "node/571690393"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Marketa",
+        "lat": 41.306306,
+        "lon": -72.927365,
+        "distance_m": 360,
+        "osm": "node/2957929739"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.303939,
+        "lon": -72.927168,
+        "distance_m": 370,
+        "osm": "node/573859572"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Elm City Taphouse",
+        "lat": 41.305638,
+        "lon": -72.927862,
+        "distance_m": 389,
+        "osm": "node/2469485879"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Olive & Grand Food Mart",
+        "lat": 41.307297,
+        "lon": -72.919106,
+        "distance_m": 400,
+        "osm": "node/2928711406"
+      },
+      {
+        "group": "noise",
+        "category": "nightclub",
+        "kind": "nightclub",
+        "name": "Joker's Wild Comedy Club",
+        "lat": 41.30284,
+        "lon": -72.919878,
+        "distance_m": 402,
+        "osm": "node/2970584924"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Columbus Plaza",
+        "lat": 41.303373,
+        "lon": -72.927289,
+        "distance_m": 411,
+        "osm": "relation/14588578"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Wooster Memorial Park",
+        "lat": 41.3032,
+        "lon": -72.919224,
+        "distance_m": 416,
+        "osm": "way/43437033"
+      },
+      {
+        "group": "amenity",
+        "category": "gym",
+        "kind": "fitness_centre",
+        "name": "Joyride Cycling Studio",
+        "lat": 41.30557,
+        "lon": -72.92832,
+        "distance_m": 427,
+        "osm": "node/2469485886"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.308788,
+        "lon": -72.925784,
+        "distance_m": 430,
+        "osm": "node/571690381"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Stella Blues",
+        "lat": 41.305422,
+        "lon": -72.9285,
+        "distance_m": 442,
+        "osm": "node/2469485878"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "CTtransit",
+        "lat": 41.303888,
+        "lon": -72.918335,
+        "distance_m": 443,
+        "osm": "node/8759161192"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Temple Street Garage",
+        "lat": 41.304187,
+        "lon": -72.928459,
+        "distance_m": 460,
+        "osm": "node/12907200838"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Wooster Square",
+        "lat": 41.304756,
+        "lon": -72.917774,
+        "distance_m": 461,
+        "osm": "way/43437030"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.307257,
+        "lon": -72.928284,
+        "distance_m": 469,
+        "osm": "node/571690382"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Ordinary",
+        "lat": 41.307051,
+        "lon": -72.928499,
+        "distance_m": 476,
+        "osm": "node/2760039193"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Chapel/College",
+        "lat": 41.307268,
+        "lon": -72.928374,
+        "distance_m": 476,
+        "osm": "node/7201980528"
+      },
+      {
+        "group": "noise",
+        "category": "nightclub",
+        "kind": "nightclub",
+        "name": "Uptown Upscale Lounge",
+        "lat": 41.30557,
+        "lon": -72.928954,
+        "distance_m": 480,
+        "osm": "node/3460425207"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Zodiac Bar & Grill",
+        "lat": 41.305633,
+        "lon": -72.928966,
+        "distance_m": 481,
+        "osm": "node/2469485889"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Columbus Park",
+        "lat": 41.302306,
+        "lon": -72.927224,
+        "distance_m": 484,
+        "osm": "way/114615863"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Paul Russo Memorial Park",
+        "lat": 41.303384,
+        "lon": -72.917811,
+        "distance_m": 506,
+        "osm": "way/43437040"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Anchor Spa",
+        "lat": 41.307165,
+        "lon": -72.928951,
+        "distance_m": 516,
+        "osm": "node/2563033743"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Phelps",
+        "lat": 41.30845,
+        "lon": -72.927919,
+        "distance_m": 516,
+        "osm": "node/2958103106"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "Owl Shop",
+        "lat": 41.307097,
+        "lon": -72.929004,
+        "distance_m": 517,
+        "osm": "node/2563033744"
+      },
+      {
+        "group": "noise",
+        "category": "pub",
+        "kind": "pub",
+        "name": "Elm City Social",
+        "lat": 41.307037,
+        "lon": -72.929041,
+        "distance_m": 518,
+        "osm": "node/2563033745"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "College Convenience",
+        "lat": 41.306923,
+        "lon": -72.929141,
+        "distance_m": 522,
+        "osm": "node/2563033742"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 41.310371,
+        "lon": -72.923702,
+        "distance_m": 550,
+        "osm": "way/364697706"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Grove/Whitney",
+        "lat": 41.310355,
+        "lon": -72.922307,
+        "distance_m": 552,
+        "osm": "node/2890306129"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Grove/Whitney",
+        "lat": 41.310417,
+        "lon": -72.922275,
+        "distance_m": 559,
+        "osm": "node/3103152578"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Old Campus",
+        "lat": 41.30875,
+        "lon": -72.928525,
+        "distance_m": 576,
+        "osm": "way/211737531"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": null,
+        "lat": 41.306138,
+        "lon": -72.930169,
+        "distance_m": 586,
+        "osm": "node/2469480126"
+      },
+      {
+        "group": "noise",
+        "category": "nightclub",
+        "kind": "nightclub",
+        "name": "Bartropolis Dance Floor",
+        "lat": 41.306071,
+        "lon": -72.930207,
+        "distance_m": 588,
+        "osm": "node/2918604073"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "College/Crown",
+        "lat": 41.305203,
+        "lon": -72.930313,
+        "distance_m": 594,
+        "osm": "node/7213041009"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Wozniak",
+        "lat": 41.307915,
+        "lon": -72.916875,
+        "distance_m": 597,
+        "osm": "node/2970511532"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 41.30999,
+        "lon": -72.927232,
+        "distance_m": 607,
+        "osm": "way/212487322"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Grove/Temple",
+        "lat": 41.310929,
+        "lon": -72.923673,
+        "distance_m": 611,
+        "osm": "node/2890306130"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 41.310809,
+        "lon": -72.924908,
+        "distance_m": 613,
+        "osm": "way/139420902"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Grove/Temple",
+        "lat": 41.310989,
+        "lon": -72.923636,
+        "distance_m": 618,
+        "osm": "node/3103152584"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "College/Wall",
+        "lat": 41.310616,
+        "lon": -72.926131,
+        "distance_m": 625,
+        "osm": "node/3103152580"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "300 George",
+        "lat": 41.304635,
+        "lon": -72.930676,
+        "distance_m": 630,
+        "osm": "node/2958094163"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "grocery",
+        "name": "The Loop by Hachiroku",
+        "lat": 41.310614,
+        "lon": -72.920136,
+        "distance_m": 630,
+        "osm": "node/13930413201"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "300 George",
+        "lat": 41.304692,
+        "lon": -72.930764,
+        "distance_m": 636,
+        "osm": "node/2958094161"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "COOK 2GO",
+        "lat": 41.307763,
+        "lon": -72.93021,
+        "distance_m": 639,
+        "osm": "node/2760039195"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Art Center Mini-Park",
+        "lat": 41.311108,
+        "lon": -72.921766,
+        "distance_m": 642,
+        "osm": "way/43437641"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "College/Wall",
+        "lat": 41.310858,
+        "lon": -72.926147,
+        "distance_m": 650,
+        "osm": "node/3103152581"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Cross Campus",
+        "lat": 41.310466,
+        "lon": -72.927274,
+        "distance_m": 653,
+        "osm": "relation/5421111"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Lenzi Park",
+        "lat": 41.307364,
+        "lon": -72.915628,
+        "distance_m": 669,
+        "osm": "way/43437035"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Audubon/Orange",
+        "lat": 41.311002,
+        "lon": -72.920111,
+        "distance_m": 670,
+        "osm": "node/2890306128"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "Audubon/Orange",
+        "lat": 41.311014,
+        "lon": -72.920164,
+        "distance_m": 670,
+        "osm": "node/3103152585"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.30135,
+        "lon": -72.929105,
+        "distance_m": 670,
+        "osm": "node/7169479857"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "South Court",
+        "lat": 41.310403,
+        "lon": -72.928065,
+        "distance_m": 684,
+        "osm": "way/217340231"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Linonia Court",
+        "lat": 41.309394,
+        "lon": -72.929715,
+        "distance_m": 699,
+        "osm": "way/212042458"
+      },
+      {
+        "group": "noise",
+        "category": "bar",
+        "kind": "bar",
+        "name": "The Juice Box",
+        "lat": 41.308029,
+        "lon": -72.930883,
+        "distance_m": 702,
+        "osm": "node/2373828319"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Good Nature Market",
+        "lat": 41.311777,
+        "lon": -72.922352,
+        "distance_m": 708,
+        "osm": "node/2469492025"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Killingworth Court",
+        "lat": 41.31003,
+        "lon": -72.929317,
+        "distance_m": 721,
+        "osm": "way/212042459"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Yale University Art Gallery Sculpture Garden",
+        "lat": 41.308698,
+        "lon": -72.930735,
+        "distance_m": 725,
+        "osm": "way/405955313"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": null,
+        "lat": 41.311032,
+        "lon": -72.927696,
+        "distance_m": 726,
+        "osm": "way/405955318"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Calliope Court",
+        "lat": 41.309525,
+        "lon": -72.930029,
+        "distance_m": 728,
+        "osm": "way/212042455"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Jonathan Edwards Courtyard",
+        "lat": 41.309086,
+        "lon": -72.930454,
+        "distance_m": 728,
+        "osm": "way/363477898"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Stone Court",
+        "lat": 41.310493,
+        "lon": -72.928823,
+        "distance_m": 731,
+        "osm": "way/212487326"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Head of College Courtyard",
+        "lat": 41.310626,
+        "lon": -72.928705,
+        "distance_m": 737,
+        "osm": "way/363427777"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Branford Court",
+        "lat": 41.309818,
+        "lon": -72.929854,
+        "distance_m": 738,
+        "osm": "way/212042461"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "LEPH/60 College",
+        "lat": 41.303251,
+        "lon": -72.931717,
+        "distance_m": 751,
+        "osm": "node/2890306134"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "LEPH/60 College",
+        "lat": 41.303304,
+        "lon": -72.931817,
+        "distance_m": 757,
+        "osm": "node/2958094159"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Brothers in Unity Court",
+        "lat": 41.309652,
+        "lon": -72.930347,
+        "distance_m": 758,
+        "osm": "way/212042462"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": null,
+        "lat": 41.308479,
+        "lon": -72.931383,
+        "distance_m": 761,
+        "osm": "node/571690384"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Saybrook Court",
+        "lat": 41.310257,
+        "lon": -72.929821,
+        "distance_m": 769,
+        "osm": "way/212042460"
+      },
+      {
+        "group": "amenity",
+        "category": "bus_stop",
+        "kind": "bus_stop",
+        "name": "A&A/180 York",
+        "lat": 41.308627,
+        "lon": -72.931461,
+        "distance_m": 774,
+        "osm": "node/3103152575"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Main Court",
+        "lat": 41.310835,
+        "lon": -72.929082,
+        "distance_m": 774,
+        "osm": "way/212487324"
+      },
+      {
+        "group": "amenity",
+        "category": "park",
+        "kind": "park",
+        "name": "Selin Courtyard",
+        "lat": 41.3113,
+        "lon": -72.928464,
+        "distance_m": 785,
+        "osm": "way/212487323"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Hong Kong Market",
+        "lat": 41.312463,
+        "lon": -72.92181,
+        "distance_m": 789,
+        "osm": "node/2393361132"
+      },
+      {
+        "group": "amenity",
+        "category": "grocery",
+        "kind": "convenience",
+        "name": "Naturgene Herb",
+        "lat": 41.31255,
+        "lon": -72.921811,
+        "distance_m": 799,
+        "osm": "node/2469492026"
+      }
+    ],
+    "server": "https://overpass.openstreetmap.fr/api/interpreter"
+  }
+}

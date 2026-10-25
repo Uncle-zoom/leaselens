@@ -1,0 +1,157 @@
+{
+  "address": "365 Orchard Street, New Haven, CT",
+  "priorities": {
+    "max_grocery": 10,
+    "max_gym": 15,
+    "max_transit": 8,
+    "quiet": "medium"
+  },
+  "flagged_untrusted_strings": [],
+  "block": {
+    "output": {
+      "verdict": "think twice",
+      "reasons": [
+        "Your grocery walk to J & J is 2.2 minutes and the bus stop is 7.1 minutes against your 10-minute and 8-minute limits, but no gym was found within 800 m.",
+        "Because night-time quiet matters to you at a medium level, note the Quiet score of 58.0 and that The Cannon is 407 m away, while Grimes Center is 189 m away.",
+        "Records show 54 public street reports within 200 m since 2025-10-21, including 14 Missed Trash/Recycling reports and 4 Illegal Dumping reports; these are street-level reports, not housing complaints."
+      ],
+      "summary": "You have convenient grocery and bus walks, but check whether the gym options, nearby noise and street conditions work for you before signing."
+    },
+    "removed": [],
+    "tokens": 3984,
+    "usd": 0.000555
+  },
+  "landlord": {
+    "output": {
+      "plain_english": "The parcel record lists ADAR INVESTMENTS LLC as the owner of 365 ORCHARD ST, with tax bills mailed to 19 HOWE ST, NEW HAVEN, CT, 06511. The registry lists ADAR INVESTMENTS, LLC as an active LLC formed in CT, with SAMUEL HECHT as principal; no registered agents are listed, and the registry name matches the parcel owner by normalized name with medium confidence. The other-parcels search found 88 linked parcels: 10 matched by exact name with high confidence, and 78 matched by the same mailing address. There are 18 different owner names at that mailing address, which may reflect a shared manager or office and does not establish common ownership.",
+      "observations": [
+        "The parcel record lists ADAR INVESTMENTS LLC as owner and gives 19 HOWE ST, NEW HAVEN, CT, 06511 as the tax-bill mailing address.",
+        "The registry lists the entity as Active and formed in CT, and names SAMUEL HECHT as a principal.",
+        "The search found 10 exact-name matches with high confidence and 78 same-mailing-address matches.",
+        "The registry-to-parcel owner match is normalized name with medium confidence, and no registered agents are listed."
+      ],
+      "questions": [
+        "Will the owner named on my lease be ADAR INVESTMENTS LLC, as listed on the parcel record?",
+        "Who manages the property and should I contact for repairs or other building issues?",
+        "Who is the registered agent or other contact for receiving formal notices, given that no registered agents are listed in the registry record?"
+      ]
+    },
+    "removed": [],
+    "tokens": 3686,
+    "usd": 0.000372
+  },
+  "email_ask_questions": {
+    "output": {
+      "purpose": "ask_questions",
+      "subject": "Questions about [unit number] at 365 Orchard Street",
+      "body": "Hello, \n\nI’m interested in [unit number] and have a couple of questions before deciding. The records list no gym within 800 m. Is there a fitness room in the building, or can you suggest a nearby option? \n\nNight-time quiet matters to me. The nearest pub listed is The Cannon, 407 metres away. Could you share details about the unit’s windows or sound insulation, and any building quiet-hours policy? \n\nThank you, \n[Your name]",
+      "facts_cited": [
+        "none within 800 m",
+        "The Cannon",
+        "407"
+      ]
+    },
+    "removed": [],
+    "tokens": 3848,
+    "usd": 0.000455
+  },
+  "email_negotiate": {
+    "output": {
+      "purpose": "negotiate",
+      "subject": "Request for a lease concession",
+      "body": "Hello, \n\nI’m interested in [unit number] and would like to ask whether you would consider a move-in concession or another lease term. The records show no gym within 800 m, and list The Cannon as the nearest pub at 407 m and Grimes Center as the nearest hospital at 189 m. Given these location factors, would you be open to discussing a concession? \n\nThank you for considering my request. I look forward to hearing what may be possible. \n\nBest, \n[Your name]",
+      "facts_cited": [
+        "none within 800 m",
+        "The Cannon",
+        "407",
+        "Grimes Center",
+        "189"
+      ]
+    },
+    "removed": [],
+    "tokens": 3995,
+    "usd": 0.000528
+  },
+  "chat_examples": [
+    {
+      "question": "How far is the nearest grocery store, and does it meet my limit?",
+      "output": {
+        "answer": "The nearest grocery store is J & J, a 2.2-minute walk away. It meets your 10-minute limit.",
+        "known": true,
+        "sources": [
+          "walking"
+        ]
+      },
+      "removed": [],
+      "tokens": 3546,
+      "usd": 0.000117
+    },
+    {
+      "question": "Who owns this building and what else do they own?",
+      "output": {
+        "answer": "The parcel record lists ADAR INVESTMENTS LLC as the owner of 365 ORCHARD ST. Records link 88 other parcels to this owner: 10 by exact name, a high-confidence match, and 78 by shared tax-bill mailing address, a medium or low-confidence link that does not prove common ownership. Examples matched by exact name are 101 DWIGHT ST, 103 RAMSDELL ST, 109 DWIGHT ST, 115 DWIGHT ST, 24 KENSINGTON ST, 28 KENSINGTON ST, 33 HOWE ST, 38 TILTON ST, 574 GEORGE ST, and 68 ANTHONY ST.",
+        "known": true,
+        "sources": [
+          "landlord"
+        ]
+      },
+      "removed": [],
+      "tokens": 5229,
+      "usd": 0.000289
+    },
+    {
+      "question": "What is the monthly rent and are pets allowed?",
+      "output": {
+        "answer": "The monthly rent and pet policy are not in the records we have. Please ask the landlord or listing agent to confirm both before applying or signing.",
+        "known": false,
+        "sources": [
+          "landlord"
+        ]
+      },
+      "removed": [],
+      "tokens": 7361,
+      "usd": 0.000261
+    }
+  ],
+  "email_negotiate_firm": {
+    "output": {
+      "purpose": "negotiate",
+      "tone": "firm",
+      "subject": "Questions and proposed lease terms for 365 Orchard Street, New Haven, CT",
+      "body": "Hello,\n\nBefore signing, I’d like to discuss the lease terms and clarify the items below. Grocery walking minutes are 2.2 to J & J against my 10-minute limit; no gym is listed within 800 m against my 15-minute limit. The bus stop is 7.1 walking minutes against my 8-minute limit, and no train / subway is listed within 800 m against my 8-minute limit.\n\nThe Quiet score is 58.0. Within 800 m, records list 1 nightclub, Partners at 690 m; 2 bars, nearest Old Heidelberg at 756 m; 4 pubs, nearest The Cannon at 407 m; 2 fire stations, nearest New Haven Fire Department Engine 6 at 735 m; 3 hospitals, nearest Grimes Center at 189 m; and 0 rail lines. There were 54 street-level reports about the public street within 200 m in the last 12 months; these are not housing complaints.\n\nThe parcel record lists ADAR INVESTMENTS LLC. The registry lists ADAR INVESTMENTS, LLC as an LLC with Active status; its match to the parcel owner is by normalized name, with medium confidence. 88 other parcels are linked: 10 by exact name and 78 by same mailing address. The latter is not proof of common ownership.\n\nPlease let me know:\n1. Whether the monthly rent can be reduced or a concession offered.\n2. Whether you can provide a written list of repairs to be finished before move-in, arrange a walk-through, and identify who handles repair requests.\n3. The lease length, renewal terms, notice needed to leave, and which entity will be named as landlord on the lease.\n\nPlease reply in writing. Thank you,\n\n[Your name]",
+      "facts_cited": [
+        "\"nearest\": \"J & J\"",
+        "\"walk_minutes\": 2.2",
+        "\"my_limit_minutes\": 10",
+        "\"nearest\": \"none within 800 m\"",
+        "\"my_limit_minutes\": 15",
+        "\"nearest\": \"bus stop\"",
+        "\"walk_minutes\": 7.1",
+        "\"my_limit_minutes\": 8",
+        "\"nearest\": \"none within 800 m\"",
+        "\"Quiet\": 58.0",
+        "\"type\": \"Nightclubs\", \"count\": 1, \"nearest\": \"Partners\", \"nearest_distance_m\": 690",
+        "\"type\": \"Bars\", \"count\": 2, \"nearest\": \"Old Heidelberg\", \"nearest_distance_m\": 756",
+        "\"type\": \"Pubs\", \"count\": 4, \"nearest\": \"The Cannon\", \"nearest_distance_m\": 407",
+        "\"type\": \"Fire stations\", \"count\": 2, \"nearest\": \"New Haven Fire Department Engine 6\", \"nearest_distance_m\": 735",
+        "\"type\": \"Hospitals\", \"count\": 3, \"nearest\": \"Grimes Center\", \"nearest_distance_m\": 189",
+        "\"type\": \"Rail lines\", \"count\": 0",
+        "\"total\": 54",
+        "\"radius_m\": 200",
+        "\"street_reports_period\": \"last 12 months\"",
+        "\"owner\": \"ADAR INVESTMENTS LLC\"",
+        "\"name\": \"ADAR INVESTMENTS, LLC\"",
+        "\"entity_type\": \"LLC\"",
+        "\"status\": \"Active\"",
+        "\"matched_to_parcel_owner_by\": \"normalized name\"",
+        "\"match_confidence\": \"medium\"",
+        "\"total\": 88",
+        "\"exact name\": 10",
+        "\"same mailing address\": 78"
+      ]
+    },
+    "removed": [],
+    "tokens": 5489,
+    "usd": 0.001114
+  }
+}
