@@ -22,5 +22,3 @@ Deji's words (paraphrased from conversation, not verbatim quotes). No timing was
 ## What this evidence does and does not show
 - Both testers confirmed the problem from their own experience; tester 1 wished listing sites offered
   this and tester 2 saw it as an add-on for the big listing companies.
-- Not measured: time saved with LeaseLens versus their usual search. (TO ADD if available: minutes
-  the usual way vs. minutes with LeaseLens, and one exact quote with permission.)

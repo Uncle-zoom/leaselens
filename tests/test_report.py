@@ -25,9 +25,9 @@ def test_report_is_self_contained():
     assert "TO FILL" not in html and "github.com/Uncle-zoom/leaselens" in html
 
 
-def test_to_add_note_is_small_grey_not_a_callout():
+def test_no_placeholder_notes_left_and_note_style_is_small_grey():
     html = _report()
-    assert re.search(r'<span class="note">\(?TO ADD', html)
+    assert "TO ADD" not in html and "TO FILL" not in html and "Not measured: time saved" not in html
     css = re.search(r"\.note\s*\{[^}]*\}", html).group(0)
     assert "background" not in css and "#767676" in css
 
