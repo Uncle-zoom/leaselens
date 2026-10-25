@@ -16,7 +16,7 @@ landlord trail. New York City code exists in `sources/nyc/` but is switched off 
 Needs **Python 3.10 to 3.14** (tested on 3.14; the requirements also resolve for 3.10).
 
 ```bash
-git clone https://github.com/<your-username>/leaselens.git     # use the URL of this repository
+git clone https://github.com/Uncle-zoom/leaselens.git
 cd leaselens
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate

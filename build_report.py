@@ -54,7 +54,7 @@ and who is behind the owner's LLC, with every claim traced to a public record an
  <div class="stat"><b class="num">{sp['total_now']:.1f} s</b><span>address to AI verdict, was about {sp['total_before']:.0f} s</span></div>
  <div class="stat"><b class="num">{d['tests']}</b><span>automated tests, all offline</span></div>
 </div>
-<p><b>Repository:</b> TO FILL &nbsp;&middot;&nbsp; <b>Run it:</b> see <code>README.md</code> (<code>streamlit run app.py</code>; Demo mode runs offline from saved real results, no key needed).</p>
+<p><b>Repository:</b> <a href="https://github.com/Uncle-zoom/leaselens">https://github.com/Uncle-zoom/leaselens</a> &nbsp;&middot;&nbsp; <b>Run it:</b> see <code>README.md</code> (<code>streamlit run app.py</code>; Demo mode runs offline from saved real results, no key needed).</p>
 {fig('02_result_cards.png', 'Result cards for the three example addresses: verdict, score out of 100 and four plain-language facts.', 'wide')}
 """
 

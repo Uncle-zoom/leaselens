@@ -22,7 +22,7 @@ def test_report_is_self_contained():
     html = _report()
     assert not re.findall(r'<(?:img|script|link)[^>]+(?:src|href)="https?://', html)
     assert html.count("data:image/png;base64,") >= 10
-    assert "TO FILL" in html
+    assert "TO FILL" not in html and "github.com/Uncle-zoom/leaselens" in html
 
 
 def test_to_add_note_is_small_grey_not_a_callout():

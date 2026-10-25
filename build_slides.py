@@ -72,7 +72,7 @@ def build(d: dict) -> list[str]:
 
     s = []
     s.append(f"""<section><h1>LeaseLens</h1><p class="big">Know the block and the landlord before you sign.</p>
-<p class="sub">{e(d['name'])} &middot; Yale SOM, MGT 409 &middot; October 2026</p><p class="note">Repository: TO FILL</p></section>""")
+<p class="sub">{e(d['name'])} &middot; Yale SOM, MGT 409 &middot; October 2026</p><p class="note">Repository: https://github.com/Uncle-zoom/leaselens</p></section>""")
     s.append(f"""<section><h2>The problem</h2><p class="big">What is this block like at night, and who will I deal with when something breaks?</p>
 <p class="sub">The answers are in public records, but listing sites do not show them and the owner is often an LLC with a name that tells a renter nothing.</p></section>""")
     s.append("""<section><h2>What is new</h2><ul><li><b>Walking minutes and noise sources</b> for any US address</li>
