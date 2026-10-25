@@ -40,6 +40,32 @@ CSS = BASE_CSS + """
 .reveal .small { font-size:.62em; }
 .reveal .note { font-size:.5em; }
 .reveal a { color:var(--link); }
+
+.reveal-viewport { background:linear-gradient(180deg,#FFFFFF 0%,#F2F5FA 100%); }
+.reveal .slides section { padding:0 56px; }
+.reveal h2 { position:relative; padding-left:.55em; font-weight:700; }
+.reveal h2::before { content:""; position:absolute; left:0; top:.12em; bottom:.12em; width:8px; border-radius:6px;
+                     background:linear-gradient(180deg,#0071E3,#5AC8FA); }
+.reveal .tile { background:#fff; border-radius:22px; padding:.65em .85em; box-shadow:0 10px 30px rgba(10,42,102,.10),0 0 0 1px rgba(10,42,102,.06); }
+.reveal .tile b { font-size:2.3em; font-weight:700; background:linear-gradient(135deg,#0071E3,#0A2A66); -webkit-background-clip:text; background-clip:text; color:transparent; }
+.reveal .tile span { font-size:.66em; color:#4B5563; }
+.reveal img { border-radius:16px; box-shadow:0 14px 40px rgba(10,42,102,.16),0 0 0 1px rgba(10,42,102,.08); }
+.reveal .cap { color:#4B5563; font-style:normal; }
+.reveal .quote { background:#fff; border-left:8px solid #0071E3; border-radius:0 18px 18px 0; padding:.55em 1em; margin:.55em 0;
+                 box-shadow:0 8px 24px rgba(10,42,102,.08); font-size:1em; }
+.reveal ul { list-style:none; padding-left:0; }
+.reveal ul li { position:relative; padding-left:1.1em; }
+.reveal ul li::before { content:""; position:absolute; left:0; top:.55em; width:.5em; height:.5em; border-radius:50%; background:#0071E3; }
+.reveal .hero h1, .reveal .hero h2, .reveal .hero .big, .reveal .hero li, .reveal .hero b { color:#fff; }
+.reveal .hero h1 { font-size:3.4em; font-weight:800; letter-spacing:-.03em; }
+.reveal .hero .big { font-weight:600; max-width:18em; }
+.reveal .hero .sub, .reveal .hero .note { color:#C9D8F2; } .reveal .hero .note { font-size:.62em; }
+.reveal .hero a { color:#9CCBFF; }
+.reveal .hero h2::before { background:linear-gradient(180deg,#5AC8FA,#fff); }
+.reveal .hero ul li::before { background:#5AC8FA; }
+.reveal .pill { display:inline-block; background:rgba(255,255,255,.14); color:#fff; border-radius:999px; padding:.15em .8em; font-size:.55em; margin-top:.8em; }
+.reveal .progress { color:#0071E3; height:6px; } .reveal .controls { color:#4DA3FF; }
+.reveal .slide-number { right:22px; bottom:14px; } .brand { position:fixed; bottom:14px; left:56px; z-index:30; font-size:15px; color:#6B7280; }
 """
 
 
@@ -71,9 +97,9 @@ def build(d: dict) -> list[str]:
     inj, fc = sf["injection"], sf["fact_check"]
 
     s = []
-    s.append(f"""<section><h1>LeaseLens</h1><p class="big">Know the block and the landlord before you sign.</p>
-<p class="sub">{e(d['name'])} &middot; Yale SOM, MGT 409 &middot; October 2026</p><p class="note">Repository: https://github.com/Uncle-zoom/leaselens</p></section>""")
-    s.append(f"""<section><h2>The problem</h2><p class="big">What is this block like at night, and who will I deal with when something breaks?</p>
+    s.append(f"""<section class="hero" data-background-gradient="linear-gradient(135deg,#071027 0%,#0A2A66 58%,#0071E3 135%)"><h1>LeaseLens</h1><p class="big">Know the block and the landlord before you sign.</p>
+<p class="sub">{e(d['name'])} &middot; Yale SOM, MGT 409 &middot; October 2026</p><p class="note">Repository: <a href="https://github.com/Uncle-zoom/leaselens">https://github.com/Uncle-zoom/leaselens</a></p></section>""")
+    s.append(f"""<section class="hero" data-background-gradient="linear-gradient(135deg,#071027 0%,#0A2A66 58%,#0071E3 135%)"><h2>The problem</h2><p class="big">What is this block like at night, and who will I deal with when something breaks?</p>
 <p class="sub">The answers are in public records, but listing sites do not show them and the owner is often an LLC with a name that tells a renter nothing.</p></section>""")
     s.append("""<section><h2>What is new</h2><ul><li><b>Walking minutes and noise sources</b> for any US address</li>
 <li><b>Street-level reports</b> from the public record</li>
@@ -93,7 +119,7 @@ def build(d: dict) -> list[str]:
     lines = tester_lines()
     q = "".join(f'<div class="quote">{e(x)}</div>' for x in lines)
     s.append(f"""<section><h2>What testers said</h2>{q}<p class="note">Two testers, paraphrased by me; no timing measured.</p></section>""")
-    s.append("""<section><h2>What is next</h2><ul><li><b>New York City</b> housing violations</li><li><b>Road-traffic noise</b>, since testers asked</li><li><b>More cities</b></li><li><b>Listing-site partnerships</b></li></ul>
+    s.append("""<section class="hero" data-background-gradient="linear-gradient(135deg,#071027 0%,#0A2A66 58%,#0071E3 135%)"><h2>What is next</h2><ul><li><b>New York City</b> housing violations</li><li><b>Road-traffic noise</b>, since testers asked</li><li><b>More cities</b></li><li><b>Listing-site partnerships</b></li></ul>
 <p class="sub">Today: street-level reports only; landlord trail in Connecticut only.</p></section>""")
     return s
 
@@ -108,9 +134,9 @@ def main() -> int:
     assert len(secs) <= MAX_SLIDES, len(secs)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LeaseLens slides</title><style>{js(VENDOR / 'reveal.css')}</style><style>{CSS}</style></head>
-<body><div class="reveal"><div class="slides">{''.join(secs)}</div></div>
+<body><div class="brand">LeaseLens &middot; MGT 409</div><div class="reveal"><div class="slides">{''.join(secs)}</div></div>
 <script>{js(VENDOR / 'reveal.js')}</script>
-<script>Reveal.initialize({{hash:true,width:1280,height:720,margin:0.04,progress:true,transition:'none',center:false}});</script></body></html>"""
+<script>Reveal.initialize({{hash:true,width:1280,height:720,margin:0.04,progress:true,transition:'none',backgroundTransition:'none',center:false}});</script></body></html>"""
     out = rd.OUT / "slides.html"
     out.write_text(page)
     print(f"wrote {out.relative_to(rd.ROOT)} ({out.stat().st_size / 1e6:.1f} MB, {len(secs)} slides)")
