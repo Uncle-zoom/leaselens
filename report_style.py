@@ -48,6 +48,7 @@ figure {{ margin:.6em 0; break-inside:avoid; }}
 figure img {{ max-width:100%; max-height:3.3in; border:1px solid var(--hair); border-radius:10px; display:block; }}
 figure.wide img {{ max-height:3.9in; }} figure.tall img {{ max-height:4.3in; }}
 figcaption {{ color:var(--text2); font-size:8.5pt; margin-top:.25em; }}
+.pairimgs {{ display:grid; grid-template-columns:1fr 1fr; gap:.6em; }} figure.pair img {{ max-height:3.3in; width:100%; object-fit:contain; object-position:top; }}
 .grid2 {{ display:grid; grid-template-columns:1fr 1fr; gap:.8em; align-items:start; }}
 .callout {{ background:var(--bg); border-radius:12px; padding:.6em .8em; margin:.6em 0; break-inside:avoid; }}
 .ok {{ color:var(--green); font-weight:600; }} .bad {{ color:var(--red); font-weight:600; }}

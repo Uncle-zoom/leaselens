@@ -27,6 +27,13 @@ def fig(name: str, caption: str, cls: str = "") -> str:
     return f'<figure class="{cls}"><img alt="{e(caption)}" src="{rd.image_uri(name)}"><figcaption>{e(caption)}</figcaption></figure>'
 
 
+def fig_pair(left: str, right: str, caption: str) -> str:
+    """Two images from design_before_after/ side by side under one caption."""
+    folder = rd.OUT / "screenshots" / "design_before_after"
+    imgs = "".join(f'<img alt="{e(a)}" src="{rd.image_uri(n, folder)}">' for n, a in ((left, "Before the redesign"), (right, "After the redesign")))
+    return f'<figure class="pair"><div class="pairimgs">{imgs}</div><figcaption>{e(caption)}</figcaption></figure>'
+
+
 def table(head: list[str], rows: list[list], num: set[int] = frozenset(), raw: bool = False) -> str:
     cell = (lambda x: str(x)) if raw else (lambda x: e(str(x)))
     th = "".join(f'<th class="{"n" if i in num else ""}">{e(h)}</th>' for i, h in enumerate(head))
@@ -115,6 +122,9 @@ and who is behind the owner's LLC, with every claim traced to a public record an
 <p class="note">Reproduced from the saved live results in <code>data/samples/</code>, so it can be replayed offline in Demo mode.</p>
 {table(['Step', 'What happened', 'Source'], trace_rows, raw=True)}
 <div class="grid2">{fig('04_address_walk_map.png', 'Step 3: the block on the map: 5- and 10-minute rings, grouped markers, legend under the map, text summary beside it.')}{fig('08_address_ai_verdict_questions_email.png', 'Steps 8-10: the verdict, the three questions and the email draft with Copy email (a draft only).')}</div>
+<h3>More screens from the app</h3>
+<div class="grid2 small-figs">{fig('03_compare.png', 'Side-by-side compare of up to 3 addresses')}{fig('05_address_noise.png', 'Noise sources within 800 m')}{fig('09_chat_answer.png', 'Chat agent answering only from the data')}{fig('16_email_firm_tone.png', 'Firm email draft: factual, never sent')}</div>
+{fig_pair('before_2_results_cards.png', 'after_2_results_cards.png', 'Result cards before and after the redesign')}
 """
 
     # ------------------------------------------------------------ 5 tokenomics

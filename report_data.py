@@ -39,8 +39,8 @@ def content_file(name: str) -> str:
     return (CONTENT / name).read_text()
 
 
-def image_uri(name: str) -> str:
-    return "data:image/png;base64," + base64.b64encode((SHOTS / name).read_bytes()).decode()
+def image_uri(name: str, folder: Path | None = None) -> str:
+    return "data:image/png;base64," + base64.b64encode(((folder or SHOTS) / name).read_bytes()).decode()
 
 
 # ------------------------------------------------------------------ speed
