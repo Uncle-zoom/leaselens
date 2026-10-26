@@ -35,6 +35,7 @@ CSS = BASE_CSS + """
 .reveal .two .tiles { grid-template-columns:1fr; }
 .reveal .two img { width:100%; max-height:520px; object-fit:contain; object-position:top; }
 .reveal .cap { color:var(--text2); font-size:.55em; margin-top:.3em; }
+.reveal .quote .who { display:block; font-size:.55em; color:#6E6E73; margin-top:.2em; }
 .reveal .quote { border-left:6px solid var(--accent); padding:.1em .8em; margin:.5em 0; font-size:1.05em; }
 .reveal svg { width:100%; height:auto; }
 .reveal .small { font-size:.62em; }
@@ -89,6 +90,14 @@ def tester_lines() -> list[str]:
     return out
 
 
+def exact_quote() -> str:
+    """The one exact quote, copied from content/impact_testers.md (the text between the straight quotation marks)."""
+    for ln in rd.content_file("impact_testers.md").splitlines():
+        if ln.startswith("- One of them said:"):
+            return ln.split('"')[1]
+    raise ValueError("the exact quote is missing from content/impact_testers.md")
+
+
 def build(d: dict) -> list[str]:
     sp, c, own, ag, sf, lim = d["speed"], d["costs"], d["own"], d["agents"], d["safety"], d["limits"]
     one, three, month, cache = c["one"], c["three"], c["month"], c["cache"]
@@ -117,8 +126,9 @@ def build(d: dict) -> list[str]:
     s.append(f"""<section><h2>Safety</h2><div class="two">{img('10_hood_prompt_injection.png', 'Instruction hidden in a street report is removed')}{img('11_hood_fact_check.png', 'Invented number and name removed by the fact check')}</div>
 <p class="small">Also: spending caps, a wording rule, no residence addresses stored, {sf['contrast']['n']} contrast checks passed.</p></section>""")
     lines = tester_lines()
-    q = "".join(f'<div class="quote">{e(x)}</div>' for x in lines)
-    s.append(f"""<section><h2>What testers said</h2>{q}<p class="small"><b>What the app measured:</b> {own['portfolio_total']} parcels, {own['blake']['companies_total']} companies, {sp['total_now']:.1f} s, {c['text']['one']}</p><p class="note">Two testers, paraphrased by me; no timing measured.</p></section>""")
+    q = (f'<div class="quote exact">“{e(exact_quote())}”<span class="who">a renter in the building it was tested on</span></div>'
+         + "".join(f'<div class="quote">{e(x)}</div>' for x in lines))
+    s.append(f"""<section><h2>What testers said</h2>{q}<p class="small"><b>What the app measured:</b> {own['portfolio_total']} parcels, {own['blake']['companies_total']} companies, {sp['total_now']:.1f} s, {c['text']['one']}</p><p class="note">Four testers; one exact quote, others paraphrased by me; no timing measured.</p></section>""")
     s.append("""<section class="hero" data-background-gradient="linear-gradient(135deg,#071027 0%,#0A2A66 58%,#0071E3 135%)"><h2>What is next</h2><ul><li><b>New York City</b> housing violations</li><li><b>Road-traffic noise</b>, since testers asked</li><li><b>More cities</b></li><li><b>Listing-site partnerships</b></li></ul>
 <p class="sub">Today: street-level reports only; landlord trail in Connecticut only.</p></section>""")
     return s

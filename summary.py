@@ -240,8 +240,11 @@ def map_text_alternative(places_data: dict | None, walk_rows: list[dict] | None,
         return ["We couldn't check the places around this address right now, so none are drawn."] if failed else ["The map is still loading."]
     items = []
     for cat, label in (("grocery", "Grocery"), ("gym", "Gym"), ("park", "Park"), ("bus_stop", "Bus stop"), ("train_station", "Train or subway")):
+        walk = next((r for r in (walk_rows or []) if r["category"] == cat and r["walk_min"] is not None), None)
         near = next((p for p in places_data["results"] if p["category"] == cat), None)
-        if near:
+        if walk:                                   # the same place and minutes as the card, so the two lines never disagree
+            items.append(f"{label}: {walk['nearest'] or label.lower()}, {on_foot(walk['walk_min'], walk.get('walk_m'))}")
+        elif near:
             items.append(f"{label}: {near['name'] or label.lower()}, {near['distance_m']} m away")
     counts = places_data.get("counts", {})
     noisy = ", ".join(plural(counts[c], c.replace("_", " ")) for c in ("nightclub", "bar", "pub", "fire_station", "hospital", "rail_line") if counts.get(c))

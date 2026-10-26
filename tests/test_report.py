@@ -52,3 +52,20 @@ def test_numbers_come_from_the_repo_files():
     assert f"{d['own']['portfolio_total']} parcels" in html
     assert f"{d['own']['blake']['companies_total']} companies" in html
     assert f"{d['speed']['total_now']:.1f} s" in html
+
+
+QUOTE = "I wish I had a tool like this before I moved in, I will be using this for my second year apartment hunt."
+
+
+def test_four_testers_and_the_exact_quote_are_everywhere_they_should_be():
+    src = rd.content_file("impact_testers.md")
+    assert src.count(QUOTE) == 1 and "Four people tried" in src and "Both agreed to be quoted without their names." in src
+    assert "Two people" not in src and "Both testers" not in src and "No timing was measured." in src
+    assert not re.search(r"\b\d{3,4} Chapel", src)                               # no street number for their building
+    assert build_slides.exact_quote() == QUOTE
+    page = "".join(build_slides.build(rd.load()))
+    assert page.index(QUOTE) < page.index("Called LeaseLens a great tool")        # the exact quote is the first card
+    assert "a renter in the building it was tested on" in page and "Four testers; one exact quote, others paraphrased by me; no timing measured." in page
+    report = _report()
+    assert "Four testers (section 7)" in report and "Two testers" not in report
+    assert "TO FILL" not in report and "TO ADD" not in report and "TO FILL" not in page and "TO ADD" not in page

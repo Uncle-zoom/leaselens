@@ -199,14 +199,14 @@ With the filter on the model was shown “{e(live['filter_on']['what_the_model_w
 <li><b>Free map servers at scale.</b> The places search depends on public OpenStreetMap servers whose speed varies; it was the slowest step in every timing, and heavy use would need a server of its own.</li>
 <li><b>Match confidence is uneven.</b> For the largest owner in the examples, {kinds.get(('exact name','high'),0)} links are exact-name matches (high) and {kinds.get(('same mailing address','low'),0)} are shared-mailing-address links (low): a shared address can mean a manager or a law office, not a common owner. The principal trail follows companies, not people, because a name alone is weak evidence.</li>
 <li><b>The fact check is a heuristic.</b> It checks numbers and capitalised names against the data; it can flag correct text and it cannot judge meaning.</li>
-<li><b>Tested on few people and addresses.</b> Two testers (section 7), the three example addresses, and live tests outside New Haven (Hartford, Stamford, Middletown); no timing study.</li>
+<li><b>Tested on few people and addresses.</b> Four testers (section 7), the three example addresses, and live tests outside New Haven (Hartford, Stamford, Middletown); no timing study.</li>
 <li><b>Live tests outside New Haven found and fixed 4 real bugs:</b> parcel lookups for 17 towns that store house numbers as “200.0”, a condo unit owner shown as the building owner, commercial parcels shown with a rental verdict, and unreadable raw codes. People's names are hidden for private homes and condo units.</li></ul>
 {fig('06_address_street_reports.png', 'Street conditions, labelled “street-level reports, not housing complaints”.', 'wide')}
 <h3>Roadmap</h3>
 <ul style="break-inside:avoid"><li><b>New York City housing violations:</b> the adapter already reads HPD violations and complaints; it needs re-testing and a place in the app.</li>
 <li><b>Road-traffic noise</b>, since testers asked for it.</li>
 <li><b>More cities:</b> a new city is one new folder with its sources, and the router picks it up (the New Haven and NYC adapters are built this way).</li>
-<li><b>Listing-site partnerships:</b> both testers saw LeaseLens as something listing sites should show.</li></ul>
+<li><b>Listing-site partnerships:</b> testers 1 and 2 saw LeaseLens as something listing sites should show.</li></ul>
 <h3>Reflection</h3>
 <div class='verbatim'>{verbatim.render(rd.content_file('reflection.md'))}</div>
 """

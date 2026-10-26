@@ -186,3 +186,26 @@ def test_pages_never_say_1_followed_by_a_plural_noun():
         text = page_html(at) + " ".join(c.value for c in at.caption) + " ".join(m.value for m in at.markdown)
         bad = re.findall(r"(?<![\d.,])1 (?:pubs|bars|nightclubs|fire stations|hospitals|rail lines|parcels|companies|buildings|reports|principals)\b", text)
         assert not bad, (view, d, bad)
+
+
+# ------------------------------------------------------------------ 900 Chapel St: card and map summary must name the same grocery
+def test_implausibly_long_routes_fall_back_to_the_straight_line_estimate(monkeypatch):
+    from sources.core import walking
+    origin = (41.3062053, -72.926438)
+    dests = [{"name": "Marketa", "category": "grocery", "kind": "convenience", "lat": 41.306306, "lon": -72.927365},
+             {"name": "Rite Aid", "category": "pharmacy", "kind": "pharmacy", "lat": 41.3070, "lon": -72.9250}]
+    resp = {"code": "Ok", "durations": [[0, 940, 130]], "distances": [[0, 1176, 200]]}      # Marketa: 78 m away "walks" 1,176 m
+    monkeypatch.setattr(walking, "get_json", lambda *a, **k: resp)
+    res = walking._osrm("u", origin, dests)
+    marketa, rite = res
+    assert marketa["walk_m"] < 150 and marketa["walk_min"] < 2 and "implausibly" in marketa["estimated"]
+    assert rite["walk_m"] == 200 and "estimated" not in rite
+
+
+def test_map_summary_and_card_name_the_same_nearest_grocery():
+    places = {"results": [{"category": "grocery", "name": "Marketa", "distance_m": 78}, {"category": "grocery", "name": "Gateway Food Store", "distance_m": 116}],
+              "counts": {}}
+    rows = [{"category": "grocery", "label": "Grocery", "nearest": "Gateway Food Store", "walk_min": 13.3, "walk_m": 996}]
+    line = summary.map_text_alternative(places, rows)[0]
+    assert line == "Grocery: Gateway Food Store, 13.3 minutes on foot"
+    assert summary.map_text_alternative(places, [])[0] == "Grocery: Marketa, 78 m away"            # no walking data: the straight-line fallback

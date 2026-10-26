@@ -1,6 +1,6 @@
 # Real tester feedback
 
-Two people tried LeaseLens in October 2026. Their feedback is summarized below in
+Four people tried LeaseLens in October 2026. Their feedback is summarized below in
 Deji's words (paraphrased from conversation, not verbatim quotes). No timing was measured.
 
 ## Tester 1: lives in downtown New Haven, near a nightclub
@@ -19,6 +19,17 @@ Deji's words (paraphrased from conversation, not verbatim quotes). No timing was
   the gap LeaseLens names in its limits (Connecticut does not publish housing-condition violations)
   and the reason New York City, where those records are public, is next on the roadmap.
 
+## Testers 3 and 4: two current renters in the same downtown New Haven building
+- Both live in the same downtown New Haven building on Chapel Street and have lived there since July.
+- They tested LeaseLens on their own building. It scored 25 out of 100 ("Think twice, noisy at night")
+  with 5 nightclubs, 15 bars, 8 pubs, 1 fire station, 3 hospitals and 1 rail line within 800 m.
+- They told Deji it showed basically the issues they have been experiencing since moving in.
+- One of them said: "I wish I had a tool like this before I moved in, I will be using this for my second year apartment hunt."
+- Both agreed to be quoted without their names.
+
 ## What this evidence does and does not show
-- Both testers confirmed the problem from their own experience; tester 1 wished listing sites offered
+- Four testers confirmed the problem from their own experience; tester 1 wished listing sites offered
   this and tester 2 saw it as an add-on for the big listing companies.
+- Two of the four (testers 3 and 4) checked the app against their own building, and said its result
+  matched what they have lived with since July.
+- No time saving is claimed: no timing was measured.

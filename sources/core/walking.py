@@ -25,6 +25,9 @@ DETOUR = 1.3
 WALK_KMH = 5.0
 # A real pedestrian profile averages ~1.1-1.5 m/s; the car profile gives 5+ m/s.
 MIN_MS, MAX_MS = 0.6, 2.5
+# A route much longer than the straight line is a snapping artifact (e.g. the start point lands on a disconnected footpath), not a real
+# detour: 78 m to a shop that "walks" 1,176 m. Real city detours are rarely over 3x.
+MAX_DETOUR, MIN_EXTRA_M = 3.0, 250
 
 
 def estimate(origin: tuple[float, float], dests: list[dict]) -> list[dict]:
@@ -58,6 +61,9 @@ def _osrm(url: str, origin: tuple[float, float], dests: list[dict]) -> list[dict
         if s is None or m is None:
             raise ValueError("OSRM returned no route for a destination")
         straight = haversine_m(origin[0], origin[1], d["lat"], d["lon"])
+        if m > MAX_DETOUR * straight and m - straight > MIN_EXTRA_M:
+            out.append({**estimate(origin, [d])[0], "estimated": "route was implausibly long for the distance"})
+            continue
         out.append({**_ident(d), "straight_m": round(straight), "walk_m": round(m), "walk_min": round(s / 60, 1)})
     return out
 
