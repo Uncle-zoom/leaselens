@@ -2001,5 +2001,47 @@
     "reasoning_tokens": 86,
     "cost_usd": 0.00030934,
     "seconds": 5.86
+  },
+  {
+    "time": "2026-10-26T00:23:32+00:00",
+    "run_id": "a86391eb",
+    "agent": "block_analyst",
+    "address": "900 chapel street",
+    "model": "gpt-6-luna",
+    "requests": 1,
+    "input_tokens": 3163,
+    "cached_tokens": 0,
+    "output_tokens": 435,
+    "reasoning_tokens": 245,
+    "cost_usd": 0.0005338,
+    "seconds": 5.03
+  },
+  {
+    "time": "2026-10-26T00:23:33+00:00",
+    "run_id": "a86391eb",
+    "agent": "negotiator",
+    "address": "900 chapel street",
+    "model": "gpt-6-luna",
+    "requests": 1,
+    "input_tokens": 3518,
+    "cached_tokens": 0,
+    "output_tokens": 599,
+    "reasoning_tokens": 353,
+    "cost_usd": 0.0006513,
+    "seconds": 6.06
+  },
+  {
+    "time": "2026-10-26T00:23:33+00:00",
+    "run_id": "a86391eb",
+    "agent": "landlord_analyst",
+    "address": "900 chapel street",
+    "model": "gpt-6-luna",
+    "requests": 1,
+    "input_tokens": 3332,
+    "cached_tokens": 0,
+    "output_tokens": 713,
+    "reasoning_tokens": 388,
+    "cost_usd": 0.0006897,
+    "seconds": 6.73
   }
 ]
